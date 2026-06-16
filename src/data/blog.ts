@@ -832,6 +832,422 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "atal-pension-yojana-is-5000-pension-enough",
+    title: "Atal Pension Yojana — Is Rs. 5,000 Pension Enough?",
+    excerpt:
+      "I signed up for APY in my late twenties. Here's my honest take on whether that Rs. 5,000 will actually be enough later.",
+    category: "Finance",
+    author: "Nikhil Deshmukh",
+    date: "2026-06-16",
+    readingTime: "7 min read",
+    content: [
+      {
+        paragraphs: [
+          "When I enrolled in Atal Pension Yojana at 28, my contribution was tiny and the promise of Rs. 5,000 a month after 60 felt generous. But a friend recently asked me a fair question: will Rs. 5,000 even mean anything thirty years from now? It made me think harder about what this scheme really is and is not.",
+        ],
+      },
+      {
+        heading: "What APY actually promises",
+        paragraphs: [
+          "APY gives a guaranteed monthly pension between Rs. 1,000 and Rs. 5,000 after 60, depending on how much you contribute and how early you start. The word guaranteed is the key bit — in a world of market ups and downs, a fixed assured pension has real value, especially for someone with no other retirement plan.",
+        ],
+      },
+      {
+        heading: "But let us be honest about inflation",
+        paragraphs: [
+          "Rs. 5,000 today and Rs. 5,000 in thirty years are not the same thing. By itself, it will likely not cover a comfortable retirement. I see APY as a base layer, not the whole plan. It is the floor under your feet, not the roof over your head.",
+        ],
+        list: [
+          "Treat APY as one piece, not your entire retirement",
+          "Start young — the earlier you join, the smaller the contribution",
+          "Pair it with a SIP or PPF for growth on top of the guarantee",
+          "It shines most for unorganised workers with no pension at all",
+        ],
+      },
+      {
+        heading: "My verdict",
+        paragraphs: [
+          "Is Rs. 5,000 enough on its own? Probably not. Is APY still worth it? For most people, yes — because a guaranteed pension you cannot outlive is rare and reassuring. Just do not stop there. Use our SIP calculator to see how even a small monthly investment alongside APY can build the cushion that Rs. 5,000 alone will not.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "how-to-open-jan-dhan-account-2026",
+    title: "How to Open a Jan Dhan Account in 2026",
+    excerpt:
+      "I helped our house help open one. Here's the simple process and why a zero-balance account is genuinely worth it.",
+    category: "Finance",
+    author: "Meera Pillai",
+    date: "2026-06-16",
+    readingTime: "5 min read",
+    content: [
+      {
+        paragraphs: [
+          "Our house help did not have a bank account, which meant she could not receive any government benefit directly. So one morning we walked to the nearest bank to open a Jan Dhan account. It took less time than I expected, and I want to share the process because so many people still hesitate, thinking it is complicated.",
+        ],
+      },
+      {
+        heading: "Why a Jan Dhan account",
+        paragraphs: [
+          "It is a zero-balance account, so there is no pressure to maintain a minimum amount, which is exactly what scares low-income families away from regular accounts. It also comes with a RuPay debit card and built-in accident cover, and it is how most direct benefit transfers reach you.",
+        ],
+      },
+      {
+        heading: "The simple steps",
+        paragraphs: ["Here is all it took."],
+        list: [
+          "Visit any bank branch or a Bank Mitra outlet nearby",
+          "Fill the Jan Dhan account opening form",
+          "Submit Aadhaar or any valid KYC document and a photograph",
+          "Collect the RuPay debit card and passbook",
+        ],
+      },
+      {
+        heading: "One tip",
+        paragraphs: [
+          "Make sure the account gets linked to Aadhaar, because that is what lets scheme money and subsidies flow in automatically. For our help, this one account suddenly made her eligible to actually receive benefits she had been missing. A small step that opens a lot of doors.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "pm-kaushal-vikas-yojana-does-it-get-you-a-job",
+    title: "PM Kaushal Vikas Yojana — Does It Actually Get You a Job?",
+    excerpt:
+      "My neighbour's son did a PMKVY course. Here's the honest result, the good and the not-so-good.",
+    category: "Schemes",
+    author: "Arjun Menon",
+    date: "2026-06-16",
+    readingTime: "7 min read",
+    content: [
+      {
+        paragraphs: [
+          "PMKVY is sold as free skill training that leads to a job. My neighbour's son enrolled in a short course, and the whole family treated it like a guaranteed ticket to employment. The truth, after watching him go through it, is more nuanced than that.",
+        ],
+      },
+      {
+        heading: "The training part is genuinely useful",
+        paragraphs: [
+          "The course itself was free, industry-relevant, and ended with a recognised certificate. For a young person with no formal skill, that certificate and the hands-on practice did build real confidence and a concrete thing to put on a resume. That part delivers.",
+        ],
+      },
+      {
+        heading: "But placement is not automatic",
+        paragraphs: [
+          "Here is the honest bit: the scheme offers placement assistance, not a guaranteed job. He got interview opportunities through the centre, but he still had to clear them himself. Some of his batchmates landed jobs quickly, others took longer, and a few drifted because they expected to be handed a job.",
+        ],
+        list: [
+          "Pick a trade that is actually in demand in your area",
+          "Treat the placement support as a door, not a guarantee",
+          "Use the certificate actively when applying elsewhere too",
+          "Attend every session — attendance and assessment matter",
+        ],
+      },
+      {
+        heading: "So, does it work?",
+        paragraphs: [
+          "For my neighbour's son, yes — but because he treated the course as a starting point and kept applying on his own. PMKVY gives you a real skill and a foot in the door. Whether you walk through it still depends on you. Go in with that mindset and it is genuinely worth the few weeks.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "how-to-apply-income-certificate-online",
+    title: "How to Apply for an Income Certificate Online",
+    excerpt:
+      "I needed one for a scholarship application and did it from home. Here's the process and the mistakes to avoid.",
+    category: "Documents",
+    author: "Pooja Reddy",
+    date: "2026-06-16",
+    readingTime: "6 min read",
+    content: [
+      {
+        paragraphs: [
+          "An income certificate is one of those documents you suddenly need at the last minute — for a scholarship, a scheme, a college seat. I needed mine for a scholarship form and was dreading a trip to the tehsil office. Turns out most states let you do it online now, and it was far less painful than I feared.",
+        ],
+      },
+      {
+        heading: "Where to apply",
+        paragraphs: [
+          "Almost every state has an e-District or citizen services portal where the income certificate is listed as a service. You register, log in, and find it under revenue or certificate services. The exact name of the portal differs by state, but the flow is similar everywhere.",
+        ],
+      },
+      {
+        heading: "What you will need",
+        paragraphs: ["Keep these scanned and ready before you start."],
+        list: [
+          "Aadhaar card",
+          "Ration card or proof of family",
+          "Salary slip or income proof / self-declaration",
+          "Proof of residence",
+        ],
+      },
+      {
+        heading: "The part that trips people up",
+        paragraphs: [
+          "Two things delayed mine briefly. First, the income figure must be consistent across what you declare and your supporting proof. Second, the name and address must match your Aadhaar exactly. Once those lined up, the digitally signed certificate was ready for download in a few days, no office visit needed.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "startup-india-scheme-who-qualifies",
+    title: "Startup India Scheme — Who Actually Qualifies?",
+    excerpt:
+      "I went through DPIIT recognition for a small venture. Here's who really qualifies and what the benefits are worth.",
+    category: "Finance",
+    author: "Rahul Saxena",
+    date: "2026-06-16",
+    readingTime: "8 min read",
+    content: [
+      {
+        paragraphs: [
+          "Everyone with a side project thinks they are a startup and rushes to get Startup India recognition. When I applied for our small venture, I learned that the scheme has fairly specific criteria, and the benefits are real but often misunderstood. Here is the clear version.",
+        ],
+      },
+      {
+        heading: "Who qualifies",
+        paragraphs: [
+          "Your entity needs to be a private limited company, an LLP, or a registered partnership, and it must be within the prescribed number of years since incorporation. Crucially, it should be working on innovation or improving a product, process or service. A plain trading or me-too business usually does not fit the spirit of it.",
+        ],
+        list: [
+          "Registered as a Pvt Ltd, LLP or partnership firm",
+          "Within the allowed years since incorporation",
+          "Working on innovation, not just reselling",
+          "Within the turnover limit set by the scheme",
+        ],
+      },
+      {
+        heading: "What recognition actually gives you",
+        paragraphs: [
+          "DPIIT recognition is the key that unlocks the benefits — potential tax exemptions, self-certification on certain compliances, easier access to tenders, and a pathway to funding support. It is less about a cash handout and more about removing friction for a young company.",
+        ],
+      },
+      {
+        heading: "My honest advice",
+        paragraphs: [
+          "If you genuinely have an innovative venture and the right entity structure, get the recognition — it is free and the compliance relief alone is worth it. But do not contort a simple business to fit the label. Register properly first, then apply on the Startup India portal with a clear write-up of what makes your work innovative.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "best-government-loans-for-small-business-india",
+    title: "Best Government Loans for Small Business in India",
+    excerpt:
+      "After helping two friends fund their shops, here are the government-backed loan options actually worth knowing.",
+    category: "Finance",
+    author: "Imtiaz Sheikh",
+    date: "2026-06-16",
+    readingTime: "8 min read",
+    content: [
+      {
+        paragraphs: [
+          "When friends want to start or grow a small business, they usually assume their only option is a regular bank loan with heavy collateral, or worse, a private lender. But there are several government-backed schemes built exactly for small businesses, and knowing them can save you a lot of money and stress.",
+        ],
+      },
+      {
+        heading: "Mudra for the smallest businesses",
+        paragraphs: [
+          "PM Mudra Yojana is the first stop for micro and small units. Collateral-free loans across Shishu, Kishore and Tarun categories, meant for exactly the kind of tailor, kirana or small workshop most of us know. It is the most accessible option for a genuinely small business.",
+        ],
+      },
+      {
+        heading: "Stand-Up India and street vendor support",
+        paragraphs: [
+          "There is more, depending on who you are.",
+        ],
+        list: [
+          "Stand-Up India — larger loans for women and SC/ST entrepreneurs starting a new enterprise",
+          "PM SVANidhi — working-capital loans designed for street vendors",
+          "Kisan Credit Card — for those in farming and allied activities",
+          "PMEGP — support for setting up new micro-enterprises",
+        ],
+      },
+      {
+        heading: "What I tell every friend",
+        paragraphs: [
+          "Match the scheme to your situation instead of chasing the biggest loan. A tiny business does not need a Stand-Up India loan; Mudra is friendlier. And walk into a bank where you already have an account and some history — it makes a real difference. Run the numbers on our EMI calculator first so the repayment never surprises you.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "how-to-check-name-in-pm-awas-yojana-list",
+    title: "How to Check Your Name in the PM Awas Yojana List",
+    excerpt:
+      "My uncle wasn't sure if he made the housing list. Here's exactly how we checked, online and at the panchayat.",
+    category: "Schemes",
+    author: "Vijay Chauhan",
+    date: "2026-06-16",
+    readingTime: "6 min read",
+    content: [
+      {
+        paragraphs: [
+          "After applying for housing assistance, my uncle spent weeks anxiously asking whether his name had made the list. Instead of guessing, we sat down and actually checked. It is more straightforward than the rumours in the village suggested.",
+        ],
+      },
+      {
+        heading: "Checking the Gramin list",
+        paragraphs: [
+          "For PM Awas Yojana Gramin, the beneficiary list is published and searchable. You can look it up on the official PMAY-G portal, and the gram panchayat also keeps the list. We checked both, because the panchayat record is often the quickest for rural families.",
+        ],
+        list: [
+          "Open the official PMAY-G portal's beneficiary search",
+          "Search by name, registration number or other given filters",
+          "Cross-check with the list displayed at the gram panchayat",
+          "For urban applicants, use the PMAY-U portal instead",
+        ],
+      },
+      {
+        heading: "If your name is not there yet",
+        paragraphs: [
+          "A missing name does not always mean rejection. Lists are updated in phases, and verification through the gram sabha takes time. We confirmed with the panchayat secretary where my uncle stood in the process rather than assuming the worst.",
+        ],
+      },
+      {
+        heading: "What helped",
+        paragraphs: [
+          "Keeping the application or registration number handy made every check faster. And honestly, a polite conversation with the panchayat secretary cleared up more than any amount of refreshing the website. His name appeared in the next updated phase, and the assistance followed in instalments.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "kisan-credit-card-how-to-apply-and-what-to-avoid",
+    title: "Kisan Credit Card — How to Apply and What to Avoid",
+    excerpt:
+      "We got a KCC for our family farm. Here's the application process and the pitfalls that trip farmers up.",
+    category: "Finance",
+    author: "Balwinder Kaur",
+    date: "2026-06-16",
+    readingTime: "7 min read",
+    content: [
+      {
+        paragraphs: [
+          "For years our family borrowed for seeds and fertiliser from a local lender at painful interest. When we finally got a Kisan Credit Card, it changed how we farm financially. But the application had a few spots where people stumble, so let me share both the how and the what-to-avoid.",
+        ],
+      },
+      {
+        heading: "How to apply",
+        paragraphs: [
+          "It is simpler than the paperwork looks. You can apply at your bank branch or through the KCC route many banks now offer online.",
+        ],
+        list: [
+          "Approach your bank with land records and identity proof",
+          "Fill the Kisan Credit Card application form",
+          "Submit land, identity and photographs",
+          "Receive your sanctioned credit limit and the KCC",
+        ],
+      },
+      {
+        heading: "What to avoid",
+        paragraphs: [
+          "Here is where farmers get hurt. The biggest mistake is not repaying within the cycle, because the concessional, low interest depends on timely repayment. Miss it, and the rate jumps and the benefit is gone.",
+        ],
+        list: [
+          "Do not miss the repayment cycle — the cheap interest depends on it",
+          "Do not borrow more than your crop income can comfortably service",
+          "Do not ignore the renewal — keep the card active",
+          "Do not use it for non-farm spending and lose track",
+        ],
+      },
+      {
+        heading: "Why it was worth it",
+        paragraphs: [
+          "Used right, the KCC gave us timely, cheap credit exactly when we needed it for the season, instead of the local lender's crushing rates. The discipline of repaying on time is the whole game. Get that right and it is one of the best financial tools a farming family can have.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "best-central-government-schemes-for-senior-citizens",
+    title: "Best Central Government Schemes for Senior Citizens",
+    excerpt:
+      "Sorting out benefits for my parents taught me which schemes genuinely help the elderly. Here's the shortlist.",
+    category: "Schemes",
+    author: "Geeta Krishnan",
+    date: "2026-06-16",
+    readingTime: "7 min read",
+    content: [
+      {
+        paragraphs: [
+          "As my parents crossed sixty, I became the one figuring out what support they were entitled to. It was eye-opening how much exists for senior citizens, and how little of it they knew about. Here are the central schemes I found genuinely worth setting up.",
+        ],
+      },
+      {
+        heading: "Health cover first",
+        paragraphs: [
+          "Ayushman Bharat now covers senior citizens in higher age brackets, and for the elderly, a health emergency is the biggest financial risk. Getting their card and e-KYC done while they were well, not during a crisis, was the smartest thing we did.",
+        ],
+      },
+      {
+        heading: "Guaranteed income and savings",
+        paragraphs: [
+          "For steady income, a few options stand out for seniors.",
+        ],
+        list: [
+          "Pradhan Mantri Vaya Vandana Yojana — assured pension income for those 60+",
+          "Senior Citizen Savings Scheme — safe returns with a sovereign backing",
+          "NSAP old-age pension — for elderly from BPL households",
+          "Ayushman Bharat — cashless hospital cover for the eligible elderly",
+        ],
+      },
+      {
+        heading: "My advice to anyone with ageing parents",
+        paragraphs: [
+          "Do this while everyone is calm and healthy, not in the middle of a hospital admission. Sort their Aadhaar, bank linkage and health card first, then layer the pension and savings options on top. Ten organised minutes now saves enormous stress later. Our eligibility tool can show which of these fits their exact age and income in seconds.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "how-to-apply-caste-certificate-india",
+    title: "How to Apply for a Caste Certificate in India",
+    excerpt:
+      "We needed one for a college admission. Here's the real process, the documents, and the delays to plan for.",
+    category: "Documents",
+    author: "Mahesh Gowda",
+    date: "2026-06-16",
+    readingTime: "6 min read",
+    content: [
+      {
+        paragraphs: [
+          "A caste certificate is essential for reservation benefits in education, jobs and many schemes. We needed one for my younger brother's college admission, and the deadline was close, so I learned the process under a bit of pressure. Here is what actually works.",
+        ],
+      },
+      {
+        heading: "Where to apply",
+        paragraphs: [
+          "Most states issue it through the revenue department, and you apply via the state e-District portal or at the tehsil/taluk office. The online route is usually faster to start, but the verification still happens through the revenue officials, so plan for that.",
+        ],
+      },
+      {
+        heading: "Documents to keep ready",
+        paragraphs: ["Gather these before you begin."],
+        list: [
+          "Aadhaar card",
+          "Proof of residence",
+          "Family caste proof — often a parent's or relative's certificate",
+          "Self-declaration and any school records mentioning caste",
+        ],
+      },
+      {
+        heading: "Plan for the verification time",
+        paragraphs: [
+          "This is the key thing: a caste certificate involves verification and can take a few weeks, longer than an income certificate. The single biggest reason for delay we faced was an inconsistent name and parentage detail across documents. Get those matching first.",
+        ],
+      },
+      {
+        heading: "My takeaway",
+        paragraphs: [
+          "Do not leave this for the last week before an admission or application deadline. Apply early, keep the family caste proof handy, and make sure names match exactly across Aadhaar and supporting papers. Once issued, the same certificate unlocks reservation benefits and several scholarships, so it is worth getting right.",
+        ],
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
