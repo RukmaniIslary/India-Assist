@@ -383,6 +383,226 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "ayushman-bharat-card-name-missing-from-list",
+    title: "How to Get an Ayushman Bharat Card if Your Name Is Missing From the List",
+    excerpt:
+      "My uncle's name wasn't showing up, and we almost gave up. Here's what actually worked to get the card sorted.",
+    category: "Schemes",
+    author: "Deepak Verma",
+    date: "2026-03-09",
+    readingTime: "7 min read",
+    content: [
+      {
+        paragraphs: [
+          "The first time I checked, I typed my uncle's mobile number into the Ayushman Bharat portal, hit search, and got that dreaded message — no beneficiary found. My heart sank a little, because we genuinely needed the cover and everyone kept saying he qualified.",
+          "Turns out, a name not showing up does not always mean you are not eligible. It often just means the records are incomplete or you are searching the wrong way. Here is what I learned going through it.",
+        ],
+      },
+      {
+        heading: "Try every search option, not just the mobile number",
+        paragraphs: [
+          "The portal lets you search by mobile, ration card, or Aadhaar. The mobile number drew a blank for us, but searching by ration card actually pulled up the family. So before panicking, try all the options one by one. Small thing, but it saved us a trip.",
+        ],
+      },
+      {
+        heading: "If you are genuinely not on the list",
+        paragraphs: [
+          "Some states have expanded the scheme beyond the original SECC list, and there are extra categories now, including senior citizens. If you still do not appear, the practical route is to visit a Common Service Centre or an empanelled hospital's Ayushman Mitra desk with your documents.",
+        ],
+        list: [
+          "Carry Aadhaar, ration card and a mobile number for OTP",
+          "Ask them to check eligibility under the latest state expansion",
+          "If eligible, they complete the e-KYC and generate the card on the spot",
+          "Keep the acknowledgement until the card is ready",
+        ],
+      },
+      {
+        heading: "What finally worked for us",
+        paragraphs: [
+          "For my uncle, the CSC operator found him under a newer category that the online search had not surfaced. Ten minutes of e-KYC and the card was done. So my honest advice: do not trust a single failed online search. The data and the rules keep changing, and a human at the CSC often sees more than the public portal shows you.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "pm-mudra-yojana-is-it-easy-to-get",
+    title: "PM Mudra Yojana — Is It Actually Easy to Get?",
+    excerpt:
+      "I applied for a Mudra loan for my cousin's tailoring unit. Here's the honest version, not the brochure version.",
+    category: "Finance",
+    author: "Faisal Ahmed",
+    date: "2026-03-25",
+    readingTime: "8 min read",
+    content: [
+      {
+        paragraphs: [
+          "Everywhere you read, PM Mudra Yojana sounds almost magical — collateral-free loans for small businesses, just walk into a bank. So when my cousin wanted to expand his small tailoring unit, I thought, easy, we will get a Shishu or Kishore loan in no time. The reality was a bit more grounded than the headlines.",
+        ],
+      },
+      {
+        heading: "The good part is real",
+        paragraphs: [
+          "The core promise holds up. There is genuinely no collateral for the smaller categories, and the scheme exists exactly to fund people like my cousin who would never get a fancy business loan otherwise. The interest was reasonable and the paperwork was less scary than a regular loan.",
+        ],
+      },
+      {
+        heading: "But the bank still has a say",
+        paragraphs: [
+          "Here is what nobody tells you clearly: Mudra is a scheme, not an entitlement. The bank still assesses you. The first branch we went to was lukewarm and kept asking for things. The manager was not rude, just cautious. A loan is still a loan, and they want to see that the business is real.",
+        ],
+        list: [
+          "Keep a simple, believable business plan — even one page helps",
+          "Carry Aadhaar, PAN, and proof of your business activity",
+          "Have a bank account with some transaction history if possible",
+          "Be ready to explain how you will repay, not just what you need",
+        ],
+      },
+      {
+        heading: "What got it moving",
+        paragraphs: [
+          "We went to a second bank where my cousin already had an account, and that made a real difference. They could see his transactions, trusted the relationship, and the Kishore loan came through. So the trick is less about the scheme and more about walking in prepared, to a bank that already knows you.",
+          "Is it easy? Easier than a normal business loan, yes. Automatic, no. Go in like you are pitching a small, honest business and your odds jump.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "best-government-schemes-for-women-2026",
+    title: "Best Government Schemes for Women in 2026",
+    excerpt:
+      "From my mother to my sister to our neighbour, here are the schemes I keep recommending to the women in my life.",
+    category: "Schemes",
+    author: "Priya Nair",
+    date: "2026-04-11",
+    readingTime: "7 min read",
+    content: [
+      {
+        paragraphs: [
+          "Being the person everyone calls for scheme help, I have noticed the women in my family and neighbourhood often miss out simply because nobody pointed them to the right thing at the right time. So here is the list I actually share when someone asks, what is there for women right now.",
+        ],
+      },
+      {
+        heading: "Sukanya Samriddhi for the girl child",
+        paragraphs: [
+          "If there is a daughter under 10 in the house, I always bring this up first. Safe, tax-free, solid returns, and it builds a real corpus for her education or marriage. I have seen parents pour money into random policies an agent pushed while ignoring this simpler, better option sitting at the post office.",
+        ],
+      },
+      {
+        heading: "Ujjwala for a clean kitchen",
+        paragraphs: [
+          "For women in low-income households still cooking on smoky fuel, the free LPG connection under Ujjwala is genuinely life-changing for their health. Our domestic help got hers and could not believe it was free. The application is simple at the gas distributor.",
+        ],
+      },
+      {
+        heading: "Maternity and pension support",
+        paragraphs: [
+          "There is real, practical help most people forget about.",
+        ],
+        list: [
+          "Pradhan Mantri Matru Vandana Yojana and Janani Suraksha for new mothers",
+          "The NSAP widow pension for widows from BPL households",
+          "Stand-Up India loans for women who want to start a business",
+          "Mahila Samman savings options for safe, decent returns",
+        ],
+      },
+      {
+        heading: "My honest tip",
+        paragraphs: [
+          "Sit with the women in your family for ten minutes and just run their details through an eligibility check. Age, income, whether there is a daughter, marital status. Almost every time, at least one scheme pops up that they did not know applied to them. The schemes exist; the awareness is what is missing.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "how-to-check-pm-kisan-payment-status-online",
+    title: "How to Check Your PM Kisan Payment Status Online",
+    excerpt:
+      "The instalment didn't show up and my father was worried. Here's exactly how I checked the status and what the issue turned out to be.",
+    category: "Schemes",
+    author: "Suresh Patil",
+    date: "2026-04-28",
+    readingTime: "6 min read",
+    content: [
+      {
+        paragraphs: [
+          "When the PM Kisan instalment did not arrive on time, my father assumed the worst — that we had been removed from the scheme. Before worrying, I sat down to check the status online, and honestly it took less than five minutes. Most people just do not know where to look.",
+        ],
+      },
+      {
+        heading: "The Know Your Status page",
+        paragraphs: [
+          "On the official PM Kisan portal there is a Know Your Status option. You enter your registration number, and if you do not remember it, there is a way to find it using your mobile or Aadhaar number. Then an OTP, and it shows your instalment history clearly.",
+        ],
+        list: [
+          "Open the official PM Kisan portal",
+          "Click Know Your Status",
+          "Enter your registration number (or fetch it via mobile/Aadhaar)",
+          "Verify the OTP and view your instalment history",
+        ],
+      },
+      {
+        heading: "What the problem usually is",
+        paragraphs: [
+          "In our case, the status showed the instalment was held because e-KYC was pending. This is the single most common reason I see. Other times it is a name mismatch with the bank, or land records not verified. The status page usually hints at what is stuck.",
+        ],
+      },
+      {
+        heading: "How we fixed it",
+        paragraphs: [
+          "We completed the e-KYC — and since OTP kept failing on his old number, we did biometric e-KYC at a CSC. The next instalment came through normally after that. So if your money is stuck, do not assume you are removed. Check the status first, fix the small thing it points to, and it usually sorts itself out.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "government-schemes-most-farmers-dont-know-about",
+    title: "Government Schemes Most Farmers Don't Know About",
+    excerpt:
+      "I grew up in a farming family, and even we missed out on schemes for years. Here are the ones that quietly fly under the radar.",
+    category: "Schemes",
+    author: "Manjeet Singh",
+    date: "2026-05-15",
+    readingTime: "8 min read",
+    content: [
+      {
+        paragraphs: [
+          "Everyone in our village knows PM Kisan because the money lands in the account. But beyond that one scheme, there is a whole list that most farmers I know have never used, simply because no one explained them. I learned about several only after losing a crop one bad season. Here is what I wish we had known earlier.",
+        ],
+      },
+      {
+        heading: "Crop insurance that actually pays",
+        paragraphs: [
+          "Pradhan Mantri Fasal Bima Yojana is the one I regret not taking sooner. The premium a farmer pays is small, and when the weather destroys a crop, the payout genuinely helps you survive the season. After the year we lost our crop with no cover, my father never skipped it again.",
+        ],
+      },
+      {
+        heading: "The Kisan Credit Card is not just for loans",
+        paragraphs: [
+          "Many think the KCC is some complicated bank thing. In reality it gives you cheap, timely credit for seeds, fertiliser and labour, and the interest is concessional if you repay on time. It beats borrowing from a local lender at scary rates, which sadly many still do.",
+        ],
+      },
+      {
+        heading: "The quieter ones worth checking",
+        paragraphs: [
+          "These rarely come up in village conversations but are worth your time.",
+        ],
+        list: [
+          "Soil Health Card — free soil testing that tells you exactly what your land needs",
+          "PM-KUSUM — subsidy for solar pumps, which cuts your diesel and power costs",
+          "PM Kisan Maandhan — a small pension for when farming years are behind you",
+          "Kisan Credit Card for allied work like dairy and fisheries too",
+        ],
+      },
+      {
+        heading: "Why we miss them",
+        paragraphs: [
+          "Honestly, it is not laziness. It is that nobody sits with farmers and explains these in plain language. The forms feel intimidating and the offices feel far away. But most of these start with the same documents — Aadhaar, land records, a bank account. Once you have that folder ready, applying to one more scheme is not a big deal.",
+          "If you farm, or your family does, spend one afternoon checking which of these you qualify for. A single good year of crop insurance or one cheap KCC loan can change your whole season.",
+        ],
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
