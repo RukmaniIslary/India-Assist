@@ -328,6 +328,360 @@ export const schemes: Scheme[] = [
       },
     ],
   },
+  {
+    slug: "pradhan-mantri-fasal-bima-yojana",
+    name: "Pradhan Mantri Fasal Bima Yojana",
+    shortName: "PMFBY",
+    ministry: "Ministry of Agriculture & Farmers Welfare",
+    category: "Agriculture",
+    summary:
+      "A crop insurance scheme that protects farmers against the financial loss from crop failure due to natural calamities, pests and diseases.",
+    benefit:
+      "Insurance payout for crop loss against a low, subsidised premium paid by the farmer.",
+    launched: "2016",
+    beneficiaries: "Farmers growing notified crops in notified areas",
+    eligibility: [
+      "All farmers growing notified crops in a notified area",
+      "Includes sharecroppers and tenant farmers with proof of cultivation",
+      "Compulsory for farmers with crop loans (loanee farmers), voluntary for others",
+    ],
+    documents: [
+      "Aadhaar Card",
+      "Land records or tenancy agreement",
+      "Bank account linked with Aadhaar",
+      "Sowing certificate or crop details",
+    ],
+    howToApply: [
+      "Visit the official PMFBY portal or your nearest bank/CSC",
+      "Select the crop, season and area to be insured",
+      "Submit land and bank details with documents",
+      "Pay the subsidised premium and collect the policy acknowledgement",
+    ],
+    officialUrl: "https://pmfby.gov.in",
+    faqs: [
+      {
+        q: "What premium does a farmer pay under PMFBY?",
+        a: "Farmers pay a maximum of 2% for Kharif, 1.5% for Rabi food and oilseed crops, and 5% for commercial or horticultural crops; the rest is subsidised.",
+      },
+    ],
+  },
+  {
+    slug: "kisan-credit-card",
+    name: "Kisan Credit Card",
+    shortName: "KCC",
+    ministry: "Ministry of Agriculture & Farmers Welfare",
+    category: "Agriculture",
+    summary:
+      "A credit scheme that gives farmers timely, low-cost access to working capital for cultivation and allied activities through a simple credit card.",
+    benefit:
+      "Short-term crop loans at a concessional interest rate, with interest subvention on prompt repayment.",
+    launched: "1998",
+    beneficiaries: "Farmers, including tenant farmers, fishers and dairy farmers",
+    eligibility: [
+      "Individual or joint cultivators who own farmland",
+      "Tenant farmers, oral lessees and sharecroppers",
+      "Self-help groups or joint liability groups of farmers",
+      "Farmers engaged in animal husbandry and fisheries",
+    ],
+    documents: [
+      "Aadhaar Card",
+      "Land ownership or cultivation proof",
+      "Passport-size photographs",
+      "Bank account details",
+    ],
+    howToApply: [
+      "Approach your bank branch or apply through the KCC portal",
+      "Fill the Kisan Credit Card application form",
+      "Submit land documents and identity proof",
+      "Receive the sanctioned credit limit and KCC card",
+    ],
+    officialUrl: "https://www.myscheme.gov.in",
+    faqs: [
+      {
+        q: "What is the interest rate on a Kisan Credit Card?",
+        a: "Crop loans up to the prescribed limit are available at a concessional rate, with an additional interest subvention for farmers who repay on time.",
+      },
+    ],
+  },
+  {
+    slug: "pm-kisan-maandhan-yojana",
+    name: "PM Kisan Maandhan Yojana",
+    shortName: "PM-KMY",
+    ministry: "Ministry of Agriculture & Farmers Welfare",
+    category: "Agriculture",
+    summary:
+      "A voluntary, contributory pension scheme for small and marginal farmers to provide income security in their old age.",
+    benefit:
+      "Assured monthly pension of Rs. 3,000 after the age of 60, with matching government contribution.",
+    launched: "2019",
+    beneficiaries: "Small and marginal farmers aged 18 to 40",
+    eligibility: [
+      "Small or marginal farmer with cultivable land up to 2 hectares",
+      "Age between 18 and 40 years at enrolment",
+      "Not covered under any other statutory social security scheme",
+    ],
+    documents: [
+      "Aadhaar Card",
+      "Land records",
+      "Savings bank or PM-KISAN account details",
+    ],
+    howToApply: [
+      "Visit the nearest Common Service Centre with documents",
+      "Complete enrolment with Aadhaar and bank details",
+      "Choose the monthly contribution as per your entry age",
+      "Authorise auto-debit of the contribution",
+    ],
+    officialUrl: "https://maandhan.in",
+    faqs: [
+      {
+        q: "How much pension does PM-KMY provide?",
+        a: "Enrolled farmers receive an assured monthly pension of Rs. 3,000 after attaining 60 years of age.",
+      },
+    ],
+  },
+  {
+    slug: "soil-health-card-scheme",
+    name: "Soil Health Card Scheme",
+    shortName: "SHC",
+    ministry: "Ministry of Agriculture & Farmers Welfare",
+    category: "Agriculture",
+    summary:
+      "A scheme that provides farmers with a card detailing the nutrient status of their soil and tailored recommendations to improve yield.",
+    benefit:
+      "Free soil testing and crop-wise nutrient recommendations to cut input costs and raise productivity.",
+    launched: "2015",
+    beneficiaries: "All farmers across the country",
+    eligibility: [
+      "Any farmer cultivating land is eligible",
+      "No income or landholding restriction",
+    ],
+    documents: ["Aadhaar Card", "Land details"],
+    howToApply: [
+      "Contact your local agriculture department or Krishi Vigyan Kendra",
+      "Provide your land details for soil sample collection",
+      "Soil samples are tested at a designated laboratory",
+      "Collect or download your Soil Health Card with recommendations",
+    ],
+    officialUrl: "https://soilhealth.dac.gov.in",
+    faqs: [
+      {
+        q: "How often is the Soil Health Card issued?",
+        a: "The card is typically issued once every few years so farmers can track changes in soil health and adjust inputs accordingly.",
+      },
+    ],
+  },
+  {
+    slug: "pm-kusum",
+    name: "PM-KUSUM (Solar Energy for Farmers)",
+    shortName: "PM-KUSUM",
+    ministry: "Ministry of New & Renewable Energy",
+    category: "Agriculture",
+    summary:
+      "A scheme that helps farmers install solar pumps and grid-connected solar power plants to secure irrigation and earn extra income.",
+    benefit:
+      "Subsidy on solar pump installation and the option to sell surplus solar power to the grid.",
+    launched: "2019",
+    beneficiaries: "Individual farmers, cooperatives and farmer groups",
+    eligibility: [
+      "Individual farmers and groups of farmers",
+      "Farmer Producer Organisations and cooperatives",
+      "Panchayats and water user associations in eligible areas",
+    ],
+    documents: [
+      "Aadhaar Card",
+      "Land ownership documents",
+      "Bank account details",
+      "Recent photograph",
+    ],
+    howToApply: [
+      "Apply through your state nodal agency or the PM-KUSUM portal",
+      "Submit land and bank details with the application",
+      "Pay your share of the cost after approval",
+      "Get the solar pump or plant installed by an empanelled vendor",
+    ],
+    officialUrl: "https://pmkusum.mnre.gov.in",
+    faqs: [
+      {
+        q: "How much subsidy is available under PM-KUSUM?",
+        a: "Central and state subsidies together cover a major share of the cost of a solar pump, with the farmer paying only a small portion.",
+      },
+    ],
+  },
+  {
+    slug: "janani-suraksha-yojana",
+    name: "Janani Suraksha Yojana",
+    shortName: "JSY",
+    ministry: "Ministry of Health & Family Welfare",
+    category: "Health",
+    summary:
+      "A safe-motherhood scheme under the National Health Mission that promotes institutional delivery to reduce maternal and infant mortality.",
+    benefit:
+      "Cash assistance to pregnant women for delivering in a government or accredited health facility.",
+    launched: "2005",
+    beneficiaries: "Pregnant women, with focus on low-income and rural mothers",
+    eligibility: [
+      "Pregnant women opting for institutional delivery",
+      "Priority to women from low-income households",
+      "Cash benefit varies by rural or urban area and state category",
+    ],
+    documents: [
+      "Aadhaar Card",
+      "JSY or MCP (Mother and Child Protection) card",
+      "Bank account details",
+      "Proof of residence",
+    ],
+    howToApply: [
+      "Register the pregnancy at the nearest health centre or with an ASHA worker",
+      "Complete antenatal check-ups as advised",
+      "Deliver at a government or accredited private facility",
+      "Receive the cash benefit directly in your bank account",
+    ],
+    officialUrl: "https://nhm.gov.in",
+    faqs: [
+      {
+        q: "Who helps a beneficiary access JSY?",
+        a: "An ASHA worker acts as the link, helping the mother register, attend check-ups and reach the facility for delivery.",
+      },
+    ],
+  },
+  {
+    slug: "mission-indradhanush",
+    name: "Mission Indradhanush",
+    shortName: "MI",
+    ministry: "Ministry of Health & Family Welfare",
+    category: "Health",
+    summary:
+      "A nationwide immunisation drive to fully vaccinate children and pregnant women against preventable diseases.",
+    benefit:
+      "Free vaccination against several life-threatening diseases for children and expecting mothers.",
+    launched: "2014",
+    beneficiaries: "Children up to 2 years and pregnant women",
+    eligibility: [
+      "Children up to two years of age, especially those who missed routine doses",
+      "Pregnant women due for tetanus and other recommended vaccines",
+      "Focus on under-vaccinated and hard-to-reach areas",
+    ],
+    documents: [
+      "Mother and Child Protection card",
+      "Aadhaar Card of the child or parent (if available)",
+    ],
+    howToApply: [
+      "Visit the nearest health centre, anganwadi or immunisation session site",
+      "Carry the Mother and Child Protection card",
+      "Get the due vaccines administered free of cost",
+      "Note the next vaccination date on the card",
+    ],
+    officialUrl: "https://nhm.gov.in",
+    faqs: [
+      {
+        q: "Do I need to pay for vaccines under Mission Indradhanush?",
+        a: "No, all vaccines provided under the programme are free at government health facilities and immunisation sites.",
+      },
+    ],
+  },
+  {
+    slug: "pradhan-mantri-national-dialysis-programme",
+    name: "Pradhan Mantri National Dialysis Programme",
+    shortName: "PMNDP",
+    ministry: "Ministry of Health & Family Welfare",
+    category: "Health",
+    summary:
+      "A programme that provides free dialysis services to poor patients with chronic kidney disease at district hospitals.",
+    benefit:
+      "Free haemodialysis sessions for eligible patients, reducing the heavy out-of-pocket cost of treatment.",
+    launched: "2016",
+    beneficiaries: "Patients with chronic kidney disease needing dialysis",
+    eligibility: [
+      "Patient diagnosed with chronic kidney disease requiring dialysis",
+      "Priority to economically weaker and BPL patients",
+      "Referred or treated at a participating district hospital",
+    ],
+    documents: [
+      "Aadhaar Card",
+      "Doctor's prescription or diagnosis report",
+      "BPL or income proof where required",
+    ],
+    howToApply: [
+      "Visit the dialysis unit at your district hospital",
+      "Submit the diagnosis report and identity proof",
+      "Complete the registration for free dialysis",
+      "Attend the scheduled dialysis sessions",
+    ],
+    officialUrl: "https://nhm.gov.in",
+    faqs: [
+      {
+        q: "Is dialysis completely free under PMNDP?",
+        a: "Eligible patients receive free haemodialysis sessions at participating district hospitals under the National Health Mission.",
+      },
+    ],
+  },
+  {
+    slug: "pradhan-mantri-bhartiya-janaushadhi-pariyojana",
+    name: "Pradhan Mantri Bhartiya Janaushadhi Pariyojana",
+    shortName: "PMBJP",
+    ministry: "Ministry of Chemicals & Fertilizers",
+    category: "Health",
+    summary:
+      "A scheme that makes quality generic medicines available at affordable prices through dedicated Janaushadhi Kendras across the country.",
+    benefit:
+      "Quality generic medicines at a fraction of branded prices, lowering the cost of treatment for everyone.",
+    launched: "2008",
+    beneficiaries: "All citizens, especially those on regular medication",
+    eligibility: [
+      "Open to every citizen buying medicines — no eligibility restriction",
+      "Entrepreneurs and pharmacists can also apply to open a Janaushadhi Kendra",
+    ],
+    documents: [
+      "Doctor's prescription for purchasing medicines",
+      "For opening a Kendra: Aadhaar, pharmacist licence and premises proof",
+    ],
+    howToApply: [
+      "Locate the nearest Janaushadhi Kendra using the official portal or app",
+      "Carry your doctor's prescription",
+      "Buy the prescribed generic medicines at the subsidised price",
+    ],
+    officialUrl: "https://janaushadhi.gov.in",
+    faqs: [
+      {
+        q: "Are generic medicines at Janaushadhi Kendras good quality?",
+        a: "Yes, the medicines sold are required to meet prescribed quality standards and are far cheaper than equivalent branded versions.",
+      },
+    ],
+  },
+  {
+    slug: "rashtriya-bal-swasthya-karyakram",
+    name: "Rashtriya Bal Swasthya Karyakram",
+    shortName: "RBSK",
+    ministry: "Ministry of Health & Family Welfare",
+    category: "Health",
+    summary:
+      "A child health screening and early intervention programme that detects and treats defects, diseases, deficiencies and developmental delays in children.",
+    benefit:
+      "Free screening and treatment, including referral and surgery support, for children with identified health conditions.",
+    launched: "2013",
+    beneficiaries: "Children from birth to 18 years",
+    eligibility: [
+      "Children aged 0 to 6 years at anganwadi centres",
+      "Children enrolled in government and government-aided schools up to 18 years",
+      "Newborns screened at health facilities",
+    ],
+    documents: [
+      "Mother and Child Protection card or school enrolment proof",
+      "Aadhaar Card of the child (if available)",
+    ],
+    howToApply: [
+      "Children are screened at anganwadis, schools and health facilities by mobile health teams",
+      "Identified cases are referred to a District Early Intervention Centre",
+      "Further diagnosis and treatment are provided free of cost",
+    ],
+    officialUrl: "https://nhm.gov.in",
+    faqs: [
+      {
+        q: "What does RBSK screen children for?",
+        a: "It screens for the four Ds — defects at birth, diseases, deficiencies and developmental delays including disability.",
+      },
+    ],
+  },
 ];
 
 export function getSchemeBySlug(slug: string): Scheme | undefined {
