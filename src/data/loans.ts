@@ -15,7 +15,7 @@ export const loanTypes: LoanType[] = [
     rateRange: "8.3% – 9.5% p.a.",
     tenure: "Up to 30 years",
     summary:
-      "Finance the purchase or construction of a home with long tenures and competitive interest rates.",
+      "The long-haul loan most of us take at least once. Big amounts, long tenures, and usually the lowest interest rate you'll get on any loan.",
     features: [
       "Tax benefits on principal and interest",
       "Balance transfer to reduce EMIs",
@@ -29,7 +29,7 @@ export const loanTypes: LoanType[] = [
     rateRange: "10.5% – 24% p.a.",
     tenure: "1 – 7 years",
     summary:
-      "Unsecured loan for any personal need with quick disbursal and minimal documentation.",
+      "When you need money fast and don't want to pledge anything, this is the go-to. Quick to get, but the interest is higher, so borrow only what you need.",
     features: [
       "No collateral required",
       "Fast approval and disbursal",

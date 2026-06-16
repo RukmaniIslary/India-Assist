@@ -18,11 +18,12 @@ export default function Newsletter() {
       <div className="container-page py-12">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-2xl font-bold text-white">
-            Weekly benefit alerts in your inbox
+            New schemes and deadlines, straight to your inbox
           </h2>
           <p className="mt-2 text-sm text-ink-300">
-            Get new schemes, scholarship deadlines and finance tips every week.
-            No spam, unsubscribe anytime.
+            One short email a week with new schemes, scholarship deadlines worth
+            knowing, and the odd money tip. No spam, and you can leave whenever
+            you like.
           </p>
           {done ? (
             <p className="mt-6 rounded-lg bg-india-green/20 px-4 py-3 text-sm font-medium text-green-100">

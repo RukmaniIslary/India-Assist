@@ -31,7 +31,7 @@ export const schemes: Scheme[] = [
     ministry: "Ministry of Housing & Urban Affairs",
     category: "Housing",
     summary:
-      "A flagship mission to provide affordable pucca housing to all eligible urban and rural households, with credit-linked interest subsidy on home loans.",
+      "If you don't own a pucca house yet, this is the big one. It helps eligible families build or buy a home, with a good chunk of your home loan interest knocked off as a subsidy.",
     benefit:
       "Interest subsidy up to Rs. 2.67 lakh on home loans and direct assistance for house construction.",
     launched: "2015",
@@ -75,7 +75,7 @@ export const schemes: Scheme[] = [
     ministry: "Ministry of Health & Family Welfare",
     category: "Health",
     summary:
-      "The world's largest publicly funded health assurance scheme, providing cashless secondary and tertiary hospital care to eligible families.",
+      "Think of it as government-backed health cover for your family. Cashless treatment at empanelled hospitals, no premium to pay if you qualify, and it happens to be the largest scheme of its kind anywhere in the world.",
     benefit:
       "Health cover of Rs. 5 lakh per family per year for secondary and tertiary care hospitalisation.",
     launched: "2018",
@@ -117,7 +117,7 @@ export const schemes: Scheme[] = [
     ministry: "Ministry of Agriculture & Farmers Welfare",
     category: "Agriculture",
     summary:
-      "An income support scheme that transfers direct financial assistance to land-holding farmer families across the country.",
+      "Straightforward income support for farming families. The money lands directly in your bank account, three times a year, with no middleman in between.",
     benefit:
       "Rs. 6,000 per year transferred directly in three equal instalments of Rs. 2,000.",
     launched: "2019",
@@ -159,7 +159,7 @@ export const schemes: Scheme[] = [
     ministry: "Ministry of Labour & Employment",
     category: "Employment",
     summary:
-      "A national registry that gives unorganised workers a Universal Account Number and access to social security and accident insurance benefits.",
+      "A single national ID for workers in the unorganised sector. You register once, get a Universal Account Number, and accident insurance cover comes along with it — all free.",
     benefit:
       "Accidental insurance cover of Rs. 2 lakh and a single window for unorganised-sector welfare benefits.",
     launched: "2021",

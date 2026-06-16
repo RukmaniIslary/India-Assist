@@ -39,15 +39,16 @@ export default function HomePage() {
       <section className="relative overflow-hidden border-b border-ink-200 bg-gradient-to-b from-brand-50 via-white to-white">
         <div className="container-page py-16 sm:py-20">
           <div className="mx-auto max-w-3xl text-center">
-            <span className="badge mb-4">India&apos;s assistance engine</span>
+            <span className="badge mb-4">No jargon, no runaround</span>
             <h1 className="text-4xl font-extrabold tracking-tight text-ink-900 sm:text-5xl">
-              Discover schemes, scholarships and finance tools{" "}
-              <span className="text-brand-600">made for you</span>
+              Figuring out government schemes shouldn&apos;t feel like a{" "}
+              <span className="text-brand-600">full-time job</span>
             </h1>
             <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-ink-600">
-              Search government benefits, check your eligibility, calculate EMIs
-              and SIPs, and learn how to apply for essential documents — all in
-              one place.
+              So we put everything in one place. Search for a scheme, find out
+              what you actually qualify for, work out your EMI or SIP, or finally
+              sort out that document you&apos;ve been putting off. Have a look
+              around &mdash; it&apos;s all free.
             </p>
             <div className="mx-auto mt-8 max-w-2xl">
               <SearchBox />
@@ -97,12 +98,12 @@ export default function HomePage() {
           <div className="grid items-center gap-6 lg:grid-cols-3">
             <div className="lg:col-span-2">
               <h2 className="text-2xl font-bold sm:text-3xl">
-                Not sure which schemes you qualify for?
+                Honestly, who can keep track of every scheme?
               </h2>
               <p className="mt-2 max-w-xl text-brand-50">
-                Answer a few quick questions about your age, state, income and
-                occupation. Our eligibility engine instantly matches you with
-                relevant benefits.
+                You don&apos;t have to. Tell us your age, state, income and what
+                you do &mdash; takes about a minute &mdash; and we&apos;ll show
+                you the benefits worth your time. No sign-up needed.
               </p>
             </div>
             <div className="lg:text-right">
@@ -120,7 +121,7 @@ export default function HomePage() {
       <section className="container-page">
         <SectionHeading
           title="Popular government schemes"
-          subtitle="Flagship central schemes across housing, health, agriculture and pensions."
+          subtitle="The big central schemes people ask about most — housing, health, farming and pensions."
           href="/schemes"
         />
         <FeaturedSchemes />
@@ -133,7 +134,7 @@ export default function HomePage() {
       <section className="container-page py-6">
         <SectionHeading
           title="Finance calculators"
-          subtitle="Plan loans, investments and taxes with instant, accurate tools."
+          subtitle="Run the numbers before you commit — loans, investments and taxes, no spreadsheet needed."
           href="/calculators"
         />
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
@@ -146,7 +147,7 @@ export default function HomePage() {
       <section className="container-page py-10">
         <SectionHeading
           title="Document application guides"
-          subtitle="Step-by-step help for the documents you need most."
+          subtitle="That PAN or passport you keep meaning to sort out? Here's exactly how, step by step."
           href="/documents"
         />
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
@@ -159,7 +160,7 @@ export default function HomePage() {
       <section className="container-page py-6">
         <SectionHeading
           title="Explore benefits by state"
-          subtitle="Dedicated guides for every Indian state and union territory."
+          subtitle="Every state and UT has its own schemes too — find yours below."
           href="/states"
         />
         <div className="flex flex-wrap gap-2">

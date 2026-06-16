@@ -12,7 +12,7 @@ export const calculators: CalculatorMeta[] = [
     name: "EMI Calculator",
     category: "Loan",
     summary:
-      "Calculate your Equated Monthly Instalment for home, car or personal loans with a full amortisation breakdown.",
+      "See exactly what your monthly EMI works out to before you sign anything, with a full breakdown of how much goes to interest.",
     keywords: ["emi calculator", "loan emi", "monthly instalment", "home loan emi"],
   },
   {
@@ -20,7 +20,7 @@ export const calculators: CalculatorMeta[] = [
     name: "SIP Calculator",
     category: "Investment",
     summary:
-      "Estimate the future value of your Systematic Investment Plan and see how compounding grows your wealth.",
+      "Curious what a monthly SIP could grow into? Punch in the numbers and watch compounding do its thing over the years.",
     keywords: ["sip calculator", "mutual fund sip", "investment returns"],
   },
   {

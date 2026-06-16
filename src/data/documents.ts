@@ -17,7 +17,7 @@ export const documents: DocumentGuide[] = [
     name: "PAN Card",
     authority: "Income Tax Department",
     summary:
-      "The Permanent Account Number is a ten-character alphanumeric identity used for all financial and tax-related transactions in India.",
+      "The ten-character code you'll need for pretty much anything money-related — filing taxes, opening accounts, big transactions. If you don't have one yet, it's quicker to get than most people think.",
     whoNeeds:
       "Anyone filing income tax, opening certain bank accounts, or making high-value financial transactions.",
     processingTime: "Typically 15 to 20 working days for physical card; e-PAN faster",

@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 
 export default function SearchBox({
   size = "lg",
-  placeholder = "Search schemes, scholarships, documents, calculators...",
+  placeholder = "Try 'PM-KISAN', 'home loan EMI', or 'how to get a PAN card'...",
 }: {
   size?: "lg" | "md";
   placeholder?: string;
