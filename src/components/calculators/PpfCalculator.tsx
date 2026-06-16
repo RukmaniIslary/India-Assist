@@ -77,14 +77,14 @@ export default function PpfCalculator() {
         </h3>
         <div className="flex flex-wrap gap-4">
           <div className="flex items-center gap-3 rounded-lg border border-ink-200 p-3">
-            <div className="w-16 overflow-hidden rounded"><SBILogo size={44} /></div>
+            <div className="w-16 overflow-hidden rounded"><SBILogo height={28} /></div>
             <div>
               <p className="text-sm font-semibold text-ink-900">State Bank of India</p>
               <p className="text-xs text-ink-500">Any SBI branch or YONO app</p>
             </div>
           </div>
           <div className="flex items-center gap-3 rounded-lg border border-ink-200 p-3">
-            <div className="w-16 overflow-hidden rounded"><IndiaPostLogo size={64} /></div>
+            <div className="w-16 overflow-hidden rounded"><IndiaPostLogo height={28} /></div>
             <div>
               <p className="text-sm font-semibold text-ink-900">India Post</p>
               <p className="text-xs text-ink-500">Any post office branch</p>

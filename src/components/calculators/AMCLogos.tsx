@@ -17,7 +17,7 @@ type AMC = {
 const AMCS: AMC[] = [
   {
     name: "SBI Mutual Fund", shortName: "SBI MF",
-    Logo: () => <SBIMFLogo size={80} />,
+    Logo: () => <SBIMFLogo height={28} />,
     aum: "India's largest AMC by AUM",
     knownFor: "Bluechip, Balanced Advantage, Contra",
     categories: ["Large Cap", "Flexi Cap", "Debt", "ELSS"],
@@ -25,7 +25,7 @@ const AMCS: AMC[] = [
   },
   {
     name: "HDFC Mutual Fund", shortName: "HDFC MF",
-    Logo: () => <HDFCMFLogo size={80} />,
+    Logo: () => <HDFCMFLogo height={28} />,
     aum: "Top 3 AMC by assets",
     knownFor: "Top 100, Flexicap, Mid-Cap Opportunities",
     categories: ["Large Cap", "Mid Cap", "Balanced", "Debt"],
@@ -33,7 +33,7 @@ const AMCS: AMC[] = [
   },
   {
     name: "ICICI Prudential MF", shortName: "ICICI Pru MF",
-    Logo: () => <ICICIPruLogo size={80} />,
+    Logo: () => <ICICIPruLogo height={28} />,
     aum: "Leading balanced advantage fund house",
     knownFor: "Balanced Advantage, Nifty 50 Index, Value",
     categories: ["Balanced Advantage", "Index", "Value", "Hybrid"],
@@ -41,7 +41,7 @@ const AMCS: AMC[] = [
   },
   {
     name: "Mirae Asset MF", shortName: "Mirae Asset",
-    Logo: () => <MiraeAssetLogo size={80} />,
+    Logo: () => <MiraeAssetLogo height={28} />,
     aum: "Fastest-growing equity AMC",
     knownFor: "Emerging Bluechip, Large Cap, ELSS",
     categories: ["Large & Mid Cap", "Emerging Bluechip", "ELSS"],
@@ -49,7 +49,7 @@ const AMCS: AMC[] = [
   },
   {
     name: "Axis Mutual Fund", shortName: "Axis MF",
-    Logo: () => <AxisMFLogo size={80} />,
+    Logo: () => <AxisMFLogo height={28} />,
     aum: "Quality-focused growth investing",
     knownFor: "Midcap, Flexicap, Long Term Equity",
     categories: ["Mid Cap", "Flexi Cap", "Small Cap", "ELSS"],

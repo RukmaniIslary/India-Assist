@@ -20,49 +20,49 @@ type Lender = {
 const LENDERS: Lender[] = [
   {
     name: "State Bank of India", shortName: "SBI",
-    Logo: () => <SBILogo size={44} />,
+    Logo: () => <SBILogo height={28} />,
     home: "8.50% – 9.15%", personal: "11.15% – 15.30%",
     car: "8.75% – 9.60%", business: "10.00% – 14.00%",
   },
   {
     name: "HDFC Bank", shortName: "HDFC",
-    Logo: () => <HDFCLogo size={80} />,
+    Logo: () => <HDFCLogo height={28} />,
     home: "8.75% – 9.65%", personal: "10.50% – 24.00%",
     car: "8.75% – 9.75%", business: "10.75% – 22.00%",
   },
   {
     name: "ICICI Bank", shortName: "ICICI",
-    Logo: () => <ICICILogo size={80} />,
+    Logo: () => <ICICILogo height={28} />,
     home: "8.75% – 9.80%", personal: "10.65% – 16.00%",
     car: "8.85% – 10.00%", business: "10.85% – 19.00%",
   },
   {
     name: "Axis Bank", shortName: "Axis",
-    Logo: () => <AxisLogo size={80} />,
+    Logo: () => <AxisLogo height={28} />,
     home: "8.75% – 9.15%", personal: "10.49% – 22.00%",
     car: "8.70% – 9.85%", business: "10.75% – 18.00%",
   },
   {
     name: "Kotak Mahindra Bank", shortName: "Kotak",
-    Logo: () => <KotakLogo size={80} />,
+    Logo: () => <KotakLogo height={28} />,
     home: "8.75% – 9.60%", personal: "10.99% – 24.00%",
     car: "8.75% – 9.70%", business: "11.00% – 24.00%",
   },
   {
     name: "Punjab National Bank", shortName: "PNB",
-    Logo: () => <PNBLogo size={80} />,
+    Logo: () => <PNBLogo height={28} />,
     home: "8.50% – 11.45%", personal: "11.40% – 16.95%",
     car: "8.75% – 9.95%", business: "10.25% – 14.75%",
   },
   {
     name: "Bank of Baroda", shortName: "BoB",
-    Logo: () => <BoBLogo size={80} />,
+    Logo: () => <BoBLogo height={28} />,
     home: "8.40% – 10.65%", personal: "11.05% – 16.60%",
     car: "8.70% – 9.80%", business: "10.30% – 14.50%",
   },
   {
     name: "LIC Housing Finance", shortName: "LIC HFL",
-    Logo: () => <LICHFLLogo size={80} />,
+    Logo: () => <LICHFLLogo height={28} />,
     home: "8.50% – 10.75%",
   },
 ];
