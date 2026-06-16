@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useT } from "@/lib/i18n";
 
 export type Column = {
   key: string;
@@ -27,14 +28,17 @@ export default function ScheduleTable({
   defaultVisible?: number;
 }) {
   const [expanded, setExpanded] = useState(false);
+  const t = useT();
   const canCollapse = rows.length > defaultVisible;
   const visibleRows = expanded ? rows : rows.slice(0, defaultVisible);
 
   return (
     <div className="rounded-xl border border-ink-200 bg-white">
       <div className="flex items-center justify-between border-b border-ink-200 px-4 py-3">
-        <h3 className="text-sm font-semibold text-ink-900">{title}</h3>
-        <span className="text-xs text-ink-500">{rows.length} years</span>
+        <h3 className="text-sm font-semibold text-ink-900">{t(title)}</h3>
+        <span className="text-xs text-ink-500">
+          {rows.length} {t("years")}
+        </span>
       </div>
 
       <div className="max-h-[420px] overflow-auto">
@@ -48,7 +52,7 @@ export default function ScheduleTable({
                     col.align === "right" ? "text-right" : "text-left"
                   }`}
                 >
-                  {col.label}
+                  {t(col.label)}
                 </th>
               ))}
             </tr>
@@ -86,8 +90,8 @@ export default function ScheduleTable({
             aria-expanded={expanded}
           >
             {expanded
-              ? "Show less"
-              : `Show all ${rows.length} years`}
+              ? t("Show less")
+              : `${t("Show all")} ${rows.length} ${t("years")}`}
           </button>
         </div>
       )}

@@ -10,6 +10,7 @@ import { calculators } from "@/data/calculators";
 import { documents } from "@/data/documents";
 import { states } from "@/data/states";
 import { buildMetadata } from "@/lib/seo";
+import { T } from "@/lib/i18n";
 
 export const metadata: Metadata = buildMetadata({
   title: "Government Schemes, Scholarships & Finance Tools",
@@ -27,7 +28,7 @@ const categories = [
 ] as const;
 
 const stats = [
-  { value: "8+", label: "Flagship schemes" },
+  { value: "36+", label: "Flagship schemes" },
   { value: "6", label: "Finance calculators" },
   { value: "33", label: "States & UTs covered" },
   { value: "1", label: "Eligibility engine" },
@@ -39,22 +40,29 @@ export default function HomePage() {
       <section className="relative overflow-hidden border-b border-ink-200 bg-gradient-to-b from-brand-50 via-white to-white">
         <div className="container-page py-16 sm:py-20">
           <div className="mx-auto max-w-3xl text-center">
-            <span className="badge mb-4">No jargon, no runaround</span>
+            <span className="badge mb-4">
+              <T en="No jargon, no runaround" />
+            </span>
             <h1 className="text-4xl font-extrabold tracking-tight text-ink-900 sm:text-5xl">
-              Figuring out government schemes shouldn&apos;t feel like a{" "}
-              <span className="text-brand-600">full-time job</span>
+              <T
+                en="Figuring out government schemes shouldn't feel like a "
+                hi="सरकारी योजनाएं समझना किसी "
+              />
+              <span className="text-brand-600">
+                <T en="full-time job" hi="पूरे समय की नौकरी जैसा नहीं होना चाहिए" />
+              </span>
             </h1>
             <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-ink-600">
-              So we put everything in one place. Search for a scheme, find out
-              what you actually qualify for, work out your EMI or SIP, or finally
-              sort out that document you&apos;ve been putting off. Have a look
-              around &mdash; it&apos;s all free.
+              <T
+                en="So we put everything in one place. Search for a scheme, find out what you actually qualify for, work out your EMI or SIP, or finally sort out that document you've been putting off. Have a look around — it's all free."
+                hi="इसलिए हमने सब कुछ एक जगह रख दिया है। कोई योजना खोजें, जानें कि आप वास्तव में किसके लिए पात्र हैं, अपनी ईएमआई या एसआईपी निकालें, या वह दस्तावेज़ बनवाएं जिसे आप टालते आ रहे हैं। देखिए — यह सब निःशुल्क है।"
+              />
             </p>
             <div className="mx-auto mt-8 max-w-2xl">
               <SearchBox />
             </div>
             <div className="mt-4 flex flex-wrap items-center justify-center gap-2 text-sm text-ink-500">
-              <span>Popular:</span>
+              <span><T en="Popular:" hi="लोकप्रिय:" /></span>
               <Link href="/schemes/pm-kisan-samman-nidhi" className="rounded-full bg-white px-3 py-1 ring-1 ring-ink-200 hover:ring-brand-300">PM-KISAN</Link>
               <Link href="/calculators/emi" className="rounded-full bg-white px-3 py-1 ring-1 ring-ink-200 hover:ring-brand-300">EMI Calculator</Link>
               <Link href="/schemes/ayushman-bharat-pmjay" className="rounded-full bg-white px-3 py-1 ring-1 ring-ink-200 hover:ring-brand-300">Ayushman Bharat</Link>
@@ -74,9 +82,9 @@ export default function HomePage() {
             >
               <CategoryIcon name={c.icon} />
               <span className="mt-3 text-sm font-semibold text-ink-900 group-hover:text-brand-700">
-                {c.label}
+                <T en={c.label} />
               </span>
-              <span className="mt-0.5 text-xs text-ink-500">{c.desc}</span>
+              <span className="mt-0.5 text-xs text-ink-500"><T en={c.desc} /></span>
             </Link>
           ))}
         </div>
@@ -87,7 +95,7 @@ export default function HomePage() {
           {stats.map((s) => (
             <div key={s.label} className="text-center">
               <p className="text-3xl font-extrabold text-brand-600">{s.value}</p>
-              <p className="mt-1 text-sm text-ink-600">{s.label}</p>
+              <p className="mt-1 text-sm text-ink-600"><T en={s.label} /></p>
             </div>
           ))}
         </div>
@@ -98,12 +106,16 @@ export default function HomePage() {
           <div className="grid items-center gap-6 lg:grid-cols-3">
             <div className="lg:col-span-2">
               <h2 className="text-2xl font-bold sm:text-3xl">
-                Honestly, who can keep track of every scheme?
+                <T
+                  en="Honestly, who can keep track of every scheme?"
+                  hi="सच कहें तो, हर योजना का हिसाब कौन रख सकता है?"
+                />
               </h2>
               <p className="mt-2 max-w-xl text-brand-50">
-                You don&apos;t have to. Tell us your age, state, income and what
-                you do &mdash; takes about a minute &mdash; and we&apos;ll show
-                you the benefits worth your time. No sign-up needed.
+                <T
+                  en="You don't have to. Tell us your age, state, income and what you do — takes about a minute — and we'll show you the benefits worth your time. No sign-up needed."
+                  hi="आपको रखने की ज़रूरत नहीं। हमें अपनी उम्र, राज्य, आय और काम बताएं — लगभग एक मिनट लगता है — और हम आपको काम के लाभ दिखाएंगे। कोई साइन-अप नहीं।"
+                />
               </p>
             </div>
             <div className="lg:text-right">
@@ -111,7 +123,7 @@ export default function HomePage() {
                 href="/eligibility"
                 className="inline-flex items-center justify-center rounded-lg bg-white px-6 py-3 text-sm font-semibold text-brand-700 transition hover:bg-brand-50"
               >
-                Check my eligibility
+                <T en="Check my eligibility" hi="मेरी पात्रता जांचें" />
               </Link>
             </div>
           </div>

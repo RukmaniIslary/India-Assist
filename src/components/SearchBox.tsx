@@ -2,16 +2,21 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { useT } from "@/lib/i18n";
 
 export default function SearchBox({
   size = "lg",
-  placeholder = "Try 'PM-KISAN', 'home loan EMI', or 'how to get a PAN card'...",
+  placeholder,
 }: {
   size?: "lg" | "md";
   placeholder?: string;
 }) {
   const [query, setQuery] = useState("");
   const router = useRouter();
+  const t = useT();
+  const ph =
+    placeholder ??
+    t("Try 'PM-KISAN', 'home loan EMI', or 'how to get a PAN card'...");
 
   function onSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -36,7 +41,7 @@ export default function SearchBox({
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder={placeholder}
+            placeholder={ph}
             aria-label="Search India Assist"
             className={`w-full rounded-xl border border-ink-200 bg-white pl-11 pr-3 shadow-sm outline-none focus:border-brand-400 focus:ring-2 focus:ring-brand-100 ${
               size === "lg" ? "py-4 text-base" : "py-3 text-sm"
@@ -44,7 +49,7 @@ export default function SearchBox({
           />
         </div>
         <button type="submit" className="btn-primary px-6">
-          Search
+          {t("Search")}
         </button>
       </div>
     </form>

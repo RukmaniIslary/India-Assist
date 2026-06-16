@@ -1,5 +1,7 @@
 "use client";
 
+import { useT } from "@/lib/i18n";
+
 export type DonutSegment = {
   label: string;
   value: number;
@@ -23,6 +25,7 @@ export default function DonutChart({
   centerLabel?: string;
   centerValue?: string;
 }) {
+  const t = useT();
   const total = segments.reduce((sum, s) => sum + (s.value > 0 ? s.value : 0), 0);
   const radius = (size - thickness) / 2;
   const circumference = 2 * Math.PI * radius;
@@ -89,7 +92,7 @@ export default function DonutChart({
               </span>
             )}
             {centerLabel && (
-              <span className="mt-0.5 text-xs text-ink-500">{centerLabel}</span>
+              <span className="mt-0.5 text-xs text-ink-500">{t(centerLabel)}</span>
             )}
           </div>
         )}
@@ -98,12 +101,11 @@ export default function DonutChart({
       <ul className="mt-4 flex flex-wrap justify-center gap-x-5 gap-y-2">
         {segments.map((seg, i) => (
           <li key={i} className="flex items-center gap-2 text-sm">
-            <span
-              className="h-3 w-3 shrink-0 rounded-sm"
+            <span className="h-3 w-3 shrink-0 rounded-sm"
               style={{ backgroundColor: seg.color }}
               aria-hidden="true"
             />
-            <span className="text-ink-600">{seg.label}</span>
+            <span className="text-ink-600">{t(seg.label)}</span>
             {total > 0 && (
               <span className="font-medium text-ink-900">
                 {Math.round((Math.max(seg.value, 0) / total) * 100)}%

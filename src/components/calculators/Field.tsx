@@ -1,6 +1,7 @@
 "use client";
 
 import { useAnimatedNumber } from "./useAnimatedNumber";
+import { useT } from "@/lib/i18n";
 
 export function RangeField({
   label,
@@ -21,6 +22,7 @@ export function RangeField({
   suffix?: string;
   prefix?: string;
 }) {
+  const t = useT();
   const pct = Math.min(100, Math.max(0, ((value - min) / (max - min)) * 100));
   // Filled portion of the track in brand colour, rest in light grey.
   const trackBg = `linear-gradient(to right, #ea580c 0%, #ea580c ${pct}%, #e2e8f0 ${pct}%, #e2e8f0 100%)`;
@@ -28,7 +30,7 @@ export function RangeField({
   return (
     <div>
       <div className="flex items-center justify-between">
-        <label className="text-sm font-medium text-ink-700">{label}</label>
+        <label className="text-sm font-medium text-ink-700">{t(label)}</label>
         <div className="flex items-center gap-1 rounded-md border border-ink-200 bg-white px-2 py-1 focus-within:border-brand-400">
           {prefix && <span className="text-sm text-ink-500">{prefix}</span>}
           <input
@@ -80,6 +82,7 @@ export function ResultStat({
   value: string;
   highlight?: boolean;
 }) {
+  const t = useT();
   return (
     <div
       className={`rounded-lg p-4 transition ${
@@ -87,7 +90,7 @@ export function ResultStat({
       }`}
     >
       <p className={`text-xs ${highlight ? "text-brand-50" : "text-ink-500"}`}>
-        {label}
+        {t(label)}
       </p>
       <p className="mt-1 text-xl font-bold">{value}</p>
     </div>
@@ -110,6 +113,7 @@ export function AnimatedStat({
   highlight?: boolean;
 }) {
   const animated = useAnimatedNumber(value);
+  const t = useT();
   return (
     <div
       className={`rounded-lg p-4 transition ${
@@ -117,7 +121,7 @@ export function AnimatedStat({
       }`}
     >
       <p className={`text-xs ${highlight ? "text-brand-50" : "text-ink-500"}`}>
-        {label}
+        {t(label)}
       </p>
       <p className="mt-1 text-xl font-bold tabular-nums">{format(animated)}</p>
     </div>

@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { schemes } from "@/data/schemes";
+import { schemeHindi } from "@/data/schemes.hi";
+import { T } from "@/lib/i18n";
 
 /**
  * Hand-designed, deliberately varied cards for the homepage.
@@ -17,6 +19,14 @@ function bySlug(slug: string) {
   return s;
 }
 
+function SName({ slug, label }: { slug: string; label: string }) {
+  return <T en={label} hi={schemeHindi[slug]?.name ?? label} />;
+}
+
+function SSummary({ slug, summary }: { slug: string; summary: string }) {
+  return <T en={summary} hi={schemeHindi[slug]?.summary ?? summary} />;
+}
+
 export default function FeaturedSchemes() {
   return (
     <div className="grid auto-rows-fr gap-5 sm:grid-cols-2 lg:grid-cols-3">
@@ -30,9 +40,7 @@ export default function FeaturedSchemes() {
   );
 }
 
-/* ----------------------------------------------------------------------------
- * Variant 1 — Icon on the left, text on the right (PMAY / Housing)
- * -------------------------------------------------------------------------- */
+/* Variant 1 — Icon on the left (PMAY / Housing) */
 function IconLeftCard() {
   const s = bySlug("pradhan-mantri-awas-yojana");
   return (
@@ -47,23 +55,23 @@ function IconLeftCard() {
       </span>
       <div className="min-w-0">
         <p className="text-xs font-semibold uppercase tracking-wide text-brand-600">
-          {s.category}
+          <T en={s.category} />
         </p>
         <h3 className="mt-0.5 font-bold text-ink-900 group-hover:text-brand-700">
-          {s.shortName ?? s.name}
+          <SName slug={s.slug} label={s.shortName ?? s.name} />
         </h3>
-        <p className="mt-1.5 line-clamp-2 text-sm text-ink-600">{s.summary}</p>
+        <p className="mt-1.5 line-clamp-2 text-sm text-ink-600">
+          <SSummary slug={s.slug} summary={s.summary} />
+        </p>
         <p className="mt-2 text-sm font-medium text-brand-700">
-          Subsidy up to Rs. 2.67 lakh
+          <T en="Subsidy up to Rs. 2.67 lakh" hi="रु. 2.67 लाख तक सब्सिडी" />
         </p>
       </div>
     </Link>
   );
 }
 
-/* ----------------------------------------------------------------------------
- * Variant 2 — Oversized highlight stat (Ayushman Bharat / Health)
- * -------------------------------------------------------------------------- */
+/* Variant 2 — Oversized stat (Ayushman Bharat / Health) */
 function BigStatCard() {
   const s = bySlug("ayushman-bharat-pmjay");
   return (
@@ -73,28 +81,28 @@ function BigStatCard() {
     >
       <div>
         <span className="inline-flex items-center rounded-full bg-emerald-600/10 px-2.5 py-0.5 text-xs font-semibold text-emerald-700">
-          {s.category}
+          <T en={s.category} />
         </span>
         <p className="mt-4 text-4xl font-extrabold leading-none tracking-tight text-emerald-700">
-          Rs. 5 lakh
+          <T en="Rs. 5 lakh" hi="रु. 5 लाख" />
         </p>
         <p className="mt-1 text-sm font-medium text-emerald-800/80">
-          health cover per family, every year
+          <T en="health cover per family, every year" hi="हर साल प्रति परिवार स्वास्थ्य कवर" />
         </p>
       </div>
       <div className="mt-5">
         <h3 className="font-bold text-ink-900 group-hover:text-emerald-700">
-          {s.shortName ?? s.name}
+          <SName slug={s.slug} label={s.shortName ?? s.name} />
         </h3>
-        <p className="mt-1 line-clamp-2 text-sm text-ink-600">{s.summary}</p>
+        <p className="mt-1 line-clamp-2 text-sm text-ink-600">
+          <SSummary slug={s.slug} summary={s.summary} />
+        </p>
       </div>
     </Link>
   );
 }
 
-/* ----------------------------------------------------------------------------
- * Variant 3 — Vertical colored accent bar (PM-KISAN / Agriculture)
- * -------------------------------------------------------------------------- */
+/* Variant 3 — Vertical accent bar (PM-KISAN / Agriculture) */
 function AccentBarCard() {
   const s = bySlug("pm-kisan-samman-nidhi");
   return (
@@ -104,23 +112,25 @@ function AccentBarCard() {
     >
       <span className="absolute left-0 top-0 h-full w-2 bg-india-green" aria-hidden="true" />
       <div className="flex items-baseline gap-2">
-        <span className="text-3xl font-extrabold text-india-green">Rs. 6,000</span>
-        <span className="text-sm text-ink-500">/ year</span>
+        <span className="text-3xl font-extrabold text-india-green">
+          <T en="Rs. 6,000" hi="रु. 6,000" />
+        </span>
+        <span className="text-sm text-ink-500"><T en="/ year" hi="/ वर्ष" /></span>
       </div>
       <p className="mt-0.5 text-xs font-medium uppercase tracking-wide text-ink-400">
-        direct to your bank account
+        <T en="direct to your bank account" hi="सीधे आपके बैंक खाते में" />
       </p>
       <h3 className="mt-3 font-bold text-ink-900 group-hover:text-india-green">
-        {s.shortName ?? s.name}
+        <SName slug={s.slug} label={s.shortName ?? s.name} />
       </h3>
-      <p className="mt-1 line-clamp-2 text-sm text-ink-600">{s.summary}</p>
+      <p className="mt-1 line-clamp-2 text-sm text-ink-600">
+        <SSummary slug={s.slug} summary={s.summary} />
+      </p>
     </Link>
   );
 }
 
-/* ----------------------------------------------------------------------------
- * Variant 4 — Gradient header band with icon (e-Shram / Employment)
- * -------------------------------------------------------------------------- */
+/* Variant 4 — Gradient header (e-Shram / Employment) */
 function GradientHeaderCard() {
   const s = bySlug("e-shram-card");
   return (
@@ -134,27 +144,25 @@ function GradientHeaderCard() {
           <path d="M5 20c0-3.5 3-6 7-6s7 2.5 7 6" />
         </svg>
         <span className="text-sm font-semibold uppercase tracking-wide">
-          Social Security
+          <T en="Social Security" hi="सामाजिक सुरक्षा" />
         </span>
       </div>
       <div className="flex flex-1 flex-col p-5">
         <h3 className="font-bold text-ink-900 group-hover:text-blue-700">
-          {s.shortName ?? s.name}
+          <SName slug={s.slug} label={s.shortName ?? s.name} />
         </h3>
         <p className="mt-1 line-clamp-2 flex-1 text-sm text-ink-600">
-          {s.summary}
+          <SSummary slug={s.slug} summary={s.summary} />
         </p>
         <span className="mt-3 inline-flex w-fit items-center rounded-md bg-blue-50 px-2.5 py-1 text-sm font-semibold text-blue-700">
-          Rs. 2 lakh accident cover
+          <T en="Rs. 2 lakh accident cover" hi="रु. 2 लाख दुर्घटना कवर" />
         </span>
       </div>
     </Link>
   );
 }
 
-/* ----------------------------------------------------------------------------
- * Variant 5 — Minimal, hero number led (Atal Pension Yojana / Pension)
- * -------------------------------------------------------------------------- */
+/* Variant 5 — Minimal hero number (Atal Pension Yojana / Pension) */
 function MinimalHeroNumberCard() {
   const s = bySlug("atal-pension-yojana");
   return (
@@ -163,26 +171,24 @@ function MinimalHeroNumberCard() {
       className="group flex flex-col rounded-xl border border-dashed border-amber-300 bg-white p-6 transition hover:border-solid hover:border-amber-400 hover:shadow-md"
     >
       <p className="text-xs font-semibold uppercase tracking-[0.2em] text-amber-600">
-        Guaranteed pension
+        <T en="Guaranteed pension" hi="गारंटीशुदा पेंशन" />
       </p>
       <p className="mt-3 text-5xl font-black leading-none tracking-tighter text-ink-900">
-        Rs. 5,000
+        <T en="Rs. 5,000" hi="रु. 5,000" />
       </p>
       <p className="mt-2 text-sm text-ink-500">
-        maximum monthly pension after the age of 60
+        <T en="maximum monthly pension after the age of 60" hi="60 वर्ष की आयु के बाद अधिकतम मासिक पेंशन" />
       </p>
       <div className="mt-auto pt-5">
         <h3 className="font-semibold text-ink-700 group-hover:text-amber-700">
-          {s.shortName ?? s.name} &rarr;
+          <SName slug={s.slug} label={s.shortName ?? s.name} /> &rarr;
         </h3>
       </div>
     </Link>
   );
 }
 
-/* ----------------------------------------------------------------------------
- * Variant 6 — Dark feature card (Sukanya Samriddhi Yojana / Women & Child)
- * -------------------------------------------------------------------------- */
+/* Variant 6 — Dark feature card (Sukanya Samriddhi / Women & Child) */
 function DarkFeatureCard() {
   const s = bySlug("sukanya-samriddhi-yojana");
   return (
@@ -199,15 +205,17 @@ function DarkFeatureCard() {
           <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
             <path d="M12 21s-7-4.35-9.33-9C1.4 9.07 2.7 6 6 6c1.96 0 3.2 1.06 4 2 0.8-.94 2.04-2 4-2 3.3 0 4.6 3.07 3.33 6C19 16.65 12 21 12 21z" />
           </svg>
-          {s.category}
+          <T en={s.category} />
         </span>
         <h3 className="mt-4 text-lg font-bold group-hover:text-brand-200">
-          {s.shortName ?? s.name}
+          <SName slug={s.slug} label={s.shortName ?? s.name} />
         </h3>
-        <p className="mt-1.5 line-clamp-3 text-sm text-ink-300">{s.summary}</p>
+        <p className="mt-1.5 line-clamp-3 text-sm text-ink-300">
+          <SSummary slug={s.slug} summary={s.summary} />
+        </p>
       </div>
       <p className="mt-4 text-sm font-semibold text-brand-300">
-        Tax-free returns · 21-year maturity
+        <T en="Tax-free returns · 21-year maturity" hi="कर-मुक्त रिटर्न · 21-वर्ष परिपक्वता" />
       </p>
     </Link>
   );

@@ -6,8 +6,10 @@ import AdUnit from "@/components/AdSense";
 import JsonLd from "@/components/JsonLd";
 import { SchemeCard } from "@/components/cards";
 import { schemes, getSchemeBySlug } from "@/data/schemes";
+import { schemeHindi } from "@/data/schemes.hi";
 import { buildMetadata } from "@/lib/seo";
 import { siteConfig } from "@/lib/site";
+import { T } from "@/lib/i18n";
 
 export function generateStaticParams() {
   return schemes.map((s) => ({ slug: s.slug }));
@@ -69,20 +71,20 @@ export default function SchemeDetailPage({
 
       <article className="container-page grid gap-10 py-6 lg:grid-cols-3">
         <div className="lg:col-span-2">
-          <span className="badge">{scheme.category}</span>
+          <span className="badge"><T en={scheme.category} /></span>
           <h1 className="mt-3 text-3xl font-extrabold tracking-tight text-ink-900">
-            {scheme.name}
+            <T en={scheme.name} hi={schemeHindi[scheme.slug]?.name ?? scheme.name} />
           </h1>
           <p className="mt-2 text-sm text-ink-500">
-            {scheme.ministry} · Launched {scheme.launched}
+            {scheme.ministry} · <T en="Launched" hi="शुरू" /> {scheme.launched}
           </p>
           <p className="mt-4 text-lg leading-relaxed text-ink-700">
-            {scheme.summary}
+            <T en={scheme.summary} hi={schemeHindi[scheme.slug]?.summary ?? scheme.summary} />
           </p>
 
           <div className="mt-6 rounded-xl border border-brand-200 bg-brand-50 p-5">
             <h2 className="text-sm font-semibold uppercase tracking-wide text-brand-700">
-              Key benefit
+              <T en="Key benefit" />
             </h2>
             <p className="mt-1 text-ink-800">{scheme.benefit}</p>
           </div>
@@ -144,11 +146,13 @@ export default function SchemeDetailPage({
           <div className="sticky top-20 space-y-5">
             <div className="card">
               <h2 className="text-base font-semibold text-ink-900">
-                Apply on the official portal
+                <T en="Apply on the official portal" hi="आधिकारिक पोर्टल पर आवेदन करें" />
               </h2>
               <p className="mt-1 text-sm text-ink-600">
-                Always submit applications through the official government
-                website.
+                <T
+                  en="Always submit applications through the official government website."
+                  hi="आवेदन हमेशा आधिकारिक सरकारी वेबसाइट के माध्यम से जमा करें।"
+                />
               </p>
               <a
                 href={scheme.officialUrl}
@@ -156,10 +160,10 @@ export default function SchemeDetailPage({
                 rel="noopener noreferrer nofollow"
                 className="btn-primary mt-4 w-full"
               >
-                Visit official site
+                <T en="Visit official site" />
               </a>
               <Link href="/eligibility" className="btn-secondary mt-2 w-full">
-                Check eligibility
+                <T en="Check eligibility" />
               </Link>
             </div>
             <AdUnit label="Sponsored" />
@@ -170,7 +174,7 @@ export default function SchemeDetailPage({
       {related.length > 0 && (
         <section className="container-page py-10">
           <h2 className="mb-5 text-xl font-bold text-ink-900">
-            Related schemes
+            <T en="Related schemes" />
           </h2>
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {related.map((s) => (
@@ -192,7 +196,7 @@ function Section({
 }) {
   return (
     <section className="mt-8">
-      <h2 className="mb-3 text-xl font-bold text-ink-900">{title}</h2>
+      <h2 className="mb-3 text-xl font-bold text-ink-900"><T en={title} /></h2>
       {children}
     </section>
   );

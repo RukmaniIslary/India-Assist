@@ -1,3 +1,7 @@
+"use client";
+
+import { useT } from "@/lib/i18n";
+
 export default function PageHeader({
   title,
   description,
@@ -7,20 +11,21 @@ export default function PageHeader({
   description?: string;
   eyebrow?: string;
 }) {
+  const t = useT();
   return (
     <div className="border-b border-ink-200 bg-gradient-to-b from-brand-50 to-white">
       <div className="container-page py-10">
         {eyebrow && (
           <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-brand-600">
-            {eyebrow}
+            {t(eyebrow)}
           </p>
         )}
         <h1 className="text-3xl font-extrabold tracking-tight text-ink-900 sm:text-4xl">
-          {title}
+          {t(title)}
         </h1>
         {description && (
           <p className="mt-3 max-w-2xl text-base leading-relaxed text-ink-600">
-            {description}
+            {t(description)}
           </p>
         )}
       </div>

@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { SchemeCard } from "@/components/cards";
 import type { Scheme } from "@/data/schemes";
+import { useT, T } from "@/lib/i18n";
 
 export default function SchemeFilter({
   schemes,
@@ -13,6 +14,7 @@ export default function SchemeFilter({
 }) {
   const [active, setActive] = useState<string>("All");
   const [query, setQuery] = useState("");
+  const t = useT();
 
   const filtered = useMemo(() => {
     return schemes.filter((s) => {
@@ -42,7 +44,7 @@ export default function SchemeFilter({
                   : "border border-ink-200 bg-white text-ink-700 hover:border-brand-300"
               }`}
             >
-              {c}
+              {t(c)}
             </button>
           ))}
         </div>
@@ -50,20 +52,23 @@ export default function SchemeFilter({
           type="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Filter schemes..."
+          placeholder={t("Filter schemes...")}
           aria-label="Filter schemes"
           className="w-full rounded-lg border border-ink-200 bg-white px-3 py-2 text-sm outline-none focus:border-brand-400 sm:w-56"
         />
       </div>
 
       <p className="mb-4 text-sm text-ink-500">
-        Showing <span className="font-semibold text-ink-800">{filtered.length}</span> of{" "}
-        <span className="font-semibold text-ink-800">{schemes.length}</span> schemes
+        <T en="Showing" hi="दिखा रहे हैं" />{" "}
+        <span className="font-semibold text-ink-800">{filtered.length}</span>{" "}
+        <T en="of" hi="में से" />{" "}
+        <span className="font-semibold text-ink-800">{schemes.length}</span>{" "}
+        <T en="schemes" hi="योजनाएं" />
       </p>
 
       {filtered.length === 0 ? (
         <p className="rounded-lg border border-dashed border-ink-200 p-8 text-center text-ink-500">
-          No schemes match your filter.
+          <T en="No schemes match your filter." hi="आपके फ़िल्टर से कोई योजना मेल नहीं खाती।" />
         </p>
       ) : (
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">

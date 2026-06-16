@@ -5,8 +5,10 @@ import { RangeField, AnimatedStat } from "./Field";
 import DonutChart from "./DonutChart";
 import ScheduleTable, { type Row } from "./ScheduleTable";
 import { formatINR } from "@/lib/format";
+import { useT } from "@/lib/i18n";
 
 export default function FdCalculator() {
+  const t = useT();
   const [principal, setPrincipal] = useState(500000);
   const [rate, setRate] = useState(7);
   const [years, setYears] = useState(5);
@@ -40,17 +42,17 @@ export default function FdCalculator() {
           <RangeField label="Tenure" suffix=" yrs" value={years} onChange={setYears} min={1} max={10} step={1} />
           <div>
             <label className="text-sm font-medium text-ink-700">
-              Compounding frequency
+              {t("Compounding frequency")}
             </label>
             <select
               value={freq}
               onChange={(e) => setFreq(Number(e.target.value))}
               className="mt-2 w-full rounded-lg border border-ink-200 bg-white px-3 py-2 text-sm outline-none focus:border-brand-400"
             >
-              <option value={1}>Annually</option>
-              <option value={2}>Half-yearly</option>
-              <option value={4}>Quarterly</option>
-              <option value={12}>Monthly</option>
+              <option value={1}>{t("Annually")}</option>
+              <option value={2}>{t("Half-yearly")}</option>
+              <option value={4}>{t("Quarterly")}</option>
+              <option value={12}>{t("Monthly")}</option>
             </select>
           </div>
 
