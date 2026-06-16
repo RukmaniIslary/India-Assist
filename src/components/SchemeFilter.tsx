@@ -56,6 +56,11 @@ export default function SchemeFilter({
         />
       </div>
 
+      <p className="mb-4 text-sm text-ink-500">
+        Showing <span className="font-semibold text-ink-800">{filtered.length}</span> of{" "}
+        <span className="font-semibold text-ink-800">{schemes.length}</span> schemes
+      </p>
+
       {filtered.length === 0 ? (
         <p className="rounded-lg border border-dashed border-ink-200 p-8 text-center text-ink-500">
           No schemes match your filter.
