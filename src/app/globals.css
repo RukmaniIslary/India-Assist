@@ -51,3 +51,36 @@ body {
     @apply mb-4 list-disc space-y-1 pl-5 text-ink-700;
   }
 }
+
+/* Range slider thumb — consistent look across browsers for calculators */
+.range-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 9999px;
+  background: #ffffff;
+  border: 3px solid #ea580c;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.25);
+  cursor: pointer;
+  transition: transform 0.12s ease;
+}
+
+.range-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.12);
+}
+
+.range-slider::-moz-range-thumb {
+  height: 20px;
+  width: 20px;
+  border-radius: 9999px;
+  background: #ffffff;
+  border: 3px solid #ea580c;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.25);
+  cursor: pointer;
+}
+
+.range-slider:focus-visible::-webkit-slider-thumb {
+  outline: 2px solid #fdba74;
+  outline-offset: 2px;
+}
