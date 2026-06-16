@@ -19,10 +19,11 @@ export function generateMetadata({
   const item = getScholarshipBySlug(params.slug);
   if (!item) return buildMetadata({ title: "Scholarship not found" });
   return buildMetadata({
-    title: item.name,
-    description: item.summary,
+    title: `${item.name} 2026 — Eligibility, Amount & How to Apply`,
+    description: `${item.summary} Check eligibility, documents required and step-by-step application guide for ${item.name} on India Assist.`,
     path: `/scholarships/${item.slug}`,
-    keywords: [item.name, item.provider, item.level, "scholarship"],
+    keywords: [item.name, item.provider, item.level, "scholarship India 2026", "how to apply", "eligibility"],
+    type: "article",
   });
 }
 

@@ -5,7 +5,7 @@ import AdUnit from "@/components/AdSense";
 import JsonLd from "@/components/JsonLd";
 import WhatsAppShare from "@/components/WhatsAppShare";
 import { documents, getDocumentBySlug } from "@/data/documents";
-import { buildMetadata } from "@/lib/seo";
+import { buildMetadata, documentTitle, documentDesc } from "@/lib/seo";
 import { siteConfig } from "@/lib/site";
 
 export function generateStaticParams() {
@@ -20,10 +20,11 @@ export function generateMetadata({
   const doc = getDocumentBySlug(params.slug);
   if (!doc) return buildMetadata({ title: "Document not found" });
   return buildMetadata({
-    title: `How to Apply for ${doc.name}`,
-    description: doc.summary,
+    title: documentTitle(doc.name),
+    description: documentDesc(doc.summary, doc.name),
     path: `/documents/${doc.slug}`,
-    keywords: [doc.name, doc.authority, "how to apply", "documents required"],
+    keywords: [doc.name, doc.authority, "how to apply online", "documents required", "step by step 2026"],
+    type: "article",
   });
 }
 

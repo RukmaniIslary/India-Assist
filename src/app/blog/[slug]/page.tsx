@@ -22,9 +22,13 @@ export function generateMetadata({
   if (!post) return buildMetadata({ title: "Article not found" });
   return buildMetadata({
     title: post.title,
-    description: post.excerpt,
+    description: `${post.excerpt} Written by ${post.author} — practical guide with real experience.`,
     path: `/blog/${post.slug}`,
-    keywords: [post.category, "guide"],
+    keywords: [post.category, "India guide 2026", "how to", "step by step"],
+    type: "article",
+    publishedTime: post.date,
+    modifiedTime: post.date,
+    author: post.author,
   });
 }
 
@@ -52,9 +56,27 @@ export default function BlogPostPage({
     headline: post.title,
     description: post.excerpt,
     datePublished: post.date,
-    author: { "@type": "Organization", name: post.author },
-    publisher: { "@type": "Organization", name: siteConfig.name },
-    mainEntityOfPage: `${siteConfig.url}/blog/${post.slug}`,
+    dateModified: post.date,
+    author: {
+      "@type": "Person",
+      name: post.author,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: siteConfig.name,
+      url: siteConfig.url,
+      logo: {
+        "@type": "ImageObject",
+        url: `${siteConfig.url}/favicon.svg`,
+      },
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `${siteConfig.url}/blog/${post.slug}`,
+    },
+    image: `${siteConfig.url}/og-image.svg`,
+    articleSection: post.category,
+    inLanguage: "en-IN",
   };
 
   return (

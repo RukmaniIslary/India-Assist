@@ -7,7 +7,7 @@ import WhatsAppShare from "@/components/WhatsAppShare";
 import { SchemeCard } from "@/components/cards";
 import { states, getStateBySlug } from "@/data/states";
 import { schemes } from "@/data/schemes";
-import { buildMetadata } from "@/lib/seo";
+import { buildMetadata, stateTitle, stateDesc } from "@/lib/seo";
 import { siteConfig } from "@/lib/site";
 
 export function generateStaticParams() {
@@ -22,10 +22,10 @@ export function generateMetadata({
   const state = getStateBySlug(params.slug);
   if (!state) return buildMetadata({ title: "State not found" });
   return buildMetadata({
-    title: `${state.name} Government Schemes & Benefits`,
-    description: `Government schemes, scholarships and citizen services for residents of ${state.name}. Capital: ${state.capital}.`,
+    title: stateTitle(state.name),
+    description: stateDesc(state.name, state.capital),
     path: `/states/${state.slug}`,
-    keywords: [`${state.name} schemes`, `${state.name} benefits`, "state government"],
+    keywords: [`${state.name} schemes`, `${state.name} government benefits`, "sarkari yojana 2026", state.capital],
   });
 }
 

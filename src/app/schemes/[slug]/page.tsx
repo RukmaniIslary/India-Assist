@@ -7,7 +7,7 @@ import JsonLd from "@/components/JsonLd";
 import { SchemeCard } from "@/components/cards";
 import { schemes, getSchemeBySlug } from "@/data/schemes";
 import { schemeHindi } from "@/data/schemes.hi";
-import { buildMetadata } from "@/lib/seo";
+import { buildMetadata, schemeTitle, schemeDesc } from "@/lib/seo";
 import { siteConfig } from "@/lib/site";
 import { T } from "@/lib/i18n";
 import WhatsAppShare from "@/components/WhatsAppShare";
@@ -24,10 +24,12 @@ export function generateMetadata({
   const scheme = getSchemeBySlug(params.slug);
   if (!scheme) return buildMetadata({ title: "Scheme not found" });
   return buildMetadata({
-    title: scheme.name,
-    description: scheme.summary,
+    title: schemeTitle(scheme.shortName ?? scheme.name),
+    description: schemeDesc(scheme.name, scheme.benefit, scheme.category),
     path: `/schemes/${scheme.slug}`,
-    keywords: [scheme.name, scheme.shortName ?? "", scheme.category, "eligibility"],
+    keywords: [scheme.name, scheme.shortName ?? "", scheme.category, "eligibility 2026", "how to apply", "benefits"],
+    type: "article",
+    modifiedTime: new Date().toISOString().split("T")[0],
   });
 }
 
@@ -58,8 +60,26 @@ export default function SchemeDetailPage({
     "@type": "Article",
     headline: scheme.name,
     description: scheme.summary,
-    publisher: { "@type": "Organization", name: siteConfig.name },
-    mainEntityOfPage: `${siteConfig.url}/schemes/${scheme.slug}`,
+    dateModified: new Date().toISOString().split("T")[0],
+    publisher: {
+      "@type": "Organization",
+      name: siteConfig.name,
+      url: siteConfig.url,
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `${siteConfig.url}/schemes/${scheme.slug}`,
+    },
+    about: {
+      "@type": "GovernmentService",
+      name: scheme.name,
+      serviceType: scheme.category,
+      provider: {
+        "@type": "GovernmentOrganization",
+        name: scheme.ministry,
+      },
+    },
+    inLanguage: "en-IN",
   };
 
   return (

@@ -3,11 +3,12 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import AdUnit from "@/components/AdSense";
+import JsonLd from "@/components/JsonLd";
 import CalculatorRenderer from "@/components/calculators/CalculatorRenderer";
 import { CalculatorCard } from "@/components/cards";
 import WhatsAppShare from "@/components/WhatsAppShare";
 import { calculators, getCalculatorBySlug } from "@/data/calculators";
-import { buildMetadata } from "@/lib/seo";
+import { buildMetadata, calculatorTitle } from "@/lib/seo";
 import { siteConfig } from "@/lib/site";
 
 export function generateStaticParams() {
@@ -22,10 +23,10 @@ export function generateMetadata({
   const calc = getCalculatorBySlug(params.slug);
   if (!calc) return buildMetadata({ title: "Calculator not found" });
   return buildMetadata({
-    title: calc.name,
-    description: calc.summary,
+    title: calculatorTitle(calc.name),
+    description: `${calc.summary} Get instant results with our free online ${calc.name} built for Indian users in 2026.`,
     path: `/calculators/${calc.slug}`,
-    keywords: calc.keywords,
+    keywords: [...calc.keywords, "free online", "India 2026", "instant calculator"],
   });
 }
 
@@ -39,8 +40,41 @@ export default function CalculatorDetailPage({
 
   const others = calculators.filter((c) => c.slug !== calc.slug).slice(0, 3);
 
+  const softwareJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: calc.name,
+    description: calc.summary,
+    applicationCategory: "FinanceApplication",
+    operatingSystem: "Web browser",
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "INR",
+    },
+    url: `${siteConfig.url}/calculators/${calc.slug}`,
+    publisher: {
+      "@type": "Organization",
+      name: siteConfig.name,
+      url: siteConfig.url,
+    },
+    inLanguage: "en-IN",
+  };
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: siteConfig.url },
+      { "@type": "ListItem", position: 2, name: "Calculators", item: `${siteConfig.url}/calculators` },
+      { "@type": "ListItem", position: 3, name: calc.name, item: `${siteConfig.url}/calculators/${calc.slug}` },
+    ],
+  };
+
   return (
     <>
+      <JsonLd data={softwareJsonLd} />
+      <JsonLd data={breadcrumbJsonLd} />
       <Breadcrumbs
         items={[
           { label: "Calculators", href: "/calculators" },
