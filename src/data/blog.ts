@@ -603,6 +603,235 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "how-to-apply-sukanya-samriddhi-yojana-step-by-step",
+    title: "How to Apply for Sukanya Samriddhi Yojana, Step by Step",
+    excerpt:
+      "We opened an account for my niece last month. Here's the actual process, the small confusions, and what to keep ready.",
+    category: "Finance",
+    author: "Kavita Joshi",
+    date: "2026-05-22",
+    readingTime: "6 min read",
+    content: [
+      {
+        paragraphs: [
+          "When my brother had a daughter, the whole family kept saying open Sukanya, open Sukanya, but nobody actually knew the steps. So I took it on myself one Saturday, walked into the post office, and got it done. It was simpler than I feared, with one or two small hiccups. Here is exactly how it went.",
+        ],
+      },
+      {
+        heading: "Where to open it",
+        paragraphs: [
+          "You can open the account at most post offices and many authorised banks. We went to the post office because it was nearby and, honestly, the staff there deal with this every day. The girl child has to be below 10 years, which my niece comfortably was.",
+        ],
+      },
+      {
+        heading: "What to carry",
+        paragraphs: [
+          "Keep these ready so you are not running back home like I almost did.",
+        ],
+        list: [
+          "The girl child's birth certificate",
+          "Identity and address proof of the parent or guardian",
+          "Passport-size photographs",
+          "The opening deposit amount",
+        ],
+      },
+      {
+        heading: "Filling the form and first deposit",
+        paragraphs: [
+          "The form is short. You fill the child's details, the guardian's details, and choose your deposit amount. You can start small and add through the year up to the annual limit. We made the first deposit, got the passbook, and that was basically it.",
+        ],
+      },
+      {
+        heading: "One thing I would tell every parent",
+        paragraphs: [
+          "Do not overthink the amount in year one. Just open it and start. The account runs for 21 years and the magic is in consistency, not in a big first deposit. Set a small reminder each year to top it up, and by the time she needs it for college, there is a genuinely useful corpus waiting.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "e-shram-card-benefits-nobody-talks-about",
+    title: "e-Shram Card Benefits Nobody Talks About",
+    excerpt:
+      "Most people register and forget it. After helping a few workers, here's what the card actually does for you.",
+    category: "Schemes",
+    author: "Ramesh Yadav",
+    date: "2026-05-29",
+    readingTime: "6 min read",
+    content: [
+      {
+        paragraphs: [
+          "Our building's security guard showed me his e-Shram card one day and asked, bhaiya, what is this even for? He had registered because someone told him to, but had no idea what it gave him. I realised this is the story for most unorganised workers. So let me lay out what the card quietly does.",
+        ],
+      },
+      {
+        heading: "The accident insurance most forget",
+        paragraphs: [
+          "The biggest one people miss: registration comes with accidental insurance cover. For a daily-wage worker with no other safety net, that is not a small thing. Many do not even know it exists until something happens and it is too late to claim.",
+        ],
+      },
+      {
+        heading: "A single identity that opens doors",
+        paragraphs: [
+          "The Universal Account Number on the card is meant to be your single identity as a worker across schemes. Over time it is how the government routes various welfare benefits to unorganised workers. The point is to be in the system so benefits can actually reach you.",
+        ],
+        list: [
+          "Accidental insurance cover for registered workers",
+          "A Universal Account Number recognised across states",
+          "A gateway to social-security benefits as they roll out",
+          "Free registration — no fee, takes minutes",
+        ],
+      },
+      {
+        heading: "My honest take",
+        paragraphs: [
+          "The card is only useful if you know what it carries and keep your details updated. I told our guard to make sure his mobile number and bank account on the card were current, because a benefit that cannot reach your account is useless. If you or someone working for you has the card, spend five minutes checking those details are right.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "how-to-get-bpl-card-in-india",
+    title: "How to Get a BPL Card in India",
+    excerpt:
+      "A relative needed one and we had no clue where to start. Here's what the process actually looks like, plainly.",
+    category: "Documents",
+    author: "Anjali Mishra",
+    date: "2026-06-05",
+    readingTime: "7 min read",
+    content: [
+      {
+        paragraphs: [
+          "A BPL card unlocks a surprising number of benefits — subsidised ration, health schemes, pensions, housing assistance. So when a relative in our village needed one, I expected a clear, single process. The reality is that it is run by the states, so it varies a bit, but the broad path is the same everywhere. Here is how we approached it.",
+        ],
+      },
+      {
+        heading: "Understand it is income-based",
+        paragraphs: [
+          "A BPL card is issued to families whose income falls below the poverty line as defined by the state. Eligibility is assessed from survey data and the documents you submit, so do not expect it just for asking — you need to genuinely fall in the category and show it.",
+        ],
+      },
+      {
+        heading: "Where to apply and what to carry",
+        paragraphs: [
+          "We applied through the local authority. Depending on your state it could be the panchayat, a municipal office, or the food and civil supplies department, and many states now have an online e-District portal too.",
+        ],
+        list: [
+          "Aadhaar cards of family members",
+          "Income certificate",
+          "Proof of residence",
+          "Passport-size photographs and existing ration card if any",
+        ],
+      },
+      {
+        heading: "The wait and the verification",
+        paragraphs: [
+          "After submitting, there is usually a verification step where an official confirms your details, sometimes with a home visit. This is the part that takes time and patience. Keep your application reference number and follow up politely if it stalls.",
+        ],
+      },
+      {
+        heading: "What helped us",
+        paragraphs: [
+          "Two things made it smoother: getting the income certificate sorted first, and making sure names matched exactly across Aadhaar and other documents. A mismatch is the most common reason these get stuck. Once the card came through, the family could access subsidised ration and became eligible for health and pension schemes they had been missing.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "best-scholarships-sc-st-students-2026",
+    title: "Best Scholarships for SC/ST Students in 2026",
+    excerpt:
+      "I helped my cousin through this maze last year. Here are the scholarships worth applying to, and how to not miss out.",
+    category: "Education",
+    author: "Sandeep Kumar",
+    date: "2026-06-09",
+    readingTime: "7 min read",
+    content: [
+      {
+        paragraphs: [
+          "My cousin is the first in our family to reach college, and as an SC student he was eligible for real support — but figuring out which scholarships and how to apply was genuinely confusing. After going through it together, here is the honest guide I wish we had at the start.",
+        ],
+      },
+      {
+        heading: "Start with the post-matric scholarship",
+        paragraphs: [
+          "For SC students continuing after Class 10, the Post-Matric Scholarship is the backbone. It covers tuition and gives a maintenance allowance, and the income limits are reasonable. For most SC/ST students in higher studies, this is the first one to lock in.",
+        ],
+      },
+      {
+        heading: "Do not skip the National Scholarship Portal",
+        paragraphs: [
+          "Almost everything routes through the National Scholarship Portal. Create one proper profile and you can see the central and state scholarships you qualify for, including pre-matric and merit-based ones. My cousin found two he did not know existed just by completing his profile fully.",
+        ],
+        list: [
+          "Post-Matric Scholarship for SC/ST students",
+          "Pre-Matric Scholarship for younger students",
+          "PM YASASVI for OBC, EBC and DNT students",
+          "State-specific scholarships listed on the same portal",
+        ],
+      },
+      {
+        heading: "The mistakes that cost people money",
+        paragraphs: [
+          "The two reasons SC/ST students lose out are almost never about merit. It is missed deadlines and document mismatches. The caste certificate, income certificate and marksheet must all match the Aadhaar name. Even a small spelling difference triggers rejection.",
+        ],
+      },
+      {
+        heading: "My advice",
+        paragraphs: [
+          "Sort the caste and income certificates before the application season opens, not during it. Apply early, because the portal gets painfully slow near deadlines. And apply to more than one — the post-matric is the anchor, but the smaller scholarships add up and have far less competition than people assume.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "how-mgnrega-works-on-the-ground",
+    title: "How MGNREGA Actually Works on the Ground",
+    excerpt:
+      "Everyone's heard of the 100 days of work guarantee. Here's how it really plays out in a village, from what I've seen.",
+    category: "Schemes",
+    author: "Lakshmi Devi",
+    date: "2026-06-13",
+    readingTime: "8 min read",
+    content: [
+      {
+        paragraphs: [
+          "People in cities know MGNREGA as a line in the news — 100 days of guaranteed work. Back home in our village, it is much more concrete than that. I have watched neighbours use it to get through the lean months when there is no farm work. Here is how it actually functions, beyond the textbook version.",
+        ],
+      },
+      {
+        heading: "It starts with the job card",
+        paragraphs: [
+          "Nothing happens without the job card. The household registers at the gram panchayat and gets this card, which lists the members willing to work. Without it you are simply not in the system, so this is the first real step, not an afterthought.",
+        ],
+      },
+      {
+        heading: "Asking for work is your right",
+        paragraphs: [
+          "Here is the part many do not use properly: you have to apply for work. You submit a request, and the panchayat is supposed to provide work within fifteen days. If they cannot, there is even a provision for an unemployment allowance, though in practice people rarely push for that.",
+        ],
+        list: [
+          "Register the household and get the job card",
+          "Submit a dated request for work when you need it",
+          "Work should be provided within 15 days, ideally nearby",
+          "Wages go to the bank or post office account, not cash in hand",
+        ],
+      },
+      {
+        heading: "Where it gets bumpy",
+        paragraphs: [
+          "I will be honest — it is not always smooth. Wage payments can get delayed, and sometimes the work allotted is far or limited. The shift to bank payments cut down some old leakages but created new headaches when accounts or Aadhaar links have issues. Keeping your bank and Aadhaar details clean matters a lot here too.",
+        ],
+      },
+      {
+        heading: "Why it still matters",
+        paragraphs: [
+          "Despite the rough edges, MGNREGA is a genuine safety net in our village. In a bad season, it is the difference between staying put and migrating to a city in desperation. My honest advice to any rural family: get the job card now, while things are calm, so that when the lean months come, you can simply ask for work instead of scrambling.",
+        ],
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
