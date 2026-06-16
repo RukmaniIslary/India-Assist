@@ -46,6 +46,42 @@ export const blogPosts: BlogPost[] = [
           "Always verify final eligibility and current rules on the official government portal before applying.",
         ],
       },
+      {
+        heading: "Why most people miss out on schemes they qualify for",
+        paragraphs: [
+          "The honest answer is that the information is scattered across dozens of official websites, each with its own language, portal, and process. A farmer in Rajasthan, a student in Bihar, and a senior citizen in Tamil Nadu are each potentially eligible for half a dozen different benefits, but none of them has a single place to check. That is the gap this site was built to close.",
+          "Beyond awareness, the second barrier is documentation. Many people abandon an application halfway because they realise a certificate is missing or a name does not match. Sorting your documents before you search for schemes saves the heartbreak of finding something you qualify for but cannot yet apply to.",
+        ],
+      },
+      {
+        heading: "The five questions that determine almost everything",
+        paragraphs: [
+          "After looking at hundreds of schemes, almost all of them filter on the same five things. Answer these honestly and you will cover ninety percent of what is out there.",
+        ],
+        list: [
+          "What is your annual household income — this determines eligibility for most welfare and subsidy schemes",
+          "What is your occupation — farmer, student, unorganised worker, salaried, self-employed each unlock different sets",
+          "What state do you live in — state schemes are layered on top of central ones and vary significantly",
+          "What is your social category — SC, ST, OBC and general have different scholarship and reservation access",
+          "Do you hold a BPL card or own agricultural land — these two facts unlock or close specific schemes immediately",
+        ],
+      },
+      {
+        heading: "What to do after you find a match",
+        paragraphs: [
+          "Finding a match is step one; the actual work is in the application. Always verify the current rules on the official government portal because scheme details, income limits and deadlines change from year to year. What was true when a guide was written may not be true when you read it.",
+          "Keep a folder — physical or on your phone — with scanned copies of your Aadhaar, income certificate, bank passbook, and any category certificates. Once that folder is ready, applying to any scheme becomes a matter of an hour rather than a week of running around. The preparation is a one-time effort that pays off every time a new scheme opens.",
+        ],
+      },
+
+      {
+        heading: "Making a habit of checking annually",
+        paragraphs: [
+          "Scheme eligibility is not static. A new scheme gets launched, income limits get revised, a family member's age or occupation changes, and suddenly a benefit that did not apply last year does now. It is worth running through the eligibility engine once a year — maybe at the start of a new financial year when income certificate details are fresh. Five minutes once a year has returned real benefits to families I know who would never have thought to check again after the first time.",
+          "Keep a note of what you found and applied for. Then next year, compare. Changes in your profile — new job, marriage, a child, a parent reaching sixty — each opens or closes a different set of doors. The people who stay on top of this are genuinely better served by the system than those who check once and never look again.",
+        ],
+      },
+
     ],
   },
   {
@@ -80,6 +116,42 @@ export const blogPosts: BlogPost[] = [
           "High-interest debt should generally be cleared faster, while long-term goals benefit from staying invested. Run both calculators and compare the effective cost and return before deciding.",
         ],
       },
+      {
+        heading: "The real cost of ignoring one for the other",
+        paragraphs: [
+          "Here is what I have seen go wrong in both directions. A colleague paid off every rupee of his home loan as fast as possible, skipped investing entirely, and reached his early forties with a fully owned flat but almost no liquid savings. A relative went the other way — kept investing in SIPs while carrying a personal loan at eighteen percent interest. The SIP was earning twelve percent. She was losing six percent every month on the gap. Neither approach was entirely wrong; both were unbalanced.",
+          "The truth is that a loan with a high interest rate is an automatic negative return on that money. If you are paying twenty percent on a credit card or personal loan, no reasonable investment consistently beats that. The EMI versus SIP question has a very different answer depending on the type of debt you carry.",
+        ],
+      },
+      {
+        heading: "A practical framework for splitting your surplus",
+        paragraphs: [
+          "The framework I use personally, and have shared with several friends who asked, starts with categorising your loans. High-interest debt above twelve percent should generally be cleared first or at least aggressively. Moderate debt between eight and twelve percent warrants a balanced approach. Low-interest debt below eight percent — a home loan on tax benefit terms, for example — can often sit while a SIP compounds alongside it.",
+        ],
+        list: [
+          "List all your loans with their interest rates",
+          "Sort highest rate first — those get extra repayments before investing",
+          "Calculate the minimum required SIP to meet your long-term goal",
+          "The leftover surplus after minimum SIP goes to clearing high-rate debt",
+          "Reassess every six months as rates and goals change",
+        ],
+      },
+      {
+        heading: "Why starting a SIP early matters even with debt",
+        paragraphs: [
+          "There is one argument for investing even while carrying moderate debt: compounding is time-dependent in a way that debt repayment is not. If you delay a SIP by five years to clear a home loan first, you lose five years of growth on that money permanently. The loan can be paid off in instalments at any time. The compounding years you skip cannot be recovered.",
+          "The practical answer most financial planners land on is a split: keep the home loan going, maintain the SIP, and aggressively clear any personal loan or credit card debt as a priority. Use the calculators on this site to see the actual numbers for your specific situation rather than going on general advice. The real difference between two people in identical situations often comes down to the exact interest rates, and small differences there change the right answer completely.",
+        ],
+      },
+
+      {
+        heading: "The one decision that matters most",
+        paragraphs: [
+          "After all the analysis, the one thing I keep coming back to is this: the exact split between EMI prepayment and SIP investment matters less than starting both. People who wait to figure out the optimal allocation before doing either end up doing neither for years. Start a SIP — even a small one. Keep your home loan running on its schedule. Aggressively clear any high-interest personal debt.",
+          "That combination, maintained consistently over years, beats any theoretically optimal but practically unexecuted strategy. Use the calculators here to find a starting allocation that feels manageable, commit to it for six months, then review. The goal is a plan you will actually follow, not a perfect plan you will abandon at the first difficult month.",
+        ],
+      },
+
     ],
   },
   {
@@ -115,6 +187,49 @@ export const blogPosts: BlogPost[] = [
           "Ensure your name, date of birth and address match across all documents. Even small spelling differences can delay verification.",
         ],
       },
+      {
+        heading: "Why documents are the real bottleneck",
+        paragraphs: [
+          "I have watched people fill long application forms carefully, gather the courage to visit an office or navigate a portal, and then get turned back because one certificate was from the previous financial year or the name on the income certificate did not match the Aadhaar spelling. It is genuinely demoralising, and it happens constantly. The good news is that it is entirely avoidable.",
+          "Documents are not complicated — they are just tedious. The key is to build your folder once, keep it updated, and never start an application before checking it. Once the folder is ready, applying for a new scheme or scholarship is a thirty-minute task rather than a two-week ordeal.",
+        ],
+      },
+      {
+        heading: "Beyond the basics — what different scheme types need",
+        paragraphs: [
+          "The universal checklist covers most cases, but different scheme categories have their own extras. Knowing these in advance saves a last-minute scramble.",
+        ],
+        list: [
+          "Agriculture schemes: land ownership records or cultivation proof, Khasra number, and crop details",
+          "Education scholarships: previous year marksheet, bonafide certificate from the institution, admission proof",
+          "Health schemes: diagnosis documents if treatment-specific, Mother and Child Protection card for maternity schemes",
+          "Housing assistance: survey identification number, proof that no pucca house is owned anywhere",
+          "Pension and social security: age proof, BPL card if applicable, disability certificate for disability pensions",
+        ],
+      },
+      {
+        heading: "The name-matching problem that derails everything",
+        paragraphs: [
+          "This one trips up so many applicants that it deserves its own section. Government systems verify your identity by matching names across documents. If your Aadhaar says Ramesh Kumar but your income certificate says R. Kumar or Ramesh Kumar Sharma, the system or the officer may flag it as a mismatch.",
+          "Before you start any important application, check that your name, father's name, date of birth and address are spelled identically on your Aadhaar, PAN, ration card and any certificates you will submit. If there is a mismatch, correct it first. The process for correcting an Aadhaar detail is straightforward and can be done online; fixing it beforehand is far less painful than having an application rejected.",
+        ],
+      },
+      {
+        heading: "Going digital — keep scanned copies always ready",
+        paragraphs: [
+          "Most portals now accept digital uploads, and many schemes specifically require online applications. Keep scanned PDF or JPEG copies of every document in your checklist on your phone or in a cloud folder. Keep the file sizes within the portal limits — most ask for under two megabytes per file. A good name format is your name and the document type so you can find them instantly.",
+          "DigiLocker is particularly useful here. Several key documents including Aadhaar, driving licence, education certificates and more can be stored and shared directly from the platform, and many government portals accept DigiLocker documents as officially verified originals. Setting it up once means you are always application-ready.",
+        ],
+      },
+
+      {
+        heading: "Review your folder once a year",
+        paragraphs: [
+          "Documents expire, change, and get added. Your income certificate is typically valid for one year. Your caste certificate, once issued, usually lasts but the issuing authority and format matter for some applications. Bank details change if you switch accounts. Aadhaar addresses sometimes get outdated.",
+          "Set aside thirty minutes each April — when the financial year resets — to go through your document folder. Renew what needs renewing, update what has changed, and add any new documents that have come into your life over the year. This annual check means you are never caught scrambling at application time, and it has saved me the embarrassment of submitting an expired certificate more than once.",
+        ],
+      },
+
     ],
   },
   {
@@ -166,6 +281,14 @@ export const blogPosts: BlogPost[] = [
           "Was it frustrating? A bit. But it is doable in a weekend if you go in prepared. If you want to first confirm whether your family even qualifies before doing all this, run your details through our eligibility engine — it saved my cousin from filling the whole form only to realise he was not eligible because of an income-tax-payer rule.",
         ],
       },
+      {
+        heading: "One thing people do not realise about instalments",
+        paragraphs: [
+          "After the money came through, my father asked me whether he needed to do anything for the next instalment. The answer is no — once you are enrolled and e-KYC is done, the instalments are supposed to come automatically every four months. But in practice, if something changes — a bank account number, a mobile number linked to Aadhaar, or a land record update — the next instalment can get held again. It is worth checking the beneficiary status before each instalment cycle just to confirm everything is still clean.",
+          "The portal shows you all your previous instalment dates and amounts, so you can track whether one was missed and follow up with the helpline if needed. Keep the registration number safe — it is the key to everything on the portal including status checks, e-KYC renewal and grievance registration.",
+        ],
+      },
+
     ],
   },
   {
@@ -221,6 +344,14 @@ export const blogPosts: BlogPost[] = [
           "If you have not done this exercise for yourself or your parents, do it once. Most people are surprised to find at least one thing they were quietly leaving on the table.",
         ],
       },
+      {
+        heading: "The bigger pattern I noticed",
+        paragraphs: [
+          "After doing this for a couple of years, the pattern I keep seeing is that people focus on schemes they have heard of by name rather than schemes they actually qualify for. The famous ones have long queues and stiff competition. The quieter ones — APY, e-Shram, SSY — have far fewer applicants relative to the eligible population, simply because awareness is low.",
+          "My simple advice: spend one afternoon going through an eligibility check with honest inputs — your real income, your real occupation, whether you own land, your social category. The results are often genuinely surprising. Most families I have helped through this exercise find at least one thing they were quietly missing out on, and the application for that one thing takes less time than a single afternoon.",
+        ],
+      },
+
     ],
   },
   {
@@ -276,6 +407,14 @@ export const blogPosts: BlogPost[] = [
           "If your parents or older relatives are eligible, get their card and e-KYC sorted now, while everyone is healthy. Doing this calmly in advance is so much better than scrambling at a hospital reception at 11 pm. Trust me on that one.",
         ],
       },
+      {
+        heading: "A note for families who have not enrolled yet",
+        paragraphs: [
+          "The single most useful thing I can tell you from this experience is to get the Ayushman card sorted now, while everyone is healthy and there is no pressure. The e-KYC process at a hospital or CSC takes about ten to fifteen minutes when you are calm. Doing it during an emergency — trying to figure out portals at midnight while a family member is being admitted — is a completely different experience, and not a good one.",
+          "Also, make a note of the two or three empanelled hospitals nearest to your home and your parents' home. The moment you need it, you will not have time to search. A quick look at the empanelled hospital list on the PM-JAY portal and a saved note on your phone costs you nothing now and can save enormous stress later. This scheme genuinely works, but preparation is what makes it work for you.",
+        ],
+      },
+
     ],
   },
   {
@@ -326,6 +465,14 @@ export const blogPosts: BlogPost[] = [
           "If you are at this stage, genuinely spend one evening with an EMI calculator before you meet the bank, not after. Try the loan amount, then the eligibility tool to see what you realistically qualify for. Walking into that meeting already knowing your comfortable number changes the whole conversation. You stop being sold to and start deciding.",
         ],
       },
+      {
+        heading: "What the builder and bank both did not tell me",
+        paragraphs: [
+          "The builder quoted the price. The bank approved the loan. Neither of them mentioned what the total interest payout would be over twenty years. When I punched that number into the calculator myself, it was genuinely shocking — the total interest was nearly equal to the principal. I was essentially buying the flat twice: once in principal and once in interest.",
+          "That realisation did not stop me from taking the loan — owning a home still made sense for us. But it made me take the insurance more seriously, prepay a lump sum in year two when I got a bonus, and choose a slightly shorter tenure than the bank suggested. Each of those decisions saved a meaningful amount in the long run, and none of them would have happened if I had just signed what the bank put in front of me without running the numbers first.",
+        ],
+      },
+
     ],
   },
   {
@@ -381,6 +528,15 @@ export const blogPosts: BlogPost[] = [
           "And please, sort your documents before the deadline season, not during it. Half the heartbreak I saw around me was not about merit — it was about a missing certificate or a name mismatch on the last day. If you browse the scholarship directory once, calmly, you will spot options you did not know existed.",
         ],
       },
+      {
+        heading: "Why less competition is the real opportunity",
+        paragraphs: [
+          "Here is something worth sitting with: a scholarship with ten thousand applicants competing for two hundred spots is tougher to win than one with five hundred applicants for the same two hundred spots. The smaller, niche scholarships — the ones targeted at a specific gender, course, or category — have a dramatically lower applicant-to-seat ratio simply because fewer people know about them or bother to apply.",
+          "My sister's experience was a clear example of this. She applied to the AICTE Pragati scholarship for girl students in technical education, and the process was far less competitive than the big general scholarships everyone chases. Her course and gender made her eligible; most of her classmates had not even heard of it. The result was that she secured support without the brutal competition of the NSP mainstream schemes.",
+          "The lesson I keep sharing with students is this: read the eligibility criteria carefully, apply to the most specific scholarship that matches your exact profile, and then apply to one or two broader ones as a backup. Specificity is your advantage, not a limitation.",
+        ],
+      },
+
     ],
   },
   {
@@ -423,6 +579,29 @@ export const blogPosts: BlogPost[] = [
           "For my uncle, the CSC operator found him under a newer category that the online search had not surfaced. Ten minutes of e-KYC and the card was done. So my honest advice: do not trust a single failed online search. The data and the rules keep changing, and a human at the CSC often sees more than the public portal shows you.",
         ],
       },
+      {
+        heading: "What documents to carry to the CSC or hospital",
+        paragraphs: [
+          "When you go to the Common Service Centre or the Ayushman Mitra desk, do not go empty-handed hoping they will sort it out. The more you can show them, the faster this resolves. Aadhaar is essential — the verification is biometric or OTP-based and requires it. Carry your ration card too, because beneficiaries are often identified through family data, and the ration card links household members together in a way that Aadhaar alone does not.",
+          "A working mobile number is critical. If your Aadhaar is linked to an old number you no longer use, the OTP route will fail. Either update the mobile number on Aadhaar beforehand, or go for the biometric e-KYC route at the CSC which bypasses the OTP entirely. I cannot stress this enough: biometric e-KYC at a CSC has resolved every case I have seen where OTP-based verification kept failing.",
+        ],
+      },
+      {
+        heading: "What to do if you are still told you are ineligible",
+        paragraphs: [
+          "If after checking through the portal, the CSC, and the hospital desk you are told you genuinely do not appear in the beneficiary database, do not give up immediately. The scheme has expanded eligibility multiple times since launch. Senior citizens above a certain age are now covered under an extended provision. State governments have also added their own beneficiary lists in many places, so even someone not in the original SECC data may qualify under a state expansion.",
+          "Raise a formal grievance on the official PM-JAY portal if you believe you should be eligible. Document everything: the search result, the documents you submitted, and the response you received. Government redressal does work, though it takes time. The important thing is to start the process formally rather than simply walking away.",
+        ],
+      },
+
+      {
+        heading: "The lesson I took from this whole process",
+        paragraphs: [
+          "Going through this for my uncle taught me that the most common reason people give up on government schemes is the first point of friction — a failed search, a confusing portal, a counter that sends you away. Almost every time, a little persistence and going to the right person (CSC operator, Ayushman Mitra, block officer) resolves it. The scheme is usually not the problem; the path to it is.",
+          "For Ayushman Bharat specifically, the hospital's Ayushman Mitra desk is the single best starting point. They deal with this every day, know the current eligibility categories, and have the tools to verify and enrol on the spot. Go there first, go prepared, and you will resolve most issues in a single visit.",
+        ],
+      },
+
     ],
   },
   {
@@ -465,6 +644,29 @@ export const blogPosts: BlogPost[] = [
           "Is it easy? Easier than a normal business loan, yes. Automatic, no. Go in like you are pitching a small, honest business and your odds jump.",
         ],
       },
+      {
+        heading: "The documents that made the difference",
+        paragraphs: [
+          "Beyond the basics, the thing that moved our application from stuck to approved was a simple handwritten summary of the business. The manager wanted to see that the money had a purpose and a repayment logic. My cousin wrote two pages: what the tailoring unit did, how many orders it got in a month, what the income looked like, and how the loan would be repaid from that income. It was not a formal MBA-style plan. It was honest, clear, and it answered the question the bank was actually asking, which was whether lending him money made sense.",
+          "If you are applying for a Mudra loan, spend an evening writing that note before you visit the bank. Calculate your rough monthly income from the business, estimate the EMI, and show that the math works. A business that cannot explain itself on paper is a business the bank will hesitate to fund, and that is fair.",
+        ],
+      },
+      {
+        heading: "Which category to apply for",
+        paragraphs: [
+          "A common mistake is applying for a Tarun loan when you actually need a Shishu or Kishore amount. Banks scrutinise larger loans more carefully, and asking for more than you need makes the process harder without any benefit. Be honest about what you actually need for the business activity — seed money, stock purchase, equipment upgrade — and match the loan category to that real need.",
+          "For a first loan, Shishu or a modest Kishore amount builds your credibility. Repay it cleanly and on time, and the next application for a larger amount is a much smoother conversation with the same bank.",
+        ],
+      },
+
+      {
+        heading: "Building on the first loan",
+        paragraphs: [
+          "The real value of a first Mudra loan, paid off cleanly, is what it sets up for the next one. A business that has borrowed through the formal system, repaid on time, and has a clean credit record is in a fundamentally different conversation with a bank for the second loan. The Mudra categories are designed as a ladder — Shishu to Kishore to Tarun. Each successful repayment is a step up that ladder.",
+          "My cousin is now partway through his second loan, this time a Kishore amount for a second sewing machine and some renovation. The bank that was cautious the first time approved the second application in less than a week. The first loan was not just money — it was proof.",
+        ],
+      },
+
     ],
   },
   {
@@ -512,6 +714,29 @@ export const blogPosts: BlogPost[] = [
           "Sit with the women in your family for ten minutes and just run their details through an eligibility check. Age, income, whether there is a daughter, marital status. Almost every time, at least one scheme pops up that they did not know applied to them. The schemes exist; the awareness is what is missing.",
         ],
       },
+      {
+        heading: "Schemes most women around me have missed",
+        paragraphs: [
+          "Beyond the well-known ones, there are a few I keep having to point out specifically because they sit quietly without much publicity. The NSAP widow pension is one — for BPL widows, it provides a monthly pension that many eligible women simply do not know they can access. The application goes through the gram panchayat or municipal office and the process is not difficult, but awareness is low.",
+          "Mahila Samman Savings Certificate is another that comes up rarely in conversation. It is a safe, government-backed savings option specifically for women with a decent fixed return, opened at post offices. For a woman who wants to save without taking any market risk, this is cleaner than most insurance-cum-investment products that agents push.",
+        ],
+      },
+      {
+        heading: "For working women and entrepreneurs",
+        paragraphs: [
+          "If you are a woman who wants to start a business or already runs one, two schemes are particularly worth knowing. Stand-Up India provides larger collateral-free bank loans specifically for women entrepreneurs setting up a new enterprise. PM Mudra Yojana covers the smaller end — the tailoring unit, the catering business, the small shop — without needing collateral.",
+          "The common thread across all of these is that the scheme infrastructure genuinely exists and works. The gap is almost always awareness and the willingness to spend an afternoon on the application. If you or a woman in your life qualifies for any of these — and most do qualify for at least one — the time spent applying is one of the highest-return afternoons you can have.",
+        ],
+      },
+
+      {
+        heading: "The ten-minute exercise that changes things",
+        paragraphs: [
+          "Here is the single most useful suggestion I can give. Take ten minutes — right now or this weekend — and sit with the women in your life and run their details through an eligibility check. Age, state, income, whether there is a daughter under ten, marital status, whether the household is BPL. The result almost always includes at least one scheme they did not know about.",
+          "I have done this with my mother, my sister, two neighbours, and a friend in a different city. Every single time, at least one applicable scheme came up that had been completely missed. The schemes exist and the money is real. The only bottleneck is knowing to look, and that bottleneck is completely solvable in the time it takes to drink your evening chai.",
+        ],
+      },
+
     ],
   },
   {
@@ -553,6 +778,29 @@ export const blogPosts: BlogPost[] = [
           "We completed the e-KYC — and since OTP kept failing on his old number, we did biometric e-KYC at a CSC. The next instalment came through normally after that. So if your money is stuck, do not assume you are removed. Check the status first, fix the small thing it points to, and it usually sorts itself out.",
         ],
       },
+      {
+        heading: "Other reasons an instalment can be held",
+        paragraphs: [
+          "After the e-KYC issue was resolved for my father, I asked the CSC operator what other reasons he commonly saw for stuck instalments. He listed a few that come up regularly. A name mismatch between the land records and the Aadhaar is a very common one — if the land is registered under a slightly different spelling of the farmer's name, the system flags it. A bank account that was closed or changed without updating on the portal is another frequent culprit.",
+          "The third one surprised me: some farmers are marked as income tax payers in government databases and are therefore ineligible. If the family has a salaried member who files taxes, the eligibility might be affected depending on how the records are linked. If you have cleared e-KYC, your bank account is correct, and your land records match, but the money is still not coming, it is worth raising a formal grievance on the PM-KISAN portal which has a dedicated section for this.",
+        ],
+      },
+      {
+        heading: "Keeping the account details updated",
+        paragraphs: [
+          "One final thing worth doing once the status is clean: set a reminder to check the bank account around the time each instalment cycle is due. The government announces instalment release dates and you can find these on the portal and in news. If the money does not show up within a week of the announced date, check the status immediately rather than waiting months to realise something went wrong.",
+          "Proactive tracking takes two minutes every four months and has saved my father at least two delayed instalments that we caught early and fixed quickly.",
+        ],
+      },
+
+      {
+        heading: "A simple routine for every instalment cycle",
+        paragraphs: [
+          "The government typically announces PM-KISAN instalment release dates in advance. A simple habit is to note the expected date, then check your bank account the week after. If the money has not arrived, immediately go to the portal and check the status. Catching it early means you can resolve the issue before the next cycle begins, rather than letting multiple instalments pile up as missed.",
+          "Keep the PM-KISAN registration number saved somewhere safe — in your phone contacts, on a piece of paper with the Aadhaar, wherever it will not be lost. Without it you cannot check the status, cannot raise a grievance, and the whole process becomes much harder. This one small step of saving the number properly has saved my father unnecessary trips to the block office more than once.",
+        ],
+      },
+
     ],
   },
   {
@@ -601,6 +849,29 @@ export const blogPosts: BlogPost[] = [
           "If you farm, or your family does, spend one afternoon checking which of these you qualify for. A single good year of crop insurance or one cheap KCC loan can change your whole season.",
         ],
       },
+      {
+        heading: "How to find out what else your state offers",
+        paragraphs: [
+          "Central schemes get all the attention, but state governments layer their own agriculture support on top. Rythu Bandhu in Telangana, KALIA in Odisha, Ryot Sahayata in Andhra Pradesh — these are state-specific income support or input assistance schemes that run alongside PM-KISAN. If you only check the central portal, you are missing half the picture.",
+          "The practical way to find state-specific schemes is to visit your state agriculture department website or, more reliably, ask at the local agriculture extension office or Krishi Vigyan Kendra. The officials there usually know the full list of available schemes and the current enrollment status. A single afternoon visit can surface things that would take days of internet searching.",
+        ],
+      },
+      {
+        heading: "The role of the agriculture extension officer",
+        paragraphs: [
+          "I will be honest — I did not know this person existed until a few years ago. The agriculture extension officer or Krishi Vikas Officer posted in every block is specifically there to help farmers access government schemes, improve practices, and connect with government resources. They know which schemes are open, what the documentation requirements are, and how to resolve issues with applications.",
+          "If you are a farmer and you have not visited your local agriculture extension office, that is the single most useful thing you can do. Go once, introduce yourself, and ask what schemes you might be eligible for. The answer will almost certainly include something you had not applied for yet.",
+        ],
+      },
+
+      {
+        heading: "Do not wait for the scheme to come to you",
+        paragraphs: [
+          "The single clearest pattern I have observed is that the farmers who benefit most from these schemes are the ones who went looking, not the ones who waited to be told. Applications do not come to your door. Enrolment windows open and close. Deadlines pass. The farmer who already has the Kisan Credit Card when he needs it for the season is in a completely different position from the one who starts applying in the middle of sowing.",
+          "Treat a slow agricultural month as an opportunity. Visit the bank, visit the agriculture extension office, check the PM-KISAN portal. The hours spent on this in the off-season pay back many times over when it matters.",
+        ],
+      },
+
     ],
   },
   {
@@ -648,6 +919,35 @@ export const blogPosts: BlogPost[] = [
           "Do not overthink the amount in year one. Just open it and start. The account runs for 21 years and the magic is in consistency, not in a big first deposit. Set a small reminder each year to top it up, and by the time she needs it for college, there is a genuinely useful corpus waiting.",
         ],
       },
+      {
+        heading: "Understanding the rules that matter most",
+        paragraphs: [
+          "The account can be opened for a girl child from birth until she turns ten years old. After ten, the window closes for new accounts. This is the one deadline that most families miss because they keep meaning to do it and then one day it is too late. If you have a daughter under ten, today is the right day to open the account.",
+          "Deposits are required for the first fifteen years. After that, the account continues to earn interest without further deposits until maturity at twenty-one years from opening. You can withdraw up to fifty percent of the balance when the girl turns eighteen for her education or marriage expenses. The full maturity amount is available when she turns twenty-one or upon her marriage, whichever is earlier.",
+        ],
+      },
+      {
+        heading: "The tax advantages are genuinely significant",
+        paragraphs: [
+          "Sukanya Samriddhi Yojana falls in the EEE category for tax purposes: the amount deposited, the interest earned, and the maturity amount are all exempt from income tax. For a parent in a higher tax bracket, this makes SSY one of the most tax-efficient savings instruments available for the girl child's future. An investment in a random insurance product typically does not come close to matching this combination of safety, returns, and tax efficiency.",
+          "The interest rate is fixed by the government each quarter and has historically been one of the highest among small savings instruments. Even in a falling interest-rate environment, SSY rates have stayed relatively attractive compared to fixed deposits and recurring deposits.",
+        ],
+      },
+      {
+        heading: "The one mistake to avoid",
+        paragraphs: [
+          "Do not miss your annual deposit. The account becomes dormant if you skip a year, and reactivating it requires paying a penalty fee. Set a yearly reminder — I suggest the first week of April when the new financial year begins — to make your deposit. The minimum annual deposit is small enough that it should not be a burden, and keeping the account active ensures the compounding continues uninterrupted.",
+        ],
+      },
+
+      {
+        heading: "A gift that lasts longer than any physical present",
+        paragraphs: [
+          "I have started recommending SSY accounts as a birth gift for girl children in the family instead of toys or clothes. A contribution to the account at birth, and a small addition each year on her birthday, builds a corpus that will be genuinely useful when she needs it — for college, for starting a career, for whatever her path is. It is a more meaningful gift than anything you can wrap.",
+          "The account can be opened with a minimal amount. You do not need to commit to the maximum right away. Start with whatever is comfortable, and treat the Sukanya account as a line item in your annual plan. Small, consistent additions over twenty years compound into something genuinely significant.",
+        ],
+      },
+
     ],
   },
   {
@@ -689,6 +989,29 @@ export const blogPosts: BlogPost[] = [
           "The card is only useful if you know what it carries and keep your details updated. I told our guard to make sure his mobile number and bank account on the card were current, because a benefit that cannot reach your account is useless. If you or someone working for you has the card, spend five minutes checking those details are right.",
         ],
       },
+      {
+        heading: "Keeping the card updated is as important as having it",
+        paragraphs: [
+          "A lot of workers register and then completely forget about the card. The problem is that if your mobile number or bank account changes and you do not update it on the portal, any benefit that flows through the card simply cannot reach you. The card is only as useful as the information behind it is current.",
+          "I helped our guard update his mobile number after he got a new SIM, and while we were on the portal we also updated his nominee information. It took about fifteen minutes. He had not touched the portal since registering, and the old number would have meant lost benefits. Make it a habit to log in once a year and verify that the details are correct.",
+        ],
+      },
+      {
+        heading: "What to watch for as the scheme expands",
+        paragraphs: [
+          "The government has consistently said that the e-Shram database will be the backbone for delivering welfare benefits to unorganised workers. New health, accident, and social security schemes are likely to route through this registry over time. Being registered and keeping your information current means you are in the queue for those benefits when they arrive, without needing to re-register separately.",
+          "For the domestic workers, construction labourers, auto drivers, gig workers, and daily-wage earners who form the backbone of the informal economy, the e-Shram card is the first step towards being visible to the formal safety net. It costs nothing, takes a few minutes, and sets up the foundation for future benefits. There is genuinely no reason not to have one.",
+        ],
+      },
+
+      {
+        heading: "One more thing most people skip",
+        paragraphs: [
+          "The nomination field in the e-Shram registration is often left blank or filled carelessly. This is the person who receives the accident insurance payout if something happens to the registered worker. It matters enormously in practice. Take five minutes to fill it correctly — full name, relationship, and Aadhaar number of the nominee. And every year or two, log back in and verify it is still accurate, especially if family circumstances have changed.",
+          "The e-Shram scheme is young and still expanding. The government has consistently signalled that it will be the channel for future welfare delivery to the unorganised sector. Being registered with correct and current information is the only preparation needed to benefit from whatever comes next.",
+        ],
+      },
+
     ],
   },
   {
@@ -736,6 +1059,30 @@ export const blogPosts: BlogPost[] = [
           "Two things made it smoother: getting the income certificate sorted first, and making sure names matched exactly across Aadhaar and other documents. A mismatch is the most common reason these get stuck. Once the card came through, the family could access subsidised ration and became eligible for health and pension schemes they had been missing.",
         ],
       },
+      {
+        heading: "What a BPL card actually unlocks",
+        paragraphs: [
+          "Before going through the process, it helps to understand exactly what opens up once you have the card. The benefits are substantial. Priority access to the Public Distribution System for subsidised food grains. Eligibility for the full range of Ayushman Bharat health cover. Qualification for NSAP pensions for the elderly, widows and disabled. Priority in housing schemes like PMAY-Gramin. Access to various state-level cash transfer schemes that restrict eligibility to BPL households.",
+          "In practical terms, a family with a BPL card can access an entirely different tier of government support than one without it. The card is not just a document — it is effectively a key to a significant portion of the welfare system.",
+        ],
+      },
+      {
+        heading: "What to do if the application is rejected or delayed",
+        paragraphs: [
+          "Rejections happen and they are not always the end. If your application is rejected, ask specifically for the reason in writing. Common rejection reasons include income above the threshold, already owning certain assets disqualifying you, or missing documentation. Each of these can either be addressed or appealed depending on whether the assessment was accurate.",
+          "If you genuinely fall below the poverty line but the application was rejected due to a data error — which does happen — you can file an appeal with the district authority. Keep copies of all the documents you submitted and note the date and reference number of your original application. An appeal with proper documentation has a reasonable chance of success, especially if the rejection was based on outdated or incorrect data.",
+          "Delays are more common than outright rejections. The best remedy is a polite, periodic follow-up with the issuing authority with your application reference number in hand. Being the applicant who checks in regularly without being aggressive tends to move things forward.",
+        ],
+      },
+
+      {
+        heading: "Keeping the card updated over time",
+        paragraphs: [
+          "A BPL card is not issued once and forgotten. If your family situation changes significantly — income rises substantially, you acquire major assets, or a family member gets a government job — the eligibility may change. Conversely, if circumstances worsen, renewing or updating your BPL status ensures continued access to the benefits you need.",
+          "In some states there are periodic re-surveys of BPL households. Stay informed about these through the panchayat, because missing the survey window can result in being dropped from the list even if your situation has not improved. Being aware and proactive about re-enrolment is part of maintaining access to the benefits that depend on this status.",
+        ],
+      },
+
     ],
   },
   {
@@ -783,6 +1130,28 @@ export const blogPosts: BlogPost[] = [
           "Sort the caste and income certificates before the application season opens, not during it. Apply early, because the portal gets painfully slow near deadlines. And apply to more than one — the post-matric is the anchor, but the smaller scholarships add up and have far less competition than people assume.",
         ],
       },
+      {
+        heading: "Understanding the difference between pre-matric and post-matric",
+        paragraphs: [
+          "Many students get confused about which scholarship applies at which stage. Pre-matric scholarships are for students still in school — typically Classes 1 to 10. Post-matric scholarships are for anyone who has cleared Class 10 and is pursuing further education at the plus-two, diploma, graduation or postgraduate level. The National Scholarship Portal has separate listings for each, and applying to the wrong category is a common, avoidable mistake.",
+          "For SC and ST students specifically, both pre-matric and post-matric central scholarships exist, with separate allocations for education maintenance, tuition, and study materials. Read the specific scheme description carefully to understand what costs it covers and what the income limit is for your state, because these details vary.",
+        ],
+      },
+      {
+        heading: "The renewal process is where many students lose out",
+        paragraphs: [
+          "Getting a scholarship once is great. Keeping it year after year is where discipline matters. Most scholarships require annual renewal through the portal, with updated documents for the current academic year — new admission proof, updated income certificate, and the previous year's exam result.",
+          "Students who do not renew on time lose the benefit and have to start from scratch as a fresh applicant, which is harder. Set a reminder for the renewal window, which typically opens after the academic session begins and closes a few months later. Do not assume it will automatically continue — it will not.",
+        ],
+      },
+      {
+        heading: "One more thing nobody mentioned to us",
+        paragraphs: [
+          "After securing the scholarship, my cousin thought the money would come automatically. It did not, because his institution had not verified the application on the portal. This is a step that many students and their families do not know about: after you apply, your college or school has to log in to the NSP and approve your application. If they do not do it by the deadline, your scholarship lapses even though you applied correctly.",
+          "After submission, follow up with your institution's scholarship nodal officer or principal to make sure they have verified it. This one follow-up call or visit has saved several students I know from losing an entire year of scholarship money through no fault of their own.",
+        ],
+      },
+
     ],
   },
   {
@@ -830,6 +1199,29 @@ export const blogPosts: BlogPost[] = [
           "Despite the rough edges, MGNREGA is a genuine safety net in our village. In a bad season, it is the difference between staying put and migrating to a city in desperation. My honest advice to any rural family: get the job card now, while things are calm, so that when the lean months come, you can simply ask for work instead of scrambling.",
         ],
       },
+      {
+        heading: "Using the grievance system when things go wrong",
+        paragraphs: [
+          "Wage delays are the most common complaint with MGNREGA, and they can be significant — sometimes running weeks behind the prescribed payment timeline. If wages are delayed beyond the allowed period, workers are technically entitled to a delay compensation, though claiming it requires persistence and knowledge of the process.",
+          "The practical route is to first raise the issue with the gram panchayat. If that does not resolve it, every state has an MGNREGA grievance portal and a programme officer at the block level who handles escalations. Keep your job card number and the dates of work as your evidence. Online grievance portals for MGNREGA are more responsive than they used to be, especially since wage payment tracking has become more transparent.",
+        ],
+      },
+      {
+        heading: "How the job card helps your family, not just one person",
+        paragraphs: [
+          "The job card covers a household, not just one adult. Any willing adult member of the household can work under the same card. This is particularly useful during harvest gaps when multiple family members may need income. The hundred-day limit is per household per year, not per individual, so plan accordingly if you have multiple adults who might need work at different points in the season.",
+          "Keep the job card safe and updated. If family members change, if someone gets married, or if the household composition shifts, update the records at the gram panchayat. An outdated job card can create verification problems when you need to use it most.",
+        ],
+      },
+
+      {
+        heading: "Keeping records of your own work",
+        paragraphs: [
+          "One practical habit that protects workers under MGNREGA: write down the dates you worked, the work site, and who oversaw it. The Mate (work supervisor) maintains the official muster roll, but having your own record means that if there is a dispute about attendance or wage calculation, you have something to reference. Workers who keep this record are much better positioned when they need to follow up on delayed wages.",
+          "The wage rate under MGNREGA is revised periodically, usually linked to the consumer price index for agricultural labourers. Check the current notified rate for your state before applying for work, so you know exactly what you are entitled to. Knowing your own rights is the first defence against underpayment.",
+        ],
+      },
+
     ],
   },
   {
@@ -1470,6 +1862,14 @@ export const blogPosts: BlogPost[] = [
           "If you or someone you know runs a street stall, this is worth doing properly. Repay on time, use the digital payment option, and let the larger loans follow. It is one of the few schemes designed around the realities of a tiny daily-cash business.",
         ],
       },
+      {
+        heading: "Using the QR code for more than just payments",
+        paragraphs: [
+          "The cashback on digital payments is real, but it serves a second purpose that is often underestimated. Every digital transaction builds a record of your business's daily income. Over months, this creates a transaction history that banks and NBFCs can use to assess your creditworthiness. For a street vendor who has always operated entirely in cash and has no formal credit history, this is how you start building one.",
+          "A vendor who has a clean digital transaction history, repaid two SVANidhi loans on time, and has an active bank account is in a fundamentally different position with a lender than one who has none of these. The scheme is designed as a stepping stone, not a one-time rescue. Use it with that long-term view.",
+        ],
+      },
+
     ],
   },
   {
@@ -1525,6 +1925,21 @@ export const blogPosts: BlogPost[] = [
           "My sister's passport arrived comfortably before her deadline, and my renewal was painless. Done carefully, the whole thing is genuinely a do-it-yourself task now.",
         ],
       },
+      {
+        heading: "The Tatkal option — when is it worth it?",
+        paragraphs: [
+          "Tatkal is the expedited route for getting a passport faster, at a higher fee. It is worth it when you genuinely have a time-sensitive travel, work or study requirement. For most planned situations — a holiday six months away, a study application with a comfortable deadline — the normal route is fine. The additional cost of Tatkal is real and the processing is not instantaneous; it just moves faster than standard.",
+          "One nuance with Tatkal: the documents required are slightly different and the verification is more stringent in some cases. Read the current Tatkal requirements on the official Passport Seva website before applying, because these do get updated. Going in well-prepared makes the entire Kendra visit much smoother.",
+        ],
+      },
+      {
+        heading: "Tracking your application after the Kendra visit",
+        paragraphs: [
+          "Once you leave the Kendra, you track the status through the Passport Seva portal using your file number. The stages visible there — police verification status, printing status, dispatch status — tell you exactly where your passport is in the process. If the status gets stuck for an unusual amount of time, there is a grievance option on the portal and a helpline number.",
+          "The passport is dispatched by India Post and tracked with a shipment ID. Keep an eye on this once the dispatch stage shows up. Make sure someone is home to receive it since the delivery requires the applicant or an authorised family member to sign. A failed delivery attempt delays things further, so track it and plan around the expected delivery window.",
+        ],
+      },
+
     ],
   },
   {
@@ -1575,6 +1990,21 @@ export const blogPosts: BlogPost[] = [
           "If you have a daughter under ten, the single most useful step you can take today is opening a Sukanya Samriddhi account. That is where the spirit of Beti Bachao Beti Padhao becomes real rupees for her education and future.",
         ],
       },
+      {
+        heading: "What the campaign has actually changed",
+        paragraphs: [
+          "Whether or not it puts money directly into your account, BBBP has made a measurable difference in shifting conversations at the community and institutional level. School enrolment for girls has improved in several districts where the campaign was actively implemented. Awareness of the girl child's right to education and a life without sex-selective discrimination has grown. These are real outcomes even if they do not show up as a direct payment.",
+          "For parents, the practical takeaway is that the BBBP ecosystem has also strengthened enforcement around female foeticide laws and pushed local governments to be more active in girl-child welfare. These are harder to quantify but genuinely meaningful over time.",
+        ],
+      },
+      {
+        heading: "How to actually act on the BBBP message",
+        paragraphs: [
+          "If BBBP is the inspiration, the action items are clear. Open a Sukanya Samriddhi account this week if your daughter is under ten. Enrol her in school and monitor that she stays enrolled and attending. Check her eligibility for the National Scholarship Portal once she reaches the pre-matric or post-matric stage. Ensure her birth is registered so she has the documents she will need for every scheme and admission later in life.",
+          "These are the concrete steps that translate the campaign's message into real, lasting benefit for a girl child. None of them requires special access or connections. They just require a parent or guardian deciding that the girl's future is worth the hour it takes to set each of these up.",
+        ],
+      },
+
     ],
   },
   {
@@ -1625,6 +2055,21 @@ export const blogPosts: BlogPost[] = [
           "Spend five minutes confirming your Aadhaar is linked and seeded to the account you actually use. It is the quiet plumbing behind every scheme, and getting it right means your benefits simply show up without drama.",
         ],
       },
+      {
+        heading: "The NPCI mapper — the part most people do not know about",
+        paragraphs: [
+          "There is a distinction that most people are not aware of and it costs them benefits. Simply linking your Aadhaar with your bank for KYC purposes is not the same as having your Aadhaar mapped in the NPCI system for Direct Benefit Transfer. The KYC link means the bank knows who you are. The NPCI mapping means the government payment system knows which bank account to send money to.",
+          "If a subsidy or scheme payment is supposed to come to you but keeps bouncing, it is almost always the NPCI mapping that is missing or pointing to an old account. Ask your bank specifically: is my Aadhaar seeded for DBT? Not just linked for KYC. Banks sometimes do one without the other, and the difference is invisible until your benefit fails to arrive.",
+        ],
+      },
+      {
+        heading: "How to change which bank receives your DBT",
+        paragraphs: [
+          "If you have multiple bank accounts and want to change which one receives your government benefits, you need to update the NPCI mapper. The simplest way is to visit the branch of the bank you want to designate as your DBT account and ask them to mark your Aadhaar as the preferred account for direct benefit transfers. They do this through their internal banking system and it typically takes a day or two to reflect.",
+          "Once updated, all future DBT payments — from LPG subsidies to PM-KISAN instalments to scholarship credits — flow to the new account. One update covers all schemes, because all DBT flows through the single Aadhaar-to-account mapping. Clean up this mapping once and your benefits should land reliably from that point forward.",
+        ],
+      },
+
     ],
   },
   {
@@ -1675,6 +2120,21 @@ export const blogPosts: BlogPost[] = [
           "A health scare is frightening enough without also facing financial ruin. These schemes genuinely exist to stand between a poor family and that ruin — but only if the family is enrolled and ready before the crisis hits. Use our eligibility tool to check which health cover fits your family's profile in seconds.",
         ],
       },
+      {
+        heading: "State health schemes on top of central ones",
+        paragraphs: [
+          "Central schemes like Ayushman Bharat and RSBY are just the base layer. Most states have added their own health insurance or hospital cover schemes on top, and the combined benefit can be significantly larger than the central scheme alone. Madhya Pradesh, Tamil Nadu, West Bengal, Andhra Pradesh and many others have state health schemes that run alongside PM-JAY.",
+          "The practical step is to check with your state health department or a nearby empanelled hospital about whether your state has its own scheme and how to enrol. In several states, the state scheme automatically extends to families already enrolled under Ayushman Bharat. In others it is a separate enrolment. Either way, the potential benefit is worth the ten minutes it takes to find out.",
+        ],
+      },
+      {
+        heading: "The nutrition and maternal schemes that protect the most vulnerable",
+        paragraphs: [
+          "For pregnant women and young children in low-income families, the Janani Suraksha Yojana and the ICDS network of anganwadis provide a layer of support that gets far less attention than the big health insurance schemes. Proper nutrition during the first two years of a child's life and proper maternal care during pregnancy have lifelong health consequences, and these schemes exist specifically to bridge the gap for families who cannot afford private care.",
+          "If there is a pregnant woman or a child under six in a poor household, the nearest anganwadi is the first point of contact. Registration is simple, the services are free, and the early intervention can make a permanent difference to the child's health and development. These are among the highest-impact, lowest-awareness benefits in the entire government health architecture.",
+        ],
+      },
+
     ],
   },
   {
@@ -1730,6 +2190,27 @@ export const blogPosts: BlogPost[] = [
           "Do it yourself, take the learner's test and the driving practice seriously, and you will end up not just with a licence but with the confidence that you earned it properly. That matters every time you get behind the wheel.",
         ],
       },
+      {
+        heading: "The test itself — what to expect",
+        paragraphs: [
+          "The learner's licence test is conducted online at the RTO or through a designated facility. You answer questions about traffic rules, road signs, and basic safety. Prepare by reading the official road signs guide available on the Parivahan website, and go through a few mock tests available online. The pass percentage for prepared applicants is high; failures almost always come from people who treated it as a formality.",
+          "The driving test for the permanent licence is a practical assessment at the RTO. The examiner will ask you to perform basic manoeuvres — starting, stopping, turning, reversing. It is not about demonstrating advanced driving; it is about demonstrating that you are safe and in control. Drive smoothly, check mirrors, signal before turning, and keep a calm pace. Nervous, jerky driving fails tests that perfectly decent driving would pass.",
+        ],
+      },
+      {
+        heading: "After the licence: validity and renewals",
+        paragraphs: [
+          "A permanent driving licence is valid for twenty years from the date of issue or until you turn fifty, whichever is earlier. After that, it needs to be renewed. If you hold a commercial vehicle licence, the renewal cycle is different, so check the specific validity on your licence card.",
+          "Keep the digital version of your licence on the DigiLocker app, which the Parivahan system integrates with. Traffic police are required to accept the digital licence shown on DigiLocker as valid proof, which means you do not always need to carry the physical card. Having both — digital for convenience, physical as backup — is the sensible approach.",
+        ],
+      },
+      {
+        heading: "International driving permit if you plan to drive abroad",
+        paragraphs: [
+          "If you hold a valid Indian driving licence and plan to drive in another country, an International Driving Permit can be issued through the RTO. The process is straightforward: visit the RTO with your existing licence, passport, photographs, and the prescribed application. It is valid for one year from issue and is accepted in most countries that are signatories to the Geneva and Vienna road traffic conventions. Check whether your destination accepts it before departure.",
+        ],
+      },
+
     ],
   },
   {
@@ -1792,6 +2273,21 @@ export const blogPosts: BlogPost[] = [
           "Just pair it with a properly Aadhaar-linked bank account so the refill subsidy flows, and this becomes one of the most genuinely life-improving schemes a poor family can access.",
         ],
       },
+      {
+        heading: "The refill subsidy and how it reaches you",
+        paragraphs: [
+          "This is worth understanding clearly because it confuses many beneficiaries. The connection is free under Ujjwala, but the subsequent refills are paid at market rates. The LPG subsidy — if you are eligible — is then credited back to your Aadhaar-linked bank account after you make the purchase. So the upfront cost of a refill is the market price; the net cost after subsidy credit is lower.",
+          "This design means that the Aadhaar-bank linkage is not optional — it is the mechanism through which the benefit actually reaches you. If the linkage is broken or points to an inactive account, you pay market price and get no subsidy back. We made sure Sushila's account was correctly seeded at the bank before her first refill, and the subsidy credit showed up within a few days of each purchase.",
+        ],
+      },
+      {
+        heading: "If the subsidy is not coming",
+        paragraphs: [
+          "If you have an Ujjwala connection and the subsidy is not reflecting in your bank account after refills, the most common reasons are a broken Aadhaar-bank link, a wrong bank account number on the subsidy portal, or the account being inactive. Visit your LPG distributor with your Aadhaar and bank details and ask them to check the seeding status on the PAHAL portal. Most issues can be resolved in one visit.",
+          "Once resolved, the subsidy mechanism is generally reliable and requires no active effort from you. Cook, pay for the refill, and the subsidy credit follows automatically to your bank account. That is the design, and it works well when the underlying account details are correct.",
+        ],
+      },
+
     ],
   },
   {
@@ -1854,6 +2350,21 @@ export const blogPosts: BlogPost[] = [
           "Done calmly and early, NSP is genuinely generous. My brother's scholarship covered a real chunk of his costs, and the only reason it worked was that we treated the boring details — documents, verification, deadlines — as the actual job.",
         ],
       },
+      {
+        heading: "The role of your institution in the process",
+        paragraphs: [
+          "This is the part that catches almost every first-time applicant off guard. After you submit your application on the NSP, the process does not end there. Your school or college has to log in to the portal with their institutional credentials and verify your application. Until they do, your application sits in a pending state and will not be processed further.",
+          "I have seen students lose scholarships not because they were ineligible or submitted incorrect documents but because their institution simply did not verify the application before the deadline. Contact your principal, your scholarship committee, or your department head. Give them your application ID and ask them to verify it. Follow up until you see the status change on the portal. This one step is entirely outside your control but completely within your ability to influence through persistence.",
+        ],
+      },
+      {
+        heading: "After the scholarship is awarded",
+        paragraphs: [
+          "Once awarded, the scholarship amount is credited directly to your Aadhaar-linked bank account. Make sure the account is active and the Aadhaar seeding is correct before the expected credit date. An inactive account or a wrong account number means the transfer fails and you have to go through a correction process that can take months.",
+          "Keep a record of the scholarship award letter and the portal acknowledgement. You will need to renew the scholarship each year, and having the previous year's award details makes the renewal process faster. Most scholarships require that you maintain the minimum marks in your end-of-year examination to qualify for renewal — check the specific threshold for your scheme so there are no surprises.",
+        ],
+      },
+
     ],
   },
   {
@@ -1914,6 +2425,21 @@ export const blogPosts: BlogPost[] = [
           "Either way, do not pay an agent for something you can do in a few minutes yourself. Keep your Aadhaar details consistent, and the whole process is genuinely painless now.",
         ],
       },
+      {
+        heading: "What to do if your Aadhaar mobile number is inactive",
+        paragraphs: [
+          "The instant e-PAN route requires an OTP on your Aadhaar-registered mobile number. If that number is inactive — which is very common with older relatives who may have changed their SIM — the instant route will fail. The solution is either to update the mobile number on Aadhaar first at an enrolment centre, or to apply through the NSDL or UTIITSL document route which does not require Aadhaar OTP.",
+          "For my father, who had an old Aadhaar number linked to a mobile we no longer use, we went the NSDL route. The process was slightly longer — filling Form 49A, uploading documents, and paying the fee — but it worked cleanly. The physical card arrived in about two weeks and he now also has the e-PAN downloaded on his phone.",
+        ],
+      },
+      {
+        heading: "Linking PAN with Aadhaar",
+        paragraphs: [
+          "If you already have a PAN card but it is not linked to Aadhaar, this linkage is mandatory and needs to be done through the Income Tax e-filing portal. An unlinked PAN becomes inoperative, which means you cannot use it for financial transactions until the link is established. There is a prescribed fee for linking after the deadline, so do not put this off if you have both but they are not linked.",
+          "After applying for a new PAN, the linking is set up automatically if you applied via the Aadhaar e-KYC route. If you applied by documents, you may need to manually link them on the Income Tax portal once you receive the PAN. It takes about five minutes and requires your PAN number and Aadhaar number.",
+        ],
+      },
+
     ],
   },
   {
@@ -1969,6 +2495,21 @@ export const blogPosts: BlogPost[] = [
           "Looking back at my own unemployed stretch, the thing that helped most was pairing a skill programme with relentless applying. Pick the scheme that matches your real bottleneck — skills, capital, or immediate income — and use it as the leg-up it is meant to be.",
         ],
       },
+      {
+        heading: "State-level schemes worth checking separately",
+        paragraphs: [
+          "The central schemes get the most coverage, but several states run their own unemployment support, apprenticeship stipend, or skill development initiatives on top of them. Bihar has its own student credit card and skills development programme. Karnataka's Yuva Nidhi scheme provides temporary financial support to unemployed graduates. Tamil Nadu, Andhra Pradesh, and Telangana all have their own youth employment and skilling programmes.",
+          "These state schemes are often less well-known precisely because they do not get national media coverage. Check your state government's employment or skill development department website, or visit the state employment exchange. A single afternoon of research specific to your state can surface opportunities that searching only for central schemes would miss.",
+        ],
+      },
+      {
+        heading: "Using the job fair and apprenticeship system",
+        paragraphs: [
+          "The National Career Service portal does not just host job listings — it also connects registered candidates to job fairs, apprenticeship opportunities, and skill development programmes organised by state employment exchanges. Apprenticeships in particular are an underused option: they provide on-the-job training with a stipend, and many lead to absorption into the company or a verifiable work experience reference that makes the next job search easier.",
+          "Register on the portal, keep your profile complete and current, and check it regularly. The portal also has a section for career guidance and resume building, which is particularly useful for first-time job seekers who are not sure where to start. Combine this with a relevant PMKVY or DDU-GKY certification and you have a more competitive profile than most entry-level candidates who have done neither.",
+        ],
+      },
+
     ],
   },
 ];
