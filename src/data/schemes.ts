@@ -973,6 +973,363 @@ export const schemes: Scheme[] = [
       },
     ],
   },
+  {
+    slug: "pm-awas-yojana-gramin",
+    name: "Pradhan Mantri Awas Yojana - Gramin",
+    shortName: "PMAY-G",
+    ministry: "Ministry of Rural Development",
+    category: "Housing",
+    summary:
+      "Provides financial assistance to rural households living in kutcha or dilapidated houses to build a pucca home with basic amenities.",
+    benefit:
+      "Assistance for constructing a pucca house, with support for a toilet and other basic facilities.",
+    launched: "2016",
+    beneficiaries: "Rural households without a pucca house",
+    eligibility: [
+      "Rural household living in a kutcha or dilapidated house",
+      "Identified through the SECC data and verified by the gram sabha",
+      "Should not own a pucca house anywhere in India",
+    ],
+    documents: [
+      "Aadhaar Card",
+      "Job card under MGNREGA",
+      "Bank account details",
+      "SECC beneficiary details",
+    ],
+    howToApply: [
+      "Eligibility is checked against the SECC list by the gram panchayat",
+      "Complete verification through the gram sabha",
+      "Provide Aadhaar and bank details for registration",
+      "Receive assistance in instalments as construction progresses",
+    ],
+    officialUrl: "https://pmayg.nic.in",
+    faqs: [
+      {
+        q: "How is the PMAY-G assistance paid?",
+        a: "The financial assistance is released in instalments linked to the stages of house construction, directly to the beneficiary's bank account.",
+      },
+    ],
+  },
+  {
+    slug: "deen-dayal-upadhyaya-grameen-kaushalya-yojana",
+    name: "Deen Dayal Upadhyaya Grameen Kaushalya Yojana",
+    shortName: "DDU-GKY",
+    ministry: "Ministry of Rural Development",
+    category: "Employment",
+    summary:
+      "A skilling and placement programme for rural youth from poor families, offering training that leads to wage employment.",
+    benefit:
+      "Free skill training with assured placement support for rural youth.",
+    launched: "2014",
+    beneficiaries: "Rural youth aged 15 to 35 from poor families",
+    eligibility: [
+      "Rural youth aged between 15 and 35 years",
+      "From a poor household as per prescribed norms",
+      "Willing to undergo skill training for placement",
+    ],
+    documents: [
+      "Aadhaar Card",
+      "Proof of age",
+      "Income or BPL proof",
+      "Bank account details",
+    ],
+    howToApply: [
+      "Approach a DDU-GKY training centre or partner agency",
+      "Register and select an available trade",
+      "Complete the training programme",
+      "Receive placement support on certification",
+    ],
+    officialUrl: "https://ddugky.gov.in",
+    faqs: [
+      {
+        q: "Is DDU-GKY training free?",
+        a: "Yes, the training is fully funded for eligible rural youth and includes placement support after certification.",
+      },
+    ],
+  },
+  {
+    slug: "pm-kaushal-vikas-yojana",
+    name: "Pradhan Mantri Kaushal Vikas Yojana",
+    shortName: "PMKVY",
+    ministry: "Ministry of Skill Development & Entrepreneurship",
+    category: "Employment",
+    summary:
+      "A flagship skill-training scheme that enables youth to take up industry-relevant short-term courses and earn recognised certification.",
+    benefit:
+      "Free short-term skill training and certification to improve employability.",
+    launched: "2015",
+    beneficiaries: "Youth seeking employable skills",
+    eligibility: [
+      "Indian youth who are unemployed or school/college dropouts",
+      "Able to undergo short-term skill training",
+      "Aadhaar and bank account recommended for enrolment",
+    ],
+    documents: [
+      "Aadhaar Card",
+      "Bank account details",
+      "Educational documents (if available)",
+    ],
+    howToApply: [
+      "Find a registered PMKVY training centre or apply on the Skill India portal",
+      "Choose a job role and enrol",
+      "Complete the training and assessment",
+      "Receive the certificate and placement assistance",
+    ],
+    officialUrl: "https://www.pmkvyofficial.org",
+    faqs: [
+      {
+        q: "Does PMKVY provide certification?",
+        a: "Yes, candidates who pass the assessment receive a government-recognised skill certificate valid across the country.",
+      },
+    ],
+  },
+  {
+    slug: "national-social-assistance-programme",
+    name: "National Social Assistance Programme",
+    shortName: "NSAP",
+    ministry: "Ministry of Rural Development",
+    category: "Pension",
+    summary:
+      "Provides social security through monthly pensions to the elderly, widows and persons with disabilities from below-poverty-line households.",
+    benefit:
+      "Monthly pension support for eligible elderly, widows and disabled persons.",
+    launched: "1995",
+    beneficiaries: "BPL elderly, widows and persons with disabilities",
+    eligibility: [
+      "Belongs to a below-poverty-line household",
+      "Meets the age or category criteria of the relevant sub-scheme",
+      "Not receiving a conflicting pension benefit",
+    ],
+    documents: [
+      "Aadhaar Card",
+      "BPL proof",
+      "Age, widow or disability certificate as applicable",
+      "Bank account details",
+    ],
+    howToApply: [
+      "Apply through the gram panchayat or municipal office",
+      "Submit category and BPL documents",
+      "Complete verification by the local authority",
+      "Receive the monthly pension in your bank account",
+    ],
+    officialUrl: "https://nsap.nic.in",
+    faqs: [
+      {
+        q: "What sub-schemes are under NSAP?",
+        a: "NSAP includes old-age, widow and disability pension schemes along with family benefit and food security components for BPL households.",
+      },
+    ],
+  },
+  {
+    slug: "integrated-child-development-services",
+    name: "Integrated Child Development Services",
+    shortName: "ICDS",
+    ministry: "Ministry of Women & Child Development",
+    category: "Women & Child",
+    summary:
+      "Delivers nutrition, health and pre-school education to young children, pregnant women and nursing mothers through anganwadi centres.",
+    benefit:
+      "Supplementary nutrition, immunisation support and early childhood care via anganwadis.",
+    launched: "1975",
+    beneficiaries: "Children under 6, pregnant women and nursing mothers",
+    eligibility: [
+      "Children below six years of age",
+      "Pregnant women and lactating mothers",
+      "Residents within an anganwadi service area",
+    ],
+    documents: [
+      "Aadhaar Card",
+      "Mother and Child Protection card",
+      "Proof of residence",
+    ],
+    howToApply: [
+      "Visit the nearest anganwadi centre",
+      "Register the child or mother with the anganwadi worker",
+      "Access nutrition, health check-ups and pre-school services",
+    ],
+    officialUrl: "https://wcd.nic.in",
+    faqs: [
+      {
+        q: "What does an anganwadi provide under ICDS?",
+        a: "It provides supplementary nutrition, immunisation, health check-ups, referral services and pre-school education for young children.",
+      },
+    ],
+  },
+  {
+    slug: "pm-poshan-shakti-nirman",
+    name: "PM Poshan Shakti Nirman",
+    shortName: "PM POSHAN",
+    ministry: "Ministry of Education",
+    category: "Education",
+    summary:
+      "Provides a hot, cooked mid-day meal to school children to improve nutrition, encourage enrolment and reduce dropout rates.",
+    benefit:
+      "One free hot cooked meal on every school day for eligible students.",
+    launched: "2021",
+    beneficiaries: "Students of government and government-aided schools",
+    eligibility: [
+      "Children studying in government and government-aided schools",
+      "Covers primary and upper-primary classes",
+      "Enrolled and attending the eligible school",
+    ],
+    documents: [
+      "School enrolment record",
+      "Aadhaar Card of the student (if available)",
+    ],
+    howToApply: [
+      "No separate application is needed for enrolled students",
+      "The meal is served at the school on every working day",
+      "Parents can raise concerns with the school management committee",
+    ],
+    officialUrl: "https://pmposhan.education.gov.in",
+    faqs: [
+      {
+        q: "Who receives meals under PM POSHAN?",
+        a: "All children enrolled in eligible government and government-aided schools receive a free hot cooked meal on school days.",
+      },
+    ],
+  },
+  {
+    slug: "rashtriya-swasthya-bima-yojana",
+    name: "Rashtriya Swasthya Bima Yojana",
+    shortName: "RSBY",
+    ministry: "Ministry of Labour & Employment",
+    category: "Health",
+    summary:
+      "A health insurance scheme that provides cashless hospitalisation cover to below-poverty-line families and certain worker categories.",
+    benefit:
+      "Cashless hospitalisation cover for the enrolled family through a smart card.",
+    launched: "2008",
+    beneficiaries: "BPL families and specified worker categories",
+    eligibility: [
+      "Belongs to a below-poverty-line household",
+      "Or part of a notified unorganised worker category",
+      "Enrolled and issued a scheme smart card",
+    ],
+    documents: [
+      "Aadhaar Card",
+      "BPL or worker category proof",
+      "Family details for enrolment",
+    ],
+    howToApply: [
+      "Attend the enrolment camp organised in your area",
+      "Complete biometric registration of the family",
+      "Collect the smart card",
+      "Use the card for cashless treatment at empanelled hospitals",
+    ],
+    officialUrl: "https://www.india.gov.in",
+    faqs: [
+      {
+        q: "How does RSBY work at hospitals?",
+        a: "Enrolled families use their smart card to access cashless hospitalisation up to the covered limit at empanelled hospitals.",
+      },
+    ],
+  },
+  {
+    slug: "stand-up-india",
+    name: "Stand-Up India",
+    shortName: "Stand-Up India",
+    ministry: "Ministry of Finance",
+    category: "Financial Inclusion",
+    summary:
+      "Facilitates bank loans to women and SC/ST entrepreneurs to set up greenfield enterprises in manufacturing, services or trading.",
+    benefit:
+      "Bank loan between Rs. 10 lakh and Rs. 1 crore for a new enterprise.",
+    launched: "2016",
+    beneficiaries: "Women and SC/ST entrepreneurs",
+    eligibility: [
+      "Woman or SC/ST entrepreneur aged 18 and above",
+      "Setting up a new (greenfield) enterprise",
+      "Should be the majority stakeholder for non-individual enterprises",
+    ],
+    documents: [
+      "Aadhaar Card and PAN Card",
+      "Category certificate (for SC/ST)",
+      "Business project report",
+      "Bank account details",
+    ],
+    howToApply: [
+      "Apply through the Stand-Up India portal or your bank",
+      "Submit the project report and KYC documents",
+      "Complete the bank's appraisal process",
+      "Receive the sanctioned loan for your enterprise",
+    ],
+    officialUrl: "https://www.standupmitra.in",
+    faqs: [
+      {
+        q: "Who can apply under Stand-Up India?",
+        a: "Women entrepreneurs and SC/ST entrepreneurs setting up a new manufacturing, services or trading enterprise can apply.",
+      },
+    ],
+  },
+  {
+    slug: "startup-india",
+    name: "Startup India",
+    shortName: "Startup India",
+    ministry: "Department for Promotion of Industry & Internal Trade",
+    category: "Employment",
+    summary:
+      "Supports startups through recognition, tax benefits, easier compliance and access to funding to build a strong entrepreneurship ecosystem.",
+    benefit:
+      "Tax exemptions, self-certification compliance and funding support for recognised startups.",
+    launched: "2016",
+    beneficiaries: "Eligible startups and entrepreneurs",
+    eligibility: [
+      "Entity incorporated as a private limited company, LLP or registered partnership",
+      "Within the prescribed years since incorporation",
+      "Working on innovation or improvement of products, processes or services",
+    ],
+    documents: [
+      "Certificate of incorporation",
+      "PAN of the entity",
+      "Brief write-up on the business and innovation",
+    ],
+    howToApply: [
+      "Register the entity on the Startup India portal",
+      "Apply for DPIIT recognition with the required details",
+      "Receive the recognition certificate",
+      "Avail the applicable benefits and schemes",
+    ],
+    officialUrl: "https://www.startupindia.gov.in",
+    faqs: [
+      {
+        q: "What is DPIIT recognition?",
+        a: "It is the official recognition that lets a startup access tax benefits, easier compliance and other government support under Startup India.",
+      },
+    ],
+  },
+  {
+    slug: "digital-india",
+    name: "Digital India",
+    shortName: "Digital India",
+    ministry: "Ministry of Electronics & IT",
+    category: "Education",
+    summary:
+      "A national programme to make government services available digitally, expand internet access and improve digital literacy across the country.",
+    benefit:
+      "Easier access to digital public services and improved digital literacy.",
+    launched: "2015",
+    beneficiaries: "All citizens, with focus on rural and underserved areas",
+    eligibility: [
+      "Open to all citizens",
+      "Specific initiatives target rural residents and learners",
+    ],
+    documents: [
+      "Aadhaar Card for availing linked digital services",
+    ],
+    howToApply: [
+      "Access digital services through portals like UMANG and DigiLocker",
+      "Use Common Service Centres for assisted access",
+      "Enrol in digital literacy programmes where available",
+    ],
+    officialUrl: "https://www.digitalindia.gov.in",
+    faqs: [
+      {
+        q: "What does Digital India offer citizens?",
+        a: "It offers online access to government services, digital identity and document storage, and programmes to improve digital literacy.",
+      },
+    ],
+  },
 ];
 
 export function getSchemeBySlug(slug: string): Scheme | undefined {
