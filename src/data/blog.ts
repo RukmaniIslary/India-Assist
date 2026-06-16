@@ -2713,6 +2713,183 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "how-to-get-import-export-code-india",
+    title: "How to Get an Import Export Code in India — The Real Process",
+    excerpt:
+      "I applied for an IEC for my sister's handicraft export business. Here is how the DGFT process actually works, and the things that surprised us.",
+    category: "Documents",
+    author: "Manish Tripathi",
+    date: "2026-06-16",
+    readingTime: "7 min read",
+    content: [
+      {
+        paragraphs: [
+          "My sister makes and sells handwoven textiles, and when a buyer from Germany expressed interest in placing a regular order, we suddenly needed to figure out export compliance. The first thing anyone mentioned was the Import Export Code. Within a week I had applied for it. The process was genuinely straightforward — much simpler than I had feared — but there were a few things I had to figure out along the way that nobody explained upfront.",
+        ],
+      },
+      {
+        heading: "What an IEC actually is",
+        paragraphs: [
+          "The Import Export Code is a ten-digit number issued by the Directorate General of Foreign Trade under the Ministry of Commerce. It is essentially your business identity number for all international trade. Without it, customs will not allow commercial import or export shipments to move. Every shipping bill, every bill of entry, every foreign bank transaction related to trade carries this number.",
+          "The important thing to understand is that it is a one-time registration. Unlike most business licenses, the IEC does not expire and does not need annual renewal. You apply once, get the number, and use it indefinitely — unless your business details change, in which case you update it through an amendment application.",
+        ],
+      },
+      {
+        heading: "What we needed to apply",
+        paragraphs: [
+          "For my sister's proprietorship, the requirements were minimal compared to what I had expected.",
+        ],
+        list: [
+          "Her PAN Card — this is the anchor of the entire application",
+          "Aadhaar Card for identity verification",
+          "A cancelled cheque from her current bank account, to link the IEC to a specific bank",
+          "A passport-size photograph",
+          "Basic details about the business: name, address, nature of goods exported",
+        ],
+      },
+      {
+        heading: "The DGFT portal process",
+        paragraphs: [
+          "The entire application is on the DGFT portal at dgft.gov.in. You register as a new user, log in, and find the IEC application under the services menu. For a proprietorship, there is no digital signature required — that is only needed for companies and LLPs. You fill in the business details, upload the documents, and pay a government fee of Rs. 500 online.",
+          "After submission, we received an acknowledgement number. Within two working days, an email arrived saying the IEC had been issued. I logged in, downloaded the certificate, and that was it. The whole process from sitting down at the portal to having the certificate took about two hours of actual effort spread across two days.",
+        ],
+      },
+      {
+        heading: "A few things that confused us",
+        paragraphs: [
+          "The IEC application asks for a branch code. For a single-location business, this defaults to zero and you do not need to overthink it. The application also asks for the nature of goods or services being exported using an ITCHS code — a customs classification code. For handicrafts we used a general code, but if you export something very specific, look up the correct ITCHS code on the customs website before filling the form.",
+          "We also briefly confused the IEC with export promotion council registration, which is separate. The IEC is the basic mandatory registration. Export promotion councils — like EPCH for handicrafts — are membership bodies that give additional marketing support and benefits. Both are useful, but the IEC comes first and is required regardless of whether you join a promotion council.",
+        ],
+      },
+      {
+        heading: "What changed after we got the IEC",
+        paragraphs: [
+          "The German buyer's purchase order asked for the IEC number on the invoice. The bank that processes the foreign currency payment needed the IEC on record. The customs clearance agent who handles the shipping documentation also asked for it as the first thing. In short, the IEC is not a one-time-use document — it shows up in almost every step of every export transaction.",
+          "For my sister's business, having the IEC shifted her from being a domestic artisan to being a formal exporter. She can now receive foreign currency in her business account, export with proper documentation, and eventually apply for benefits under schemes like RoDTEP that reimburse certain export taxes. Getting the IEC was the single step that opened all of that up.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "gst-registration-guide-india-2026",
+    title: "GST Registration in India — Do You Need It and How to Get It",
+    excerpt:
+      "After helping my uncle register his tailoring business for GST, here is the honest guide to who needs it, how the GSTIN process works, and the traps to avoid.",
+    category: "Finance",
+    author: "Preeti Sharma",
+    date: "2026-06-16",
+    readingTime: "9 min read",
+    content: [
+      {
+        paragraphs: [
+          "My uncle has been running a tailoring shop for fifteen years. He resisted GST registration for years because he thought it would mean more paperwork and higher costs. Then he started losing orders to larger garment businesses that wanted GST invoices and input tax credit. Within three months of registering, he had two new wholesale clients. The perception around GST and small businesses is very different from the reality. Let me walk through what I learned helping him.",
+        ],
+      },
+      {
+        heading: "Who actually needs GST registration",
+        paragraphs: [
+          "The most common question is: do I need to register? The basic answer is determined by your annual turnover. For businesses supplying goods, the mandatory threshold is Rs. 40 lakh in most states (Rs. 20 lakh in special category states). For service providers, it is Rs. 20 lakh. Cross that threshold and registration is mandatory — you cannot legally collect GST from customers without being registered.",
+          "But the threshold is not the only trigger. Several categories must register regardless of turnover: e-commerce sellers (anyone selling on Amazon, Flipkart, Meesho, etc.), businesses making inter-state supply of goods, those paying tax under reverse charge, and anyone already registered under the old service tax or VAT who migrated to GST.",
+          "Voluntary registration is also available. A business earning less than the threshold can choose to register — and many small businesses should — to access input tax credit on their purchases and to issue proper GST invoices to registered buyers who need them.",
+        ],
+      },
+      {
+        heading: "What you need for the GST portal application",
+        paragraphs: [
+          "The GST registration application is entirely on the GST portal at gst.gov.in. Before you start, keep these ready.",
+        ],
+        list: [
+          "PAN Card of the business — the GSTIN is derived partly from the PAN",
+          "Aadhaar of the proprietor, partners, or directors for identity verification",
+          "Proof of business address — rent agreement and latest electricity bill work well",
+          "Cancelled cheque or bank statement showing the current bank account",
+          "Photograph of the applicant",
+          "For companies and LLPs — Certificate of Incorporation, MoA, AoA, and DSC",
+        ],
+      },
+      {
+        heading: "The application process",
+        paragraphs: [
+          "The process has two parts. Part A is quick — you enter your PAN, mobile number, and email, verify with OTPs, and get a Temporary Reference Number (TRN). Part B is the main application where you fill in all the business details: address, nature of business, type of goods or services (using HSN or SAC codes), bank account information, and details of all proprietors, partners, or directors.",
+          "After submission, you get an Application Reference Number (ARN). At this stage you can choose Aadhaar authentication, which speeds up approval significantly — most such applications are processed within a few working days without a physical inspection. If you do not authenticate via Aadhaar, the officer may schedule a visit to verify the premises.",
+        ],
+      },
+      {
+        heading: "What input tax credit actually means for a small business",
+        paragraphs: [
+          "This is the benefit that my uncle had been missing by not registering. When a registered business buys raw materials, equipment, or services for its business, it pays GST on those purchases. If it is GST-registered, it can claim that GST paid as a credit against the GST it collects from customers. The net GST liability is reduced.",
+          "For a tailor who buys fabric (paying GST on it) and charges for stitching (collecting GST), the ITC on fabric purchases reduces the GST he owes. Over a year, this is a real cash saving that an unregistered business simply cannot access. It is one of the most significant financial arguments for voluntary registration even below the threshold.",
+        ],
+      },
+      {
+        heading: "GST returns — what you commit to when you register",
+        paragraphs: [
+          "Registration comes with filing obligations. Under the regular scheme, you file GSTR-1 (details of outward supplies, monthly or quarterly) and GSTR-3B (a monthly summary with tax payment). An annual return is also required. Under the QRMP scheme for smaller taxpayers, you file quarterly returns with a monthly payment.",
+          "The Composition Scheme is a simpler option for eligible businesses with turnover up to Rs. 1.5 crore — you pay a flat percentage of turnover as tax and file only quarterly returns, but you cannot issue a tax invoice or claim ITC. For service providers the scheme is more limited.",
+          "Before registering, think about which scheme suits your business. My uncle went with the regular scheme because his business sells to other businesses who want input tax credit. A small retailer selling only to end consumers might find the Composition Scheme much simpler.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "fssai-msme-business-licenses-india",
+    title: "FSSAI, MSME and Other Business Licenses — Which Ones Does Your Business Actually Need?",
+    excerpt:
+      "After setting up three different small businesses in our family, I know which registrations matter and which ones most owners delay for too long. Here is the practical guide.",
+    category: "Documents",
+    author: "Kavitha Nair",
+    date: "2026-06-16",
+    readingTime: "8 min read",
+    content: [
+      {
+        paragraphs: [
+          "My father runs a food stall, my brother has a small manufacturing unit, and I recently started an online services business. Setting up each one taught me a different set of compliance requirements, and the biggest lesson across all three was this: the registrations that feel optional in the beginning become urgent and expensive to fix later. Here is a plain guide to the ones that matter most and the ones most small business owners delay for longer than they should.",
+        ],
+      },
+      {
+        heading: "FSSAI — mandatory for every food business, no exceptions",
+        paragraphs: [
+          "My father had been running his food stall informally for two years before a food safety officer visited the market and handed out notices to unregistered vendors. The FSSAI basic registration cost him Rs. 100 and twenty minutes on the FoSCos portal. Not doing it earlier cost him a fine and two weeks of anxiety.",
+          "Every food business in India needs FSSAI registration or licence, regardless of size. A home baker selling on Instagram, a tiffin service, a restaurant, a packaged foods distributor, a cold storage warehouse — all of them. The tier depends on annual turnover: basic registration under Rs. 12 lakh, state licence up to Rs. 20 crore, central licence above that. The FSSAI number must be displayed at the premises and printed on all packaging. Getting this sorted is the first thing to do in any food business.",
+        ],
+      },
+      {
+        heading: "Udyam MSME registration — free, instant, and very underused",
+        paragraphs: [
+          "My brother registered his small manufacturing unit on the Udyam Registration portal the same afternoon I told him about it. It took fifteen minutes and cost nothing. He was sceptical that a free government registration could be worth anything. Within six months, it had helped him access a priority sector loan at a lower interest rate and qualify for an exemption in a state government tender.",
+          "Udyam Registration is entirely self-declared, entirely online, and entirely free. Any Micro, Small, or Medium Enterprise can register. The benefits are real and accumulate over time: protection under the MSMED Act against delayed payments from large buyers, preference in government tenders, interest subvention on loans, access to skill development and technology upgrades, and easier compliance in several states. There is no reason to delay this one.",
+        ],
+      },
+      {
+        heading: "The ones that are often forgotten",
+        paragraphs: [
+          "Beyond the obvious ones, several registrations get delayed or ignored entirely, usually because no immediate consequence arrives to force the issue.",
+        ],
+        list: [
+          "Professional Tax registration — required in many states for businesses with employees; penalties accumulate silently",
+          "Import Export Code — needed from the first international transaction, not after several have happened",
+          "ESI and EPF registration — mandatory once you have more than ten employees (EPF) or twenty employees (ESI)",
+          "Shops and Establishment renewal — most businesses register but forget to renew annually",
+          "Fire NOC — required for restaurants, hotels, and certain commercial buildings before operations begin",
+        ],
+      },
+      {
+        heading: "The pattern I keep seeing",
+        paragraphs: [
+          "In every small business I have helped with compliance, the same pattern shows up. The registrations that seem urgent — trade license, GST, PAN — get done. The ones that feel optional or bureaucratic — MSME, professional tax, ESI — get pushed indefinitely. And then something happens: a large buyer asks for the Udyam certificate, an employee gets injured and claims ESI benefits, or an inspector visits. At that point the delayed compliance becomes expensive.",
+          "The practical approach is to treat the first three months of a business as the compliance window. Make a checklist of every registration relevant to your business type and get through it systematically, not reactively. Each individual registration is not difficult — most take a few hours spread across a day or two. The difficulty is trying to sort them all out when you are already busy running the business.",
+        ],
+      },
+      {
+        heading: "The cheapest and most important: Udyam and IEC",
+        paragraphs: [
+          "If I had to pick two registrations most small businesses ignore and should not, it would be Udyam and IEC. Udyam is completely free, takes fifteen minutes, and opens access to the entire MSME benefit ecosystem. IEC costs Rs. 500, takes two days, and is the mandatory requirement for any international trade activity. Both are one-time and permanent.",
+          "For any small business owner reading this: go to udyamregistration.gov.in this week and register. Then check whether you have or might have any cross-border trade, and if so, get the IEC from the DGFT portal. These two steps alone, costing less than Rs. 500 in total, can open doors that would otherwise take years of relationship-building to access.",
+        ],
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
