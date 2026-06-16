@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import AdUnit from "@/components/AdSense";
 import JsonLd from "@/components/JsonLd";
+import WhatsAppShare from "@/components/WhatsAppShare";
 import { documents, getDocumentBySlug } from "@/data/documents";
 import { buildMetadata } from "@/lib/seo";
 import { siteConfig } from "@/lib/site";
@@ -158,6 +159,12 @@ export default function DocumentDetailPage({
               >
                 Visit official site
               </a>
+              <div className="mt-2">
+                <WhatsAppShare
+                  url={`${siteConfig.url}/documents/${doc.slug}`}
+                  title={`How to Apply for ${doc.name}`}
+                />
+              </div>
             </div>
             <AdUnit label="Sponsored" />
           </div>

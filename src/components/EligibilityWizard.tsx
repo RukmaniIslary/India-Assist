@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import WhatsAppShare from "@/components/WhatsAppShare";
+import { siteConfig } from "@/lib/site";
 import {
   evaluateEligibility,
   type EligibilityProfile,
@@ -273,6 +275,13 @@ export default function EligibilityWizard() {
               These results are indicative. Confirm final eligibility on the
               official portal of each scheme before applying.
             </p>
+            <div className="mt-2">
+              <WhatsAppShare
+                url={`${siteConfig.url}/eligibility`}
+                title={`I found ${results.length} government scheme(s) I may qualify for — check yours on India Assist`}
+                variant="compact"
+              />
+            </div>
           </div>
         )}
       </div>

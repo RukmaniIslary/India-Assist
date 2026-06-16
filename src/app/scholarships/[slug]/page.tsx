@@ -2,8 +2,10 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import AdUnit from "@/components/AdSense";
+import WhatsAppShare from "@/components/WhatsAppShare";
 import { scholarships, getScholarshipBySlug } from "@/data/scholarships";
 import { buildMetadata } from "@/lib/seo";
+import { siteConfig } from "@/lib/site";
 
 export function generateStaticParams() {
   return scholarships.map((s) => ({ slug: s.slug }));
@@ -108,6 +110,12 @@ export default function ScholarshipDetailPage({
               >
                 Visit official portal
               </a>
+              <div className="mt-2">
+                <WhatsAppShare
+                  url={`${siteConfig.url}/scholarships/${item.slug}`}
+                  title={item.name}
+                />
+              </div>
             </div>
             <AdUnit label="Sponsored" />
           </div>

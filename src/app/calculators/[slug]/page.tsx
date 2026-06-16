@@ -5,8 +5,10 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import AdUnit from "@/components/AdSense";
 import CalculatorRenderer from "@/components/calculators/CalculatorRenderer";
 import { CalculatorCard } from "@/components/cards";
+import WhatsAppShare from "@/components/WhatsAppShare";
 import { calculators, getCalculatorBySlug } from "@/data/calculators";
 import { buildMetadata } from "@/lib/seo";
+import { siteConfig } from "@/lib/site";
 
 export function generateStaticParams() {
   return calculators.map((c) => ({ slug: c.slug }));
@@ -63,6 +65,15 @@ export default function CalculatorDetailPage({
           and for planning purposes only. Final figures from banks, lenders or
           the Income Tax Department may differ based on their policies and the
           latest rates.
+        </div>
+
+        <div className="mt-4 flex items-center gap-3">
+          <WhatsAppShare
+            url={`${siteConfig.url}/calculators/${calc.slug}`}
+            title={`${calc.name} — Free Online Calculator`}
+            variant="compact"
+          />
+          <span className="text-sm text-ink-500">Share this calculator with someone who might find it useful</span>
         </div>
       </div>
 

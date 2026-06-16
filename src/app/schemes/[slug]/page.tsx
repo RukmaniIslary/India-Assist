@@ -10,6 +10,7 @@ import { schemeHindi } from "@/data/schemes.hi";
 import { buildMetadata } from "@/lib/seo";
 import { siteConfig } from "@/lib/site";
 import { T } from "@/lib/i18n";
+import WhatsAppShare from "@/components/WhatsAppShare";
 
 export function generateStaticParams() {
   return schemes.map((s) => ({ slug: s.slug }));
@@ -165,6 +166,12 @@ export default function SchemeDetailPage({
               <Link href="/eligibility" className="btn-secondary mt-2 w-full">
                 <T en="Check eligibility" />
               </Link>
+              <div className="mt-2">
+                <WhatsAppShare
+                  url={`${siteConfig.url}/schemes/${scheme.slug}`}
+                  title={scheme.name}
+                />
+              </div>
             </div>
             <AdUnit label="Sponsored" />
           </div>

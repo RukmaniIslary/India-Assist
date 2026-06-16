@@ -4,6 +4,7 @@ import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import AdUnit from "@/components/AdSense";
 import JsonLd from "@/components/JsonLd";
+import WhatsAppShare from "@/components/WhatsAppShare";
 import { blogPosts, getPostBySlug } from "@/data/blog";
 import { buildMetadata } from "@/lib/seo";
 import { siteConfig } from "@/lib/site";
@@ -106,6 +107,10 @@ export default function BlogPostPage({
                 <Link href="/calculators" className="btn-secondary w-full">
                   Open calculators
                 </Link>
+                <WhatsAppShare
+                  url={`${siteConfig.url}/blog/${post.slug}`}
+                  title={post.title}
+                />
               </div>
             </div>
             <AdUnit label="Sponsored" />

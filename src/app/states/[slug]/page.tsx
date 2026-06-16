@@ -3,10 +3,12 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import AdUnit from "@/components/AdSense";
+import WhatsAppShare from "@/components/WhatsAppShare";
 import { SchemeCard } from "@/components/cards";
 import { states, getStateBySlug } from "@/data/states";
 import { schemes } from "@/data/schemes";
 import { buildMetadata } from "@/lib/seo";
+import { siteConfig } from "@/lib/site";
 
 export function generateStaticParams() {
   return states.map((s) => ({ slug: s.slug }));
@@ -100,9 +102,16 @@ export default function StateDetailPage({
             Use our eligibility engine to match your profile with relevant
             benefits.
           </p>
-          <Link href="/eligibility" className="btn-primary mt-4">
-            Check eligibility
-          </Link>
+          <div className="mt-4 flex flex-wrap gap-3">
+            <Link href="/eligibility" className="btn-primary">
+              Check eligibility
+            </Link>
+            <WhatsAppShare
+              url={`${siteConfig.url}/states/${state.slug}`}
+              title={`${state.name} Government Schemes & Benefits — India Assist`}
+              variant="compact"
+            />
+          </div>
         </div>
       </article>
     </>
