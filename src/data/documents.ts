@@ -189,6 +189,93 @@ export const documents: DocumentGuide[] = [
       },
     ],
   },
+  {
+    slug: "trade-license",
+    name: "Trade License",
+    authority: "Municipal Corporation / Local Body",
+    summary:
+      "A trade license is a mandatory permission from the local municipal authority that lets you legally operate a shop, business or commercial establishment within a city or town.",
+    whoNeeds:
+      "Anyone running a shop, restaurant, hotel, factory, clinic, salon, coaching centre, warehouse, or any commercial establishment — including home-based businesses in many states.",
+    processingTime: "Typically 7 to 30 working days depending on the municipal body and business type",
+    requiredDocuments: [
+      "Identity proof of the owner (Aadhaar Card, PAN Card)",
+      "Address proof of the business premises",
+      "Proof of possession of the premises (rent agreement or ownership deed)",
+      "Passport-size photograph of the applicant",
+      "PAN Card of the business or proprietor",
+      "Bank account details",
+      "For food businesses: FSSAI registration or licence",
+      "For certain trades: NOC from fire department or pollution control board",
+    ],
+    steps: [
+      "Visit your municipal corporation or local body portal (most cities now have one)",
+      "Register as a new user and select the Trade Licence application service",
+      "Fill in business details: name, type of trade, premises address, area in sq. ft.",
+      "Upload the required documents as specified by your municipality",
+      "Pay the prescribed fee based on your business category and floor area",
+      "Receive the acknowledgement number and await inspection if required",
+      "Download or collect the Trade Licence Certificate once approved",
+      "Renew every year — most trade licences are valid for one financial year",
+    ],
+    officialUrl: "https://services.india.gov.in",
+    faqs: [
+      {
+        q: "Is a trade licence mandatory even for a small shop?",
+        a: "Yes, in most states any commercial establishment requires a trade licence from the local municipal authority, regardless of size. Operating without one can result in fines or closure notices.",
+      },
+      {
+        q: "What is the difference between a trade licence and a Shop & Establishment licence?",
+        a: "A trade licence is issued by the municipal body for the type of trade or business activity. A Shop & Establishment Act registration is a state-level registration for the employer-employee relationship, working hours, and conditions at the premises. Most businesses need both.",
+      },
+      {
+        q: "How often does a trade licence need to be renewed?",
+        a: "Most trade licences are valid for one financial year and must be renewed annually before 31 March. Some cities now allow two or three year licences for certain categories.",
+      },
+      {
+        q: "Can I get a trade licence for a home-based business?",
+        a: "Many states and municipalities do allow trade licences for home-based businesses, though there may be restrictions on the type of trade, the area of the home used, and the number of employees. Check with your local municipal body for the specific rules.",
+      },
+    ],
+  },
+  {
+    slug: "shop-and-establishment-registration",
+    name: "Shop & Establishment Registration",
+    authority: "State Labour Department",
+    summary:
+      "A state-level registration that regulates working hours, wages, holidays, and employment conditions at shops and commercial establishments — required for almost every business employing one or more workers.",
+    whoNeeds:
+      "All commercial establishments including shops, offices, hotels, restaurants, theatres, and other places of business.",
+    processingTime: "Usually 7 to 15 working days; some states issue it instantly online",
+    requiredDocuments: [
+      "Identity proof of the owner (Aadhaar Card, PAN Card)",
+      "Address proof of the establishment",
+      "Proof of possession of premises",
+      "List of employees with their details",
+      "Bank account details",
+      "Photograph of the establishment",
+    ],
+    steps: [
+      "Visit your state labour department's online portal or Shram Suvidha portal",
+      "Select the Shop and Establishment Act registration for your state",
+      "Fill in details about the establishment: name, address, nature of business, number of employees",
+      "Upload the required documents",
+      "Pay the prescribed registration fee (varies by state and number of employees)",
+      "Receive the registration certificate — display it prominently at the establishment",
+      "Renew as required by your state's rules (frequency varies)",
+    ],
+    officialUrl: "https://shramsuvidha.gov.in",
+    faqs: [
+      {
+        q: "Do I need Shop & Establishment registration if I work alone from home?",
+        a: "If you have no employees and are a sole proprietor working alone, some states exempt you from this registration. However, as soon as you hire even one person, registration is mandatory in most states.",
+      },
+      {
+        q: "What happens if I operate without this registration?",
+        a: "Operating without a valid Shop & Establishment registration can attract fines and penalties from the state labour department.",
+      },
+    ],
+  },
 ];
 
 export function getDocumentBySlug(slug: string): DocumentGuide | undefined {
