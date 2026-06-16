@@ -4,8 +4,8 @@ import SearchBox from "@/components/SearchBox";
 import SectionHeading from "@/components/SectionHeading";
 import Newsletter from "@/components/Newsletter";
 import AdUnit from "@/components/AdSense";
-import { SchemeCard, CalculatorCard, DocumentCard } from "@/components/cards";
-import { schemes } from "@/data/schemes";
+import { CalculatorCard, DocumentCard } from "@/components/cards";
+import FeaturedSchemes from "@/components/FeaturedSchemes";
 import { calculators } from "@/data/calculators";
 import { documents } from "@/data/documents";
 import { states } from "@/data/states";
@@ -123,11 +123,7 @@ export default function HomePage() {
           subtitle="Flagship central schemes across housing, health, agriculture and pensions."
           href="/schemes"
         />
-        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {schemes.slice(0, 6).map((s) => (
-            <SchemeCard key={s.slug} scheme={s} />
-          ))}
-        </div>
+        <FeaturedSchemes />
       </section>
 
       <div className="container-page">
