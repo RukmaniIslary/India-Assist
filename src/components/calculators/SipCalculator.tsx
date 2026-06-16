@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import { RangeField, AnimatedStat } from "./Field";
 import DonutChart from "./DonutChart";
 import ScheduleTable, { type Row } from "./ScheduleTable";
+import AMCLogos from "./AMCLogos";
 import { formatINR } from "@/lib/format";
 
 export default function SipCalculator() {
@@ -73,6 +74,7 @@ export default function SipCalculator() {
         ]}
         rows={schedule}
       />
+      <AMCLogos />
     </div>
   );
 }

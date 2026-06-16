@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { RangeField, AnimatedStat } from "./Field";
 import DonutChart from "./DonutChart";
+import LenderRates from "./LenderRates";
 import { formatINR } from "@/lib/format";
 
 export default function LoanEligibilityCalculator() {
@@ -64,6 +65,7 @@ export default function LoanEligibilityCalculator() {
           </p>
         </div>
       </div>
+      <LenderRates loanType="home" />
     </div>
   );
 }

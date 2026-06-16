@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import { RangeField, AnimatedStat } from "./Field";
 import DonutChart from "./DonutChart";
 import ScheduleTable, { type Row } from "./ScheduleTable";
+import LenderRates from "./LenderRates";
 import { formatINR } from "@/lib/format";
 
 export default function EmiCalculator() {
@@ -93,6 +94,7 @@ export default function EmiCalculator() {
         ]}
         rows={schedule}
       />
+      <LenderRates loanType="home" />
     </div>
   );
 }

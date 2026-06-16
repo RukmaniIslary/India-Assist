@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import { RangeField, AnimatedStat } from "./Field";
 import DonutChart from "./DonutChart";
 import ScheduleTable, { type Row } from "./ScheduleTable";
+import FDRates from "./FDRates";
 import { formatINR } from "@/lib/format";
 import { useT } from "@/lib/i18n";
 
@@ -85,6 +86,7 @@ export default function FdCalculator() {
         ]}
         rows={schedule}
       />
+      <FDRates />
     </div>
   );
 }

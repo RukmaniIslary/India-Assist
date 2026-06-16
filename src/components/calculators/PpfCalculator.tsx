@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import { RangeField, AnimatedStat } from "./Field";
 import DonutChart from "./DonutChart";
 import ScheduleTable, { type Row } from "./ScheduleTable";
+import { SBILogo, IndiaPostLogo } from "./BankLogos";
 import { formatINR } from "@/lib/format";
 
 export default function PpfCalculator() {
@@ -68,6 +69,33 @@ export default function PpfCalculator() {
         ]}
         rows={schedule}
       />
+
+      {/* PPF available at section */}
+      <div className="mt-6 rounded-xl border border-ink-200 bg-white p-5">
+        <h3 className="mb-3 text-sm font-semibold text-ink-900">
+          Where to open a PPF account
+        </h3>
+        <div className="flex flex-wrap gap-4">
+          <div className="flex items-center gap-3 rounded-lg border border-ink-200 p-3">
+            <div className="w-16 overflow-hidden rounded"><SBILogo size={44} /></div>
+            <div>
+              <p className="text-sm font-semibold text-ink-900">State Bank of India</p>
+              <p className="text-xs text-ink-500">Any SBI branch or YONO app</p>
+            </div>
+          </div>
+          <div className="flex items-center gap-3 rounded-lg border border-ink-200 p-3">
+            <div className="w-16 overflow-hidden rounded"><IndiaPostLogo size={64} /></div>
+            <div>
+              <p className="text-sm font-semibold text-ink-900">India Post</p>
+              <p className="text-xs text-ink-500">Any post office branch</p>
+            </div>
+          </div>
+        </div>
+        <p className="mt-3 text-xs text-ink-400">
+          PPF accounts can also be opened at most nationalised banks and select private banks.
+          The interest rate is set quarterly by the Government of India.
+        </p>
+      </div>
     </div>
   );
 }
