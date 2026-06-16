@@ -682,6 +682,297 @@ export const schemes: Scheme[] = [
       },
     ],
   },
+  {
+    slug: "pradhan-mantri-ujjwala-yojana",
+    name: "Pradhan Mantri Ujjwala Yojana",
+    shortName: "PMUY",
+    ministry: "Ministry of Petroleum & Natural Gas",
+    category: "Women & Child",
+    summary:
+      "Provides free LPG connections to women from low-income households, replacing smoky traditional fuels with clean cooking gas and protecting their health.",
+    benefit:
+      "A free LPG connection with financial support for the first refill and stove.",
+    launched: "2016",
+    beneficiaries: "Adult women from eligible low-income households",
+    eligibility: [
+      "Adult woman belonging to an eligible poor household",
+      "No existing LPG connection in the household",
+      "Listed in SECC or specified beneficiary categories",
+    ],
+    documents: [
+      "Aadhaar Card",
+      "Ration card or proof of poor household",
+      "Bank account linked with Aadhaar",
+      "Recent photograph",
+    ],
+    howToApply: [
+      "Visit the nearest LPG distributor or apply on the official portal",
+      "Submit the KYC form with documents",
+      "Complete verification by the distributor",
+      "Receive your free LPG connection",
+    ],
+    officialUrl: "https://www.pmuy.gov.in",
+    faqs: [
+      {
+        q: "Who can apply for an Ujjwala connection?",
+        a: "An adult woman from an eligible low-income household without an existing LPG connection can apply.",
+      },
+    ],
+  },
+  {
+    slug: "swachh-bharat-mission",
+    name: "Swachh Bharat Mission",
+    shortName: "SBM",
+    ministry: "Ministry of Jal Shakti / Housing & Urban Affairs",
+    category: "Health",
+    summary:
+      "A national cleanliness mission to eliminate open defecation and improve sanitation by supporting household and community toilets, plus solid waste management.",
+    benefit:
+      "Financial incentive to build a household toilet and access to improved sanitation.",
+    launched: "2014",
+    beneficiaries: "Households without access to a toilet",
+    eligibility: [
+      "Household without a functional toilet",
+      "Priority to eligible rural and urban poor families",
+      "Beneficiary identified as per state guidelines",
+    ],
+    documents: [
+      "Aadhaar Card",
+      "Bank account details",
+      "Proof of residence",
+    ],
+    howToApply: [
+      "Apply through your gram panchayat or urban local body",
+      "Submit identity and bank details",
+      "Construct the toilet as per approved design",
+      "Receive the incentive after verification",
+    ],
+    officialUrl: "https://swachhbharatmission.gov.in",
+    faqs: [
+      {
+        q: "What support does SBM provide for toilets?",
+        a: "Eligible households receive a financial incentive to construct an individual household latrine after verification.",
+      },
+    ],
+  },
+  {
+    slug: "mahatma-gandhi-nrega",
+    name: "Mahatma Gandhi National Rural Employment Guarantee Act",
+    shortName: "MGNREGA",
+    ministry: "Ministry of Rural Development",
+    category: "Employment",
+    summary:
+      "Guarantees up to 100 days of paid wage employment in a financial year to every rural household whose adult members volunteer for unskilled manual work.",
+    benefit:
+      "Guaranteed wage employment of up to 100 days a year per rural household.",
+    launched: "2005",
+    beneficiaries: "Adult members of rural households",
+    eligibility: [
+      "Adult member of a rural household willing to do unskilled manual work",
+      "Resident of the village where work is sought",
+      "Registered for a job card with the gram panchayat",
+    ],
+    documents: [
+      "Aadhaar Card",
+      "Proof of residence",
+      "Passport-size photographs",
+      "Bank or post office account details",
+    ],
+    howToApply: [
+      "Register your household at the gram panchayat",
+      "Obtain the MGNREGA job card",
+      "Submit a written application for work",
+      "Receive work within 15 days or unemployment allowance",
+    ],
+    officialUrl: "https://nrega.nic.in",
+    faqs: [
+      {
+        q: "How many days of work does MGNREGA guarantee?",
+        a: "It guarantees up to 100 days of wage employment per rural household in a financial year.",
+      },
+    ],
+  },
+  {
+    slug: "pradhan-mantri-mudra-yojana",
+    name: "Pradhan Mantri Mudra Yojana",
+    shortName: "PMMY",
+    ministry: "Ministry of Finance",
+    category: "Financial Inclusion",
+    summary:
+      "Offers collateral-free loans to small and micro enterprises and self-employed individuals through banks and NBFCs to fund and grow their businesses.",
+    benefit:
+      "Collateral-free business loans under the Shishu, Kishore and Tarun categories.",
+    launched: "2015",
+    beneficiaries: "Non-corporate, non-farm micro and small enterprises",
+    eligibility: [
+      "Indian citizen running or starting a small non-farm business",
+      "Requires funds for a viable income-generating activity",
+      "Not a defaulter with any bank or financial institution",
+    ],
+    documents: [
+      "Aadhaar Card and PAN Card",
+      "Business plan or proof of activity",
+      "Bank account details",
+      "Recent photographs",
+    ],
+    howToApply: [
+      "Approach a bank, NBFC or apply via the Udyamimitra portal",
+      "Submit the business plan and KYC documents",
+      "Choose the loan category as per your need",
+      "Receive the sanctioned amount after appraisal",
+    ],
+    officialUrl: "https://www.mudra.org.in",
+    faqs: [
+      {
+        q: "What are the loan categories under Mudra?",
+        a: "Loans are classified as Shishu, Kishore and Tarun based on the financing need and stage of the business.",
+      },
+    ],
+  },
+  {
+    slug: "beti-bachao-beti-padhao",
+    name: "Beti Bachao Beti Padhao",
+    shortName: "BBBP",
+    ministry: "Ministry of Women & Child Development",
+    category: "Women & Child",
+    summary:
+      "A national campaign to prevent gender-biased sex selection and ensure the survival, protection and education of the girl child through awareness and services.",
+    benefit:
+      "Awareness, protection and education support to improve the lives of girl children.",
+    launched: "2015",
+    beneficiaries: "Girl children and their families",
+    eligibility: [
+      "Girl children and their families across the country",
+      "Implemented through districts with focus on improving the child sex ratio",
+    ],
+    documents: [
+      "Aadhaar Card of the girl child",
+      "Birth certificate",
+      "Proof of residence",
+    ],
+    howToApply: [
+      "Engage with district programmes via anganwadi or local authorities",
+      "Link the girl child to schemes like Sukanya Samriddhi for savings",
+      "Ensure school enrolment and continued education",
+    ],
+    officialUrl: "https://wcd.nic.in",
+    faqs: [
+      {
+        q: "Is Beti Bachao Beti Padhao a cash scheme?",
+        a: "It is primarily an awareness and convergence initiative; financial benefits come through linked schemes such as Sukanya Samriddhi Yojana.",
+      },
+    ],
+  },
+  {
+    slug: "pm-scholarship-scheme",
+    name: "Prime Minister's Scholarship Scheme",
+    shortName: "PMSS",
+    ministry: "Department of Ex-Servicemen Welfare, Ministry of Defence",
+    category: "Education",
+    summary:
+      "Provides scholarships to the wards and widows of ex-servicemen and ex-coast guard personnel to pursue professional and technical higher education.",
+    benefit:
+      "Annual scholarship to support professional and technical degree courses.",
+    launched: "2006",
+    beneficiaries: "Wards and widows of ex-servicemen and ex-coast guard personnel",
+    eligibility: [
+      "Ward or widow of an ex-serviceman or ex-coast guard personnel",
+      "Admitted to a recognised professional or technical course",
+      "Meets the minimum marks criteria in the qualifying exam",
+    ],
+    documents: [
+      "Aadhaar Card",
+      "Ex-servicemen identity proof",
+      "Marksheet and admission proof",
+      "Bank account details",
+    ],
+    howToApply: [
+      "Register on the National Scholarship Portal",
+      "Select the Prime Minister's Scholarship Scheme",
+      "Upload eligibility and academic documents",
+      "Submit the application before the deadline",
+    ],
+    officialUrl: "https://ksb.gov.in",
+    faqs: [
+      {
+        q: "Who is eligible for the PM Scholarship Scheme?",
+        a: "Wards and widows of ex-servicemen and ex-coast guard personnel pursuing recognised professional or technical courses can apply.",
+      },
+    ],
+  },
+  {
+    slug: "pradhan-mantri-vaya-vandana-yojana",
+    name: "Pradhan Mantri Vaya Vandana Yojana",
+    shortName: "PMVVY",
+    ministry: "Ministry of Finance (via LIC)",
+    category: "Pension",
+    summary:
+      "A pension scheme for senior citizens offering a guaranteed regular income through assured returns on a one-time investment for a fixed term.",
+    benefit:
+      "Assured pension income for senior citizens over the policy term.",
+    launched: "2017",
+    beneficiaries: "Senior citizens aged 60 and above",
+    eligibility: [
+      "Indian citizen aged 60 years and above",
+      "Able to make the one-time purchase price investment",
+      "Within the maximum investment limit per senior citizen",
+    ],
+    documents: [
+      "Aadhaar Card",
+      "Age proof",
+      "Bank account details",
+      "PAN Card",
+    ],
+    howToApply: [
+      "Visit an LIC branch or the official LIC portal",
+      "Choose the pension payout frequency",
+      "Pay the one-time purchase price",
+      "Start receiving the assured pension",
+    ],
+    officialUrl: "https://licindia.in",
+    faqs: [
+      {
+        q: "Who can buy PMVVY?",
+        a: "Any Indian senior citizen aged 60 and above can purchase the scheme, subject to the maximum investment limit.",
+      },
+    ],
+  },
+  {
+    slug: "pm-svanidhi",
+    name: "PM Street Vendor's AtmaNirbhar Nidhi",
+    shortName: "PM SVANidhi",
+    ministry: "Ministry of Housing & Urban Affairs",
+    category: "Employment",
+    summary:
+      "Gives street vendors affordable working-capital loans to restart and grow their businesses, with incentives for repayment and digital transactions.",
+    benefit:
+      "Collateral-free working-capital loan with interest subsidy and cashback on digital payments.",
+    launched: "2020",
+    beneficiaries: "Urban street vendors",
+    eligibility: [
+      "Street vendor with a certificate of vending or identity card",
+      "Vendors identified in the survey by the urban local body",
+      "Vendors who began vending before the cut-off date as notified",
+    ],
+    documents: [
+      "Aadhaar Card",
+      "Certificate of vending or vendor ID",
+      "Bank account details",
+    ],
+    howToApply: [
+      "Apply via the PM SVANidhi portal, a bank or a CSC",
+      "Submit your vendor identity and KYC documents",
+      "Receive the working-capital loan after approval",
+      "Repay on time to access higher loan limits",
+    ],
+    officialUrl: "https://pmsvanidhi.mohua.gov.in",
+    faqs: [
+      {
+        q: "What loan does PM SVANidhi offer?",
+        a: "It offers a collateral-free working-capital loan that increases in steps as vendors repay on time.",
+      },
+    ],
+  },
 ];
 
 export function getSchemeBySlug(slug: string): Scheme | undefined {
