@@ -1410,6 +1410,567 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "pm-svanidhi-street-vendors-full-guide",
+    title: "PM SVANidhi Scheme for Street Vendors — A Full Guide",
+    excerpt:
+      "The vegetable seller near my house got a SVANidhi loan and grew his cart into a stall. Here's the whole thing explained simply.",
+    category: "Finance",
+    author: "Sanjay Borkar",
+    date: "2026-06-16",
+    readingTime: "8 min read",
+    content: [
+      {
+        paragraphs: [
+          "There is a vegetable seller I buy from almost every evening, Ramu bhai, who used to run a small handcart at the corner of our lane. Last year he mentioned, almost shyly, that he had taken a government loan and was saving to turn the cart into a proper stall. That loan was PM SVANidhi, and watching his little business grow made me actually understand how this scheme works on the ground. So here is the full, plain-language guide.",
+        ],
+      },
+      {
+        heading: "What the scheme actually is",
+        paragraphs: [
+          "PM SVANidhi — the PM Street Vendor's AtmaNirbhar Nidhi — was launched to help street vendors who were hit hard during the pandemic restart and grow their tiny businesses. The whole idea is to give them small, collateral-free working-capital loans through the formal system, instead of leaving them at the mercy of moneylenders charging frightening daily interest.",
+          "The genius of it is the step-up design. You start with a modest first loan, and once you repay it on time, you become eligible for a larger second loan, and then a third. It rewards exactly the discipline that helps a small vendor actually build something.",
+        ],
+      },
+      {
+        heading: "Who qualifies",
+        paragraphs: [
+          "It is meant for urban street vendors — the people selling vegetables, fruit, snacks, tea, small goods on the pavement or from a cart.",
+        ],
+        list: [
+          "Street vendors with a certificate of vending or an identity card from the urban local body",
+          "Vendors identified in the official survey of street vendors",
+          "Vendors who began vending before the notified cut-off date",
+          "Those left out of the survey can often still apply with a letter of recommendation",
+        ],
+      },
+      {
+        heading: "How to apply",
+        paragraphs: [
+          "Ramu bhai applied with help from a Common Service Centre, which is honestly the easiest route for most vendors who are not comfortable with forms.",
+        ],
+        list: [
+          "Apply via the PM SVANidhi portal, a bank, or a Common Service Centre",
+          "Keep your Aadhaar and vendor identity / vending certificate ready",
+          "Provide bank account details for the loan and repayments",
+          "Receive the first working-capital loan after approval",
+        ],
+      },
+      {
+        heading: "The benefits people overlook",
+        paragraphs: [
+          "Two things make this scheme genuinely smart. First, there is an interest subsidy if you repay on time, which lowers the real cost of the loan considerably. Second, there is a cashback incentive for using digital payments — so adopting a simple QR code can actually put a little money back in your pocket while building a digital record of your business.",
+          "That digital record matters more than it sounds. It is how a pavement vendor slowly builds a credit history and becomes visible to the formal financial system for bigger things later.",
+        ],
+      },
+      {
+        heading: "My honest take",
+        paragraphs: [
+          "PM SVANidhi will not make anyone rich. But for someone like Ramu bhai, that first small loan was the difference between buying stock on credit at a loss and buying it outright at a fair price. The step-up loans and the on-time-repayment rewards genuinely help a disciplined vendor climb.",
+          "If you or someone you know runs a street stall, this is worth doing properly. Repay on time, use the digital payment option, and let the larger loans follow. It is one of the few schemes designed around the realities of a tiny daily-cash business.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "how-to-apply-passport-online-india-2026",
+    title: "How to Apply for a Passport Online in India in 2026",
+    excerpt:
+      "I just renewed mine and helped my sister get her first one. Here's the actual process, fees, and the appointment trick.",
+    category: "Documents",
+    author: "Aditya Rao",
+    date: "2026-06-16",
+    readingTime: "8 min read",
+    content: [
+      {
+        paragraphs: [
+          "I had been postponing my passport renewal for almost a year, imagining endless queues and agents. Then my sister needed her first passport urgently for a study application, so I finally sat down and did both online through the Passport Seva portal. Honestly, it was far smoother than the horror stories suggest, as long as you know the steps and avoid a couple of traps. Here is the real walkthrough.",
+        ],
+      },
+      {
+        heading: "Register and fill the form",
+        paragraphs: [
+          "Everything starts on the official Passport Seva portal. You create an account, log in, and choose whether it is a fresh passport or a re-issue. Then you fill the application form carefully — and I mean carefully, because the details here must exactly match your supporting documents.",
+          "You can fill it online directly or download and upload an e-form. For most people the online route is simpler and less error-prone.",
+        ],
+      },
+      {
+        heading: "Pay and book the appointment",
+        paragraphs: [
+          "After submitting, you pay the fee online, and only then can you book an appointment at a Passport Seva Kendra or a Post Office Passport Seva Kendra. The fee depends on whether it is normal or Tatkal, and on the number of pages and your age.",
+          "Here is the trick nobody tells you: appointment slots open at fixed times and get taken fast in big cities. If you cannot find a slot, do not panic — log in around the time fresh slots are released rather than refreshing randomly all day.",
+        ],
+      },
+      {
+        heading: "Documents to carry",
+        paragraphs: ["Carry originals plus a self-attested photocopy of each to your appointment."],
+        list: [
+          "Proof of present address (Aadhaar, utility bill, bank passbook)",
+          "Proof of date of birth",
+          "Aadhaar card and any other identity proof",
+          "For re-issue, your old passport",
+        ],
+      },
+      {
+        heading: "The visit and police verification",
+        paragraphs: [
+          "At the Kendra, your documents are checked, your photo and biometrics are taken, and the application is processed across a few counters. It is organised and quicker than I expected — we were done in about an hour.",
+          "For most fresh passports, police verification happens afterwards, sometimes before the passport is issued and sometimes after. Keep your phone reachable, because the police station may call or visit. Tatkal is the faster route if you genuinely need the passport urgently, though it costs more.",
+        ],
+      },
+      {
+        heading: "My advice",
+        paragraphs: [
+          "Get your address and date-of-birth proofs perfectly consistent before you start — a mismatch is the single biggest cause of delays and re-visits. And you do not need an agent; the portal is designed to be used directly, and paying a tout adds cost without adding any speed.",
+          "My sister's passport arrived comfortably before her deadline, and my renewal was painless. Done carefully, the whole thing is genuinely a do-it-yourself task now.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "beti-bachao-beti-padhao-what-benefits",
+    title: "Beti Bachao Beti Padhao — What Benefits Does It Actually Give?",
+    excerpt:
+      "People assume it's a cash scheme. After looking into it for my daughter, here's what it really is and how to actually benefit.",
+    category: "Schemes",
+    author: "Sunita Agarwal",
+    date: "2026-06-16",
+    readingTime: "7 min read",
+    content: [
+      {
+        paragraphs: [
+          "When my daughter was born, a relative confidently told me to go and collect the Beti Bachao Beti Padhao money from some government office. I went looking, expecting a cash benefit, and came back confused because there was no cheque waiting anywhere. That confusion is extremely common, so let me explain what this scheme actually is and how a family genuinely benefits from it.",
+        ],
+      },
+      {
+        heading: "It is a campaign, not a cash transfer",
+        paragraphs: [
+          "Here is the key thing most people get wrong: Beti Bachao Beti Padhao is primarily an awareness and coordination campaign, not a scheme that deposits money into your account. Its core goals are to stop gender-biased sex selection, and to ensure the survival, protection and education of the girl child.",
+          "So when someone says they are going to collect BBBP money, they are usually thinking of a different, linked scheme. The benefit of BBBP itself is in the system it pushes — better enrolment of girls in schools, awareness drives, and a stronger official focus on the child sex ratio in districts.",
+        ],
+      },
+      {
+        heading: "How families actually benefit",
+        paragraphs: [
+          "The real, tangible financial help for your daughter comes from the schemes that BBBP encourages you to use. The big one is Sukanya Samriddhi Yojana, which is the actual savings instrument with attractive, tax-free returns for the girl child.",
+        ],
+        list: [
+          "Open a Sukanya Samriddhi account for safe, tax-free, long-term savings",
+          "Ensure your daughter is enrolled and stays in school",
+          "Use state-level girl-child schemes, which BBBP helps publicise",
+          "Access the awareness and protection support the campaign drives locally",
+        ],
+      },
+      {
+        heading: "What I did for my daughter",
+        paragraphs: [
+          "Once I understood this, I stopped hunting for non-existent BBBP cash and did the thing that actually builds her future: I opened a Sukanya Samriddhi account at the post office and started putting in a fixed amount each year. That is where the real money grows.",
+          "I think of BBBP as the message and Sukanya as the method. The campaign changed the conversation in families like mine about valuing and educating daughters; the savings scheme is where I put that into action.",
+        ],
+      },
+      {
+        heading: "My honest takeaway",
+        paragraphs: [
+          "Do not wait around expecting a Beti Bachao Beti Padhao cheque, because that is not how it works, and that misunderstanding makes some families feel cheated for no reason. Understand it as the umbrella idea, then act on the concrete schemes underneath it.",
+          "If you have a daughter under ten, the single most useful step you can take today is opening a Sukanya Samriddhi account. That is where the spirit of Beti Bachao Beti Padhao becomes real rupees for her education and future.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "how-to-link-aadhaar-with-bank-account-online",
+    title: "How to Link Aadhaar With Your Bank Account Online",
+    excerpt:
+      "A stuck subsidy forced me to finally do this. Here's every way to link Aadhaar to your bank account and which is fastest.",
+    category: "Finance",
+    author: "Neha Bhatt",
+    date: "2026-06-16",
+    readingTime: "7 min read",
+    content: [
+      {
+        paragraphs: [
+          "I only learned how important Aadhaar-bank linking was when a subsidy I was due simply did not arrive. After some digging, the reason was almost laughably simple — my Aadhaar was not seeded with that particular bank account, so the direct benefit transfer had nowhere to land. If your scheme money or LPG subsidy is stuck, this is very often the reason. Here is how to fix it.",
+        ],
+      },
+      {
+        heading: "Why linking matters so much",
+        paragraphs: [
+          "Almost every government benefit today flows through Direct Benefit Transfer, and DBT routes money using your Aadhaar-linked bank account. If the linkage is missing or pointing to an old account, the money you are entitled to either bounces or goes to the wrong place.",
+          "Beyond subsidies, linking also makes KYC smoother and helps with quick, paperless verification for many services. It is one of those small back-end things that quietly controls whether benefits reach you.",
+        ],
+      },
+      {
+        heading: "The ways to link it",
+        paragraphs: [
+          "There are several routes, and you can pick whichever is easiest for you.",
+        ],
+        list: [
+          "Net banking or your bank's mobile app — usually under an Aadhaar seeding or update section",
+          "An ATM of your bank, which often has an Aadhaar registration option",
+          "An SMS service offered by some banks",
+          "Visiting the branch with your Aadhaar and passbook if you prefer offline",
+        ],
+      },
+      {
+        heading: "How I did it and what to check",
+        paragraphs: [
+          "I did mine through the bank's mobile app in about five minutes — found the Aadhaar linking option, entered my number, verified an OTP, and it was done. The confirmation came by SMS shortly after.",
+          "One important nuance: there is a difference between simply linking Aadhaar for KYC and seeding it for DBT. For benefits to flow, your Aadhaar must be the one mapped in the NPCI system to receive DBT. If a subsidy is still not arriving after linking, ask your bank specifically to confirm DBT seeding, not just KYC linking.",
+        ],
+      },
+      {
+        heading: "My takeaway",
+        paragraphs: [
+          "If you have multiple bank accounts, remember that your DBT money goes to the latest Aadhaar-seeded one, so be deliberate about which account you want benefits in. I had an old, barely-used account seeded, which is exactly why my subsidy went astray.",
+          "Spend five minutes confirming your Aadhaar is linked and seeded to the account you actually use. It is the quiet plumbing behind every scheme, and getting it right means your benefits simply show up without drama.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "best-government-health-schemes-for-poor-families",
+    title: "Best Government Health Schemes for Poor Families",
+    excerpt:
+      "A medical scare in a friend's family taught me which health schemes genuinely protect the poor. Here's the shortlist.",
+    category: "Schemes",
+    author: "Thomas Mathew",
+    date: "2026-06-16",
+    readingTime: "8 min read",
+    content: [
+      {
+        paragraphs: [
+          "Nothing exposes how fragile a poor family's finances are like a sudden hospital bill. I watched a friend's family nearly sell their small plot of land to pay for his father's surgery, before someone pointed them to a health scheme that covered most of it. That episode made me sit down and actually learn which government health schemes genuinely protect low-income families. Here is the honest shortlist.",
+        ],
+      },
+      {
+        heading: "Ayushman Bharat is the big one",
+        paragraphs: [
+          "If a family qualifies, Ayushman Bharat PM-JAY is the single most powerful protection available. It offers cashless hospitalisation cover up to a substantial limit per family per year, at empanelled government and private hospitals, with no premium to pay.",
+          "The catch is awareness and preparation. The smartest thing my friend's family did afterwards was get every member's card and e-KYC sorted while everyone was healthy, so the next emergency would not mean scrambling at the admission desk.",
+        ],
+      },
+      {
+        heading: "Other schemes worth knowing",
+        paragraphs: [
+          "Ayushman is not the only safety net, and several others fill important gaps.",
+        ],
+        list: [
+          "Rashtriya Swasthya Bima Yojana — cashless cover for BPL families and certain workers",
+          "Pradhan Mantri National Dialysis Programme — free dialysis for kidney patients",
+          "Janani Suraksha Yojana — support for safe institutional childbirth",
+          "Jan Aushadhi Kendras — quality generic medicines at a fraction of branded prices",
+          "State health schemes, which often top up or extend central cover",
+        ],
+      },
+      {
+        heading: "The everyday saver people forget",
+        paragraphs: [
+          "Beyond hospitalisation, the quiet money-saver for poor families is the Jan Aushadhi network. For anyone managing a chronic condition like diabetes or blood pressure, buying generic medicines there instead of branded ones can cut the monthly medicine bill dramatically. Over a year, that saving alone is significant for a low-income household.",
+        ],
+      },
+      {
+        heading: "My advice",
+        paragraphs: [
+          "Do the paperwork before the emergency, not during it. Check eligibility for Ayushman Bharat first, get the cards and e-KYC done, and note your nearest empanelled hospital and Jan Aushadhi Kendra in advance.",
+          "A health scare is frightening enough without also facing financial ruin. These schemes genuinely exist to stand between a poor family and that ruin — but only if the family is enrolled and ready before the crisis hits. Use our eligibility tool to check which health cover fits your family's profile in seconds.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "how-to-apply-driving-licence-online-india",
+    title: "How to Apply for a Driving Licence Online in India",
+    excerpt:
+      "I just got my licence through the Parivahan portal. Here's the full process from learner's licence to the driving test.",
+    category: "Documents",
+    author: "Karthik Subramanian",
+    date: "2026-06-16",
+    readingTime: "8 min read",
+    content: [
+      {
+        paragraphs: [
+          "Getting a driving licence used to mean a middleman, a fistful of cash, and a vague promise that everything would be taken care of. When I finally got mine recently, I did the whole thing myself through the Parivahan Sarathi portal, and it was genuinely doable without any agent. Here is the full journey, from the learner's licence to the permanent one.",
+        ],
+      },
+      {
+        heading: "Start with the learner's licence",
+        paragraphs: [
+          "You cannot jump straight to a permanent licence. First you apply for a learner's licence on the Parivahan Sarathi portal. You fill the application, upload documents, pay the fee, and book a slot for a simple online test on traffic rules and signs.",
+          "Do not treat that test casually — study the road signs beforehand. It is not hard, but people fail it by assuming it needs no preparation. I spent an evening with the signs and cleared it comfortably.",
+        ],
+      },
+      {
+        heading: "Documents you will need",
+        paragraphs: ["Keep these scanned and ready."],
+        list: [
+          "Aadhaar card or other identity proof",
+          "Age proof",
+          "Address proof",
+          "Passport-size photographs and signature",
+        ],
+      },
+      {
+        heading: "Then the permanent licence",
+        paragraphs: [
+          "After holding the learner's licence for the mandatory waiting period (usually about a month), you apply for the permanent licence and book a driving test slot at the RTO. On test day you actually drive, so practise properly during that month rather than cramming at the end.",
+          "I practised on a quiet road with a friend who drives well, and that made the test far less nerve-racking. The examiner mainly wants to see that you are safe, controlled and aware — not a stunt driver.",
+        ],
+      },
+      {
+        heading: "The test and after",
+        paragraphs: [
+          "Pass the driving test and the permanent licence is issued and posted to you, with a digital copy usually available sooner. If you fail, you can re-book and try again, so it is not the end of the world — but it is a wasted trip, so go prepared.",
+          "One tip: reach the RTO early on test day and carry your learner's licence and originals. Things move faster when your paperwork is in order.",
+        ],
+      },
+      {
+        heading: "My honest take",
+        paragraphs: [
+          "You genuinely do not need an agent anymore. The portal walks you through each step, and paying a tout mostly just adds cost while skipping the learning you actually want before you drive on real roads.",
+          "Do it yourself, take the learner's test and the driving practice seriously, and you will end up not just with a licence but with the confidence that you earned it properly. That matters every time you get behind the wheel.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "pm-ujjwala-yojana-who-qualifies-how-to-apply",
+    title: "PM Ujjwala Yojana — Who Qualifies and How to Apply",
+    excerpt:
+      "Our domestic help got a free LPG connection through Ujjwala. Here's exactly who qualifies and how to apply.",
+    category: "Schemes",
+    author: "Rekha Pawar",
+    date: "2026-06-16",
+    readingTime: "7 min read",
+    content: [
+      {
+        paragraphs: [
+          "Our domestic help, Sushila, cooked on a smoky chulha for years, and her coughing every winter was a quiet reminder of what that does to a person's lungs. When she got a free LPG connection through PM Ujjwala Yojana, the change in her kitchen — and her health — was genuinely visible. Helping her apply taught me exactly how this scheme works, so let me lay it out clearly.",
+        ],
+      },
+      {
+        heading: "What the scheme gives",
+        paragraphs: [
+          "Pradhan Mantri Ujjwala Yojana provides a free LPG connection to women from low-income households, with support that typically covers the deposit for the cylinder and regulator, and often the first refill and stove too. The deeper goal is health and dignity: replacing smoky solid fuels that harm women's lungs with clean cooking gas.",
+          "For a family that has only ever cooked on wood or coal, this is not a small convenience — it is a real improvement in daily health and the hours spent gathering fuel.",
+        ],
+      },
+      {
+        heading: "Who qualifies",
+        paragraphs: [
+          "The connection is issued in the name of an adult woman of the household, and eligibility focuses on poorer families.",
+        ],
+        list: [
+          "An adult woman from an eligible low-income household",
+          "The household should not already have an LPG connection",
+          "Listed in SECC data or one of the specified beneficiary categories",
+          "Valid Aadhaar and a bank account linked to it",
+        ],
+      },
+      {
+        heading: "How to apply",
+        paragraphs: [
+          "We did Sushila's application directly at a nearby LPG distributor, which is the simplest route. You can also apply through the official Ujjwala portal.",
+        ],
+        list: [
+          "Visit your nearest LPG distributor or the official PMUY portal",
+          "Fill the KYC form and submit Aadhaar, address and bank details",
+          "Provide a recent photograph",
+          "After verification, collect the free connection",
+        ],
+      },
+      {
+        heading: "What to keep in mind",
+        paragraphs: [
+          "The connection is free, but refills afterwards are paid, with an eligible subsidy credited to the linked bank account. This is exactly why getting the Aadhaar-bank linkage right matters — otherwise the refill subsidy does not reach you. We made sure Sushila's account was properly seeded so her subsidy comes through smoothly.",
+          "Some families worry about the ongoing refill cost, but used carefully, the health benefit and the time saved far outweigh it, especially for the women who were breathing smoke every single day.",
+        ],
+      },
+      {
+        heading: "My takeaway",
+        paragraphs: [
+          "If there is a woman in a low-income household around you still cooking on a chulha, tell her about Ujjwala. The application is simple, the connection is free, and the difference to her health is real and immediate.",
+          "Just pair it with a properly Aadhaar-linked bank account so the refill subsidy flows, and this becomes one of the most genuinely life-improving schemes a poor family can access.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "national-scholarship-portal-complete-guide-2026",
+    title: "National Scholarship Portal — A Complete Guide for 2026",
+    excerpt:
+      "I helped two students apply through NSP. Here's how the portal works, the documents, and how to not miss out.",
+    category: "Education",
+    author: "Fatima Sheikh",
+    date: "2026-06-16",
+    readingTime: "8 min read",
+    content: [
+      {
+        paragraphs: [
+          "The National Scholarship Portal is one of those things that sounds intimidating until you actually use it, and then you realise it is mostly about being organised. Having guided my younger brother and a neighbour's daughter through it, I have seen both how much money is available and how easily students lose it to small, avoidable mistakes. Here is the complete, practical guide.",
+        ],
+      },
+      {
+        heading: "What the NSP actually is",
+        paragraphs: [
+          "The National Scholarship Portal is a single online window that hosts central and many state government scholarships — pre-matric, post-matric, merit-based, minority, and category-specific ones. Instead of chasing each department separately, you create one profile and the portal shows you schemes you may be eligible for.",
+          "That single-window design is its biggest strength. One careful profile can open the door to several scholarships at once.",
+        ],
+      },
+      {
+        heading: "Documents to keep ready",
+        paragraphs: ["Gather and scan these before you start, because a missing one mid-application is what stalls most students."],
+        list: [
+          "Aadhaar card (and a bank account linked to it)",
+          "Income certificate",
+          "Caste or category certificate, if applicable",
+          "Previous year's marksheet",
+          "Admission proof or bonafide certificate from the institution",
+        ],
+      },
+      {
+        heading: "How to apply, step by step",
+        paragraphs: [
+          "The flow is straightforward once your documents are ready.",
+        ],
+        list: [
+          "Register as a fresh applicant and note your application ID",
+          "Complete your profile and verify with OTP",
+          "Select the scholarship scheme you are eligible for",
+          "Upload documents and submit before the deadline",
+          "Get it verified by your institution, which is a required step",
+        ],
+      },
+      {
+        heading: "The mistakes that cost students money",
+        paragraphs: [
+          "From what I have seen, students rarely lose scholarships because of merit. They lose them to three things: missing the deadline, a name mismatch between Aadhaar and other documents, and forgetting that the institution must verify the application after submission.",
+          "That last one trips up so many people. You submit, feel relieved, and assume you are done — but if your college does not verify it in the portal, your application simply does not move forward. Always follow up with your institution's nodal officer.",
+        ],
+      },
+      {
+        heading: "My advice for 2026",
+        paragraphs: [
+          "Start early. The portal gets painfully slow as deadlines approach, and last-minute uploads fail at the worst moment. Sort your income and caste certificates well before the season, keep every name spelling identical to Aadhaar, and apply for the one scheme you best qualify for rather than scattering effort.",
+          "Done calmly and early, NSP is genuinely generous. My brother's scholarship covered a real chunk of his costs, and the only reason it worked was that we treated the boring details — documents, verification, deadlines — as the actual job.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "how-to-apply-pan-card-online-step-by-step",
+    title: "How to Apply for a PAN Card Online, Step by Step",
+    excerpt:
+      "I got an instant e-PAN in minutes and a physical one for my father. Here's both routes explained simply.",
+    category: "Documents",
+    author: "Harish Chandra",
+    date: "2026-06-16",
+    readingTime: "7 min read",
+    content: [
+      {
+        paragraphs: [
+          "A PAN card is one of those documents you cannot really function without — it is needed for taxes, bank accounts, and almost any significant financial transaction. I recently got an instant e-PAN for myself in literally minutes, and a regular physical PAN for my father who wanted the card in hand. Both are easy once you know the routes, so here is the clear walkthrough.",
+        ],
+      },
+      {
+        heading: "The fastest route: instant e-PAN",
+        paragraphs: [
+          "If your Aadhaar is linked to an active mobile number, the quickest option is the instant e-PAN through Aadhaar-based e-KYC on the Income Tax e-filing portal. It is free, and you get a digitally valid PAN in PDF form, often within minutes.",
+          "I did mine this way. No forms, no fee, no waiting — just Aadhaar verification, an OTP, and the e-PAN was generated. For most people who just need a valid PAN number, this is more than enough.",
+        ],
+      },
+      {
+        heading: "The regular route: NSDL or UTIITSL",
+        paragraphs: [
+          "If you want a physical card, like my father did, you apply through the NSDL (Protean) or UTIITSL PAN services portal using Form 49A for Indian citizens.",
+        ],
+        list: [
+          "Fill Form 49A with personal details on the portal",
+          "Upload proof of identity, address and date of birth",
+          "Complete Aadhaar e-KYC or submit documents as required",
+          "Pay the processing fee and note the acknowledgement number",
+          "Track the application and receive the card by post",
+        ],
+      },
+      {
+        heading: "Documents you may need",
+        paragraphs: ["For the document-based route, keep these handy."],
+        list: [
+          "Proof of identity (Aadhaar, Voter ID or Passport)",
+          "Proof of address",
+          "Proof of date of birth",
+          "A recent passport-size photograph",
+        ],
+      },
+      {
+        heading: "Common mistakes to avoid",
+        paragraphs: [
+          "The biggest one is a name or date-of-birth mismatch with Aadhaar, which causes rejection or a card with wrong details. Double-check every field against your Aadhaar before submitting. Also, never apply for a second PAN if you already have one — holding two PANs is actually an offence; if you lost your card, apply for a reprint instead.",
+        ],
+      },
+      {
+        heading: "My takeaway",
+        paragraphs: [
+          "For most people, the instant e-PAN is the smartest first move — it is free, fast, and fully valid. Go for the physical card through NSDL or UTIITSL only if you specifically want it in hand.",
+          "Either way, do not pay an agent for something you can do in a few minutes yourself. Keep your Aadhaar details consistent, and the whole process is genuinely painless now.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "best-government-schemes-unemployed-youth-india-2026",
+    title: "Best Government Schemes for Unemployed Youth in India in 2026",
+    excerpt:
+      "After a stretch of job-hunting myself, here are the schemes that genuinely help unemployed youth get skills, work or capital.",
+    category: "Schemes",
+    author: "Abhishek Tiwari",
+    date: "2026-06-16",
+    readingTime: "8 min read",
+    content: [
+      {
+        paragraphs: [
+          "I spent the better part of a year unemployed after college, and in that frustrating stretch I went down a rabbit hole of what the government actually offers young people who are looking for work. Some of it is genuinely useful; some of it is just noise. So here is my honest shortlist of schemes that can actually help an unemployed young person in 2026 — to gain skills, find work, or start something of their own.",
+        ],
+      },
+      {
+        heading: "If you need skills first",
+        paragraphs: [
+          "If your problem is a lack of employable skills, start here. PM Kaushal Vikas Yojana offers free, industry-relevant short-term training with a recognised certificate, and for rural youth, the Deen Dayal Upadhyaya Grameen Kaushalya Yojana goes a step further with training plus placement support.",
+          "The honest caveat: these give you a skill and a foot in the door, not a guaranteed job. The youth I saw succeed treated the certificate as a starting point and kept applying actively afterwards.",
+        ],
+      },
+      {
+        heading: "If you want to start something of your own",
+        paragraphs: [
+          "Not everyone wants a salaried job, and there is real support for young people who want to build a small business.",
+        ],
+        list: [
+          "PM Mudra Yojana — collateral-free loans for micro and small businesses",
+          "Stand-Up India — larger loans for women and SC/ST entrepreneurs",
+          "Startup India — recognition, tax benefits and support for innovative ventures",
+          "PMEGP — margin-money support to set up a new micro-enterprise",
+        ],
+      },
+      {
+        heading: "If you need work right now",
+        paragraphs: [
+          "For immediate income, especially in rural areas, MGNREGA guarantees up to 100 days of wage work per household, which can be a real bridge during a lean period. Some states have also introduced unemployment allowance or stipend schemes for educated unemployed youth, so it is worth checking what your own state offers on top of the central options.",
+        ],
+      },
+      {
+        heading: "Register on the employment system",
+        paragraphs: [
+          "One simple thing many young people skip: registering on the National Career Service portal and your state employment exchange. It will not magically hand you a job, but it surfaces openings, job fairs and apprenticeship opportunities, and some recruitment processes draw from these registers.",
+        ],
+      },
+      {
+        heading: "My honest advice",
+        paragraphs: [
+          "Be clear-eyed about what these schemes are. They are tools — a skill course, a cheap loan, a guaranteed few days of work, a registration that surfaces openings. None of them is a job delivered to your door, and anyone promising that for a fee is best avoided.",
+          "Looking back at my own unemployed stretch, the thing that helped most was pairing a skill programme with relentless applying. Pick the scheme that matches your real bottleneck — skills, capital, or immediate income — and use it as the leg-up it is meant to be.",
+        ],
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
