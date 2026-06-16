@@ -16,6 +16,11 @@ export default function EligibilityWizard() {
     state: states[0].slug,
     annualIncome: 300000,
     occupation: "salaried",
+    casteCategory: "general",
+    bplCardHolder: false,
+    disabilityStatus: false,
+    maritalStatus: "single",
+    landOwnership: false,
   });
   const [results, setResults] = useState<EligibilityResult[] | null>(null);
 
@@ -127,6 +132,89 @@ export default function EligibilityWizard() {
             <option value="unemployed">Unemployed</option>
           </select>
         </div>
+
+        <div>
+          <label className="text-sm font-medium text-ink-700" htmlFor="caste">
+            Caste category
+          </label>
+          <select
+            id="caste"
+            value={profile.casteCategory}
+            onChange={(e) =>
+              update(
+                "casteCategory",
+                e.target.value as EligibilityProfile["casteCategory"],
+              )
+            }
+            className="mt-1 w-full rounded-lg border border-ink-200 px-3 py-2 text-sm outline-none focus:border-brand-400"
+          >
+            <option value="general">General</option>
+            <option value="obc">OBC</option>
+            <option value="sc">SC</option>
+            <option value="st">ST</option>
+          </select>
+        </div>
+
+        <div>
+          <label className="text-sm font-medium text-ink-700" htmlFor="marital">
+            Marital status
+          </label>
+          <select
+            id="marital"
+            value={profile.maritalStatus}
+            onChange={(e) =>
+              update(
+                "maritalStatus",
+                e.target.value as EligibilityProfile["maritalStatus"],
+              )
+            }
+            className="mt-1 w-full rounded-lg border border-ink-200 px-3 py-2 text-sm outline-none focus:border-brand-400"
+          >
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+            <option value="widow">Widow / Widower</option>
+            <option value="divorced">Divorced</option>
+          </select>
+        </div>
+
+        <fieldset className="space-y-3 rounded-lg border border-ink-200 p-3">
+          <legend className="px-1 text-xs font-semibold uppercase tracking-wide text-ink-500">
+            Additional details
+          </legend>
+
+          <label className="flex items-center justify-between gap-3 text-sm font-medium text-ink-700">
+            BPL card holder
+            <input
+              type="checkbox"
+              checked={profile.bplCardHolder}
+              onChange={(e) => update("bplCardHolder", e.target.checked)}
+              className="h-4 w-4 accent-brand-600"
+              aria-label="BPL card holder"
+            />
+          </label>
+
+          <label className="flex items-center justify-between gap-3 text-sm font-medium text-ink-700">
+            Person with disability
+            <input
+              type="checkbox"
+              checked={profile.disabilityStatus}
+              onChange={(e) => update("disabilityStatus", e.target.checked)}
+              className="h-4 w-4 accent-brand-600"
+              aria-label="Disability status"
+            />
+          </label>
+
+          <label className="flex items-center justify-between gap-3 text-sm font-medium text-ink-700">
+            Owns agricultural land
+            <input
+              type="checkbox"
+              checked={profile.landOwnership}
+              onChange={(e) => update("landOwnership", e.target.checked)}
+              className="h-4 w-4 accent-brand-600"
+              aria-label="Land ownership"
+            />
+          </label>
+        </fieldset>
 
         <button type="submit" className="btn-primary w-full">
           Find matching benefits
