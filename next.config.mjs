@@ -22,6 +22,18 @@ const nextConfig = {
   },
 
   // Aggressive caching for static assets improves repeat-visit speed
+  // Redirect apex domain → www so Google never sees a redirect from the canonical URL
+  async redirects() {
+    return [
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "indiaassist.online" }],
+        destination: "https://www.indiaassist.online/:path*",
+        permanent: true,
+      },
+    ];
+  },
+
   async headers() {
     return [
       {

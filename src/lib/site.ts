@@ -4,7 +4,7 @@ export const siteConfig = {
   domain: "indiaassist.online",
   url:
     process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-    "https://indiaassist.online",
+    "https://www.indiaassist.online",
   tagline: "India's assistance engine",
   description:
     "India Assist helps every Indian discover government schemes, scholarships, document procedures, finance calculators and eligibility in one place.",
