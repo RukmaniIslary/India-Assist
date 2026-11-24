@@ -19,7 +19,7 @@ const posts = [
     title: "How to Check PM Kisan Status 2025: Step-by-Step Guide",
     excerpt:
       "PM Kisan Samman Nidhi provides Rs 6,000 per year to eligible farmer families across India. If you are registered but have not received your installment, here is exactly how to check your PM Kisan beneficiary status online — including what to do if your name shows an error or if a payment has been held.",
-    date: "June 10, 2025",
+    date: "November 2026",
     readTime: "6 min read",
     category: "Government Schemes",
     categoryColor: "bg-green-100 text-green-800",
@@ -28,10 +28,10 @@ const posts = [
   },
   {
     slug: "home-loan-vs-rent-india-2025",
-    title: "Home Loan vs Rent: What Makes More Sense in India in 2025?",
+    title: "Home Loan vs Rent: What Makes More Sense in India Right Now?",
     excerpt:
       "With home loan interest rates hovering around 8.5–9.5% and real estate prices at an all-time high in major cities, is buying a home still a smart financial move? We break down the mathematics of EMI vs rent for a Rs 60 lakh property across different Indian cities, factoring in appreciation, tax benefits, and opportunity cost.",
-    date: "June 7, 2025",
+    date: "October 2026",
     readTime: "9 min read",
     category: "Home Loans",
     categoryColor: "bg-amber-100 text-amber-800",
@@ -43,7 +43,7 @@ const posts = [
     title: "Complete Guide to PPF Investment 2025: Rules, Returns & Strategy",
     excerpt:
       "The Public Provident Fund (PPF) remains one of India's safest long-term investment options, offering 7.1% guaranteed interest backed by the Government of India with complete EEE tax exemption. This guide covers everything — how to open a PPF account, contribution rules, partial withdrawal conditions, loan facility, and the best strategy to maximise your corpus over 15 years.",
-    date: "June 5, 2025",
+    date: "October 2026",
     readTime: "11 min read",
     category: "Investments",
     categoryColor: "bg-teal-100 text-teal-800",
@@ -55,7 +55,7 @@ const posts = [
     title: "How to Improve Your CIBIL Score Fast: 10 Proven Steps",
     excerpt:
       "A CIBIL score below 700 can get your loan application rejected or force you to pay higher interest rates. The good news: your credit score is not fixed. With the right actions — clearing overdue payments, maintaining a healthy credit utilisation ratio, disputing errors, and building a positive credit history — most people can see a meaningful improvement within 6–12 months.",
-    date: "June 3, 2025",
+    date: "September 2026",
     readTime: "8 min read",
     category: "Credit Score",
     categoryColor: "bg-blue-100 text-blue-800",
@@ -67,7 +67,7 @@ const posts = [
     title: "Ayushman Bharat Card: How to Download, Apply & Use in 2025",
     excerpt:
       "The Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB PM-JAY) provides up to Rs 5 lakh per year health insurance to over 55 crore beneficiaries from poor and vulnerable families. This comprehensive guide explains how to check your eligibility on the official portal, how to download your Ayushman Card, which hospitals are empanelled, and how to use the card for cashless treatment.",
-    date: "May 30, 2025",
+    date: "September 2026",
     readTime: "7 min read",
     category: "Health Schemes",
     categoryColor: "bg-red-100 text-red-800",
@@ -79,7 +79,7 @@ const posts = [
     title: "Top 5 Government Schemes for Women in India 2025",
     excerpt:
       "From Sukanya Samriddhi Yojana's 8.2% returns for your daughter's future to PM Ujjwala Yojana's free LPG connections, and from Mahila Samman Savings Certificates to state-level self-help group loan subsidies — the Indian government runs multiple welfare schemes exclusively designed to empower women financially and socially. Here are the five most impactful ones with full eligibility details.",
-    date: "May 27, 2025",
+    date: "August 2026",
     readTime: "8 min read",
     category: "Government Schemes",
     categoryColor: "bg-green-100 text-green-800",
@@ -91,7 +91,7 @@ const posts = [
     title: "SIP vs Lumpsum Investment: Which is Better for Indian Investors?",
     excerpt:
       "If you have Rs 1 lakh to invest in a mutual fund, should you invest it all at once (lumpsum) or spread it across 12 months via a Systematic Investment Plan (SIP)? The answer depends on market conditions, your risk tolerance, and your investment horizon. We compare both strategies with real data from Indian equity markets over the past 10 years so you can make an informed decision.",
-    date: "May 23, 2025",
+    date: "August 2026",
     readTime: "10 min read",
     category: "Investments",
     categoryColor: "bg-teal-100 text-teal-800",
@@ -103,7 +103,7 @@ const posts = [
     title: "How to Apply for an Education Loan in India: Complete 2025 Guide",
     excerpt:
       "Education loans in India can be obtained at interest rates starting from 7.5% for study in India and 10% for abroad, with repayment typically starting 6–12 months after course completion. This guide walks you through the complete process: how to compare bank offers, what documents are required, the role of the Vidya Lakshmi Portal, how to claim tax deduction under Section 80E, and tips for getting your loan approved faster.",
-    date: "May 19, 2025",
+    date: "July 2026",
     readTime: "12 min read",
     category: "Education Loans",
     categoryColor: "bg-violet-100 text-violet-800",
