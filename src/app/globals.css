@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #1d4ed8;
+  --color-primary-dark: #1e40af;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Custom range slider */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  border-radius: 999px;
+  outline: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #1d4ed8;
+  border: 3px solid #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #1d4ed8;
+  border: 3px solid #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+/* Blog article body styles */
+.prose-article h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #111827;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.prose-article h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+}
+.prose-article p {
+  color: #374151;
+  line-height: 1.75;
+  margin-bottom: 1rem;
+}
+.prose-article ul {
+  list-style: none;
+  padding: 0;
+}
+.prose-article a {
+  color: #1d4ed8;
+}
+.prose-article a:hover {
+  text-decoration: underline;
+}

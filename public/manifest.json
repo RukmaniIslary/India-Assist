@@ -1,0 +1,16 @@
+{
+  "name": "IndiaAssist - Government Schemes & Finance Tools",
+  "short_name": "IndiaAssist",
+  "description": "Discover government benefits, scholarships, loans and financial tools you qualify for.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}
